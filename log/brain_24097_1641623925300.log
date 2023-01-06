@@ -1,0 +1,74 @@
+[rospy.client][INFO] 2022-01-08 12:08:45,327: init_node, name[/brain_24097_1641623925300], pid[24097]
+[xmlrpc][INFO] 2022-01-08 12:08:45,327: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-08 12:08:45,327: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:37235/]
+[rospy.init][INFO] 2022-01-08 12:08:45,327: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:37235/]
+[rospy.impl.masterslave][INFO] 2022-01-08 12:08:45,328: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:37235/
+[rospy.registration][INFO] 2022-01-08 12:08:45,328: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-08 12:08:45,328: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-08 12:08:45,428: registered with master
+[rospy.rosout][INFO] 2022-01-08 12:08:45,428: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-08 12:08:45,431: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-08 12:08:45,432: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-08 12:08:45,438: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:46113/], count 0
+[rospy.internal][INFO] 2022-01-08 12:08:45,441: topic[/grid3/planner/status] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:46443/], count 0
+[rospy.internal][INFO] 2022-01-08 12:08:45,498: topic[/grid3/allRobots/goals] adding connection to [/trajectory_planner], count 0
+[rospy.internal][INFO] 2022-01-08 12:08:45,697: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-08 12:08:46,501: topic[/grid3/droppingCompleted] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:39003/], count 0
+[rospy.internal][INFO] 2022-01-08 12:08:46,502: topic[/grid3/packageLoaded] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:39003/], count 0
+[rospy.internal][ERROR] 2022-01-08 12:08:49,376: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35645 (http://prajwal-IdeaPad-L340-15IRH-Gaming:46443/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2022-01-08 12:08:49,376: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:33439 (http://prajwal-IdeaPad-L340-15IRH-Gaming:46113/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2022-01-08 12:08:49,377: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:46113/
+[rospy.internal][ERROR] 2022-01-08 12:08:49,443: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35055 (http://prajwal-IdeaPad-L340-15IRH-Gaming:39003/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: [/rqt_gui] is not a publisher of [/grid3/droppingCompleted]. Topics are [['/rosout', 'rosgraph_msgs/Log'], ['/grid3/packageLoaded', 'grid3/packageLoaded'], ['/robot1/cmd_vel', 'geometry_msgs/Twist'], ['/robot2/cmd_vel', 'geometry_msgs/Twist'], ['/robot3/cmd_vel', 'geometry_msgs/Twist'], ['/robot4/cmd_ve', 'geometry_msgs/Twist']]
+
+[rospy.internal][ERROR] 2022-01-08 12:08:49,445: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35055 (http://prajwal-IdeaPad-L340-15IRH-Gaming:39003/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: [/rqt_gui] is not a publisher of [/grid3/packageLoaded]. Topics are [['/rosout', 'rosgraph_msgs/Log'], ['/robot1/cmd_vel', 'geometry_msgs/Twist'], ['/robot2/cmd_vel', 'geometry_msgs/Twist'], ['/robot3/cmd_vel', 'geometry_msgs/Twist'], ['/robot4/cmd_ve', 'geometry_msgs/Twist']]
+
+[rospy.internal][INFO] 2022-01-08 12:08:49,501: topic[/grid3/allRobots/goals] removing connection to /trajectory_planner
+[rospy.internal][WARNING] 2022-01-08 12:08:50,377: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35645 (http://prajwal-IdeaPad-L340-15IRH-Gaming:46443/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-08 12:08:50,378: topic[/grid3/planner/status] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:46443/
+[rospy.internal][WARNING] 2022-01-08 12:08:50,445: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35055 (http://prajwal-IdeaPad-L340-15IRH-Gaming:39003/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-08 12:08:50,445: topic[/grid3/droppingCompleted] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:39003/
+[rospy.internal][WARNING] 2022-01-08 12:08:50,447: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35055 (http://prajwal-IdeaPad-L340-15IRH-Gaming:39003/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-08 12:08:50,447: topic[/grid3/packageLoaded] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:39003/
+[rospy.internal][INFO] 2022-01-08 12:08:50,502: topic[/rosout] removing connection to /rosout

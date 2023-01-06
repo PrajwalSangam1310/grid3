@@ -1,0 +1,134 @@
+[rospy.client][INFO] 2022-01-08 13:51:22,184: init_node, name[/show_robots], pid[34784]
+[xmlrpc][INFO] 2022-01-08 13:51:22,185: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-08 13:51:22,185: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:41789/]
+[rospy.init][INFO] 2022-01-08 13:51:22,185: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:41789/]
+[rospy.impl.masterslave][INFO] 2022-01-08 13:51:22,185: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:41789/
+[rospy.registration][INFO] 2022-01-08 13:51:22,185: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-08 13:51:22,185: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-08 13:51:22,285: registered with master
+[rospy.rosout][INFO] 2022-01-08 13:51:22,285: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-08 13:51:22,287: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-08 13:51:22,288: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-08 13:51:22,289: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-08 13:51:22,290: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/], count 0
+[rospy.internal][INFO] 2022-01-08 13:51:22,294: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:46651/], count 0
+[rospy.internal][INFO] 2022-01-08 13:51:22,577: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-08 13:51:22,777: topic[/grid3/displayrobot] adding connection to [/rviz], count 0
+[rospy.internal][ERROR] 2022-01-08 13:53:15,182: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:45591 (http://prajwal-IdeaPad-L340-15IRH-Gaming:46651/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2022-01-08 13:53:16,183: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:45591 (http://prajwal-IdeaPad-L340-15IRH-Gaming:46651/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-08 13:53:16,183: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:46651/
+[rospy.core][INFO] 2022-01-08 13:53:18,794: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-08 13:53:18,801: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-08 13:53:18,801: topic[/grid3/displayrobot] removing connection to /rviz
+[rospy.internal][INFO] 2022-01-08 13:53:18,801: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/
+[rospy.impl.masterslave][INFO] 2022-01-08 13:53:18,801: signal-2
+[rospy.internal][WARNING] 2022-01-08 13:53:18,802: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:56887 (http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-08 13:53:19,395: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-08 13:55:01,405: init_node, name[/show_robots], pid[35599]
+[xmlrpc][INFO] 2022-01-08 13:55:01,405: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-08 13:55:01,405: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:39595/]
+[rospy.init][INFO] 2022-01-08 13:55:01,405: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:39595/]
+[rospy.impl.masterslave][INFO] 2022-01-08 13:55:01,405: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:39595/
+[rospy.registration][INFO] 2022-01-08 13:55:01,406: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-08 13:55:01,406: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-08 13:55:01,506: registered with master
+[rospy.rosout][INFO] 2022-01-08 13:55:01,506: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-08 13:55:01,509: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-08 13:55:01,510: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-08 13:55:01,511: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-08 13:55:01,513: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/], count 0
+[rospy.internal][INFO] 2022-01-08 13:55:01,516: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:32987/], count 0
+[rospy.internal][INFO] 2022-01-08 13:55:01,712: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-08 13:55:02,111: topic[/grid3/displayrobot] adding connection to [/rviz], count 0
+[rospy.core][INFO] 2022-01-08 13:59:31,584: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-08 13:59:31,591: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-08 13:59:31,591: topic[/grid3/displayrobot] removing connection to /rviz
+[rospy.internal][INFO] 2022-01-08 13:59:31,592: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/
+[rospy.internal][INFO] 2022-01-08 13:59:31,592: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:32987/
+[rospy.impl.masterslave][INFO] 2022-01-08 13:59:31,592: signal-2
+[rospy.core][INFO] 2022-01-08 13:59:32,185: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-08 13:59:34,998: init_node, name[/show_robots], pid[35843]
+[xmlrpc][INFO] 2022-01-08 13:59:34,998: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-08 13:59:34,998: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:42115/]
+[rospy.init][INFO] 2022-01-08 13:59:34,998: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:42115/]
+[rospy.impl.masterslave][INFO] 2022-01-08 13:59:34,998: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:42115/
+[rospy.registration][INFO] 2022-01-08 13:59:34,999: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-08 13:59:34,999: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-08 13:59:35,099: registered with master
+[rospy.rosout][INFO] 2022-01-08 13:59:35,099: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-08 13:59:35,102: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-08 13:59:35,103: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-08 13:59:35,104: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-08 13:59:35,106: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/], count 0
+[rospy.internal][INFO] 2022-01-08 13:59:35,110: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:32987/], count 0
+[rospy.internal][INFO] 2022-01-08 13:59:35,219: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-08 13:59:35,719: topic[/grid3/displayrobot] adding connection to [/rviz], count 0
+[rospy.core][INFO] 2022-01-08 13:59:48,293: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-08 13:59:48,301: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-08 13:59:48,301: topic[/grid3/displayrobot] removing connection to /rviz
+[rospy.internal][INFO] 2022-01-08 13:59:48,301: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/
+[rospy.internal][INFO] 2022-01-08 13:59:48,302: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:32987/
+[rospy.impl.masterslave][INFO] 2022-01-08 13:59:48,302: signal-2
+[rospy.internal][ERROR] 2022-01-08 13:59:48,303: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 737, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 104, in recv_buff
+    d = sock.recv(buff_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+[rospy.internal][WARNING] 2022-01-08 13:59:48,303: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:37647 (http://prajwal-IdeaPad-L340-15IRH-Gaming:32987/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-08 13:59:48,894: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-08 14:00:10,976: init_node, name[/show_robots], pid[35963]
+[xmlrpc][INFO] 2022-01-08 14:00:10,976: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-08 14:00:10,976: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:38833/]
+[rospy.impl.masterslave][INFO] 2022-01-08 14:00:10,976: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:38833/
+[rospy.init][INFO] 2022-01-08 14:00:10,976: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:38833/]
+[rospy.registration][INFO] 2022-01-08 14:00:10,977: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-08 14:00:10,977: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-08 14:00:11,077: registered with master
+[rospy.rosout][INFO] 2022-01-08 14:00:11,077: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-08 14:00:11,079: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-08 14:00:11,080: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-08 14:00:11,082: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-08 14:00:11,083: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/], count 0
+[rospy.internal][INFO] 2022-01-08 14:00:11,086: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:32987/], count 0
+[rospy.internal][INFO] 2022-01-08 14:00:11,182: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-08 14:00:11,783: topic[/grid3/displayrobot] adding connection to [/rviz], count 0
+[rospy.core][INFO] 2022-01-08 14:00:52,534: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-08 14:00:52,540: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-08 14:00:52,540: topic[/grid3/displayrobot] removing connection to /rviz
+[rospy.internal][INFO] 2022-01-08 14:00:52,540: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/
+[rospy.internal][INFO] 2022-01-08 14:00:52,541: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:32987/
+[rospy.impl.masterslave][INFO] 2022-01-08 14:00:52,541: signal-2
+[rospy.internal][WARNING] 2022-01-08 14:00:52,541: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:56887 (http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-08 14:00:53,135: signal_shutdown [atexit]

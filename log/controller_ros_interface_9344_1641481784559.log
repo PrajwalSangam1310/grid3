@@ -1,0 +1,45 @@
+[rospy.client][INFO] 2022-01-06 20:39:44,586: init_node, name[/controller_ros_interface_9344_1641481784559], pid[9344]
+[xmlrpc][INFO] 2022-01-06 20:39:44,586: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 20:39:44,586: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:45421/]
+[rospy.impl.masterslave][INFO] 2022-01-06 20:39:44,586: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:45421/
+[rospy.registration][INFO] 2022-01-06 20:39:44,587: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 20:39:44,587: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 20:39:44,587: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:45421/]
+[rospy.init][INFO] 2022-01-06 20:39:44,587: registered with master
+[rospy.rosout][INFO] 2022-01-06 20:39:44,587: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 20:39:44,589: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 20:39:44,590: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 20:39:44,591: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 20:39:44,592: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:38329/], count 0
+[rospy.internal][INFO] 2022-01-06 20:39:44,597: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:42409/], count 0
+[rospy.internal][INFO] 2022-01-06 20:39:44,598: topic[/grid3/robotTrajectories] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:42881/], count 0
+[rospy.internal][INFO] 2022-01-06 20:39:44,599: topic[/grid3/planner/status] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:42881/], count 0
+[rospy.internal][INFO] 2022-01-06 20:39:44,828: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-06 20:39:52,343: topic[/grid3/controller/cmd] adding connection to [/gazebo_controller], count 0
+[rospy.internal][INFO] 2022-01-06 20:40:23,607: topic[/grid3/controller/cmd] removing connection to /gazebo_controller
+[rospy.internal][INFO] 2022-01-06 20:41:03,211: topic[/grid3/controller/cmd] adding connection to [/gazebo_controller], count 0
+[rospy.internal][INFO] 2022-01-06 20:42:02,632: topic[/grid3/controller/cmd] removing connection to /gazebo_controller
+[rospy.internal][INFO] 2022-01-06 20:42:26,889: topic[/grid3/controller/cmd] adding connection to [/gazebo_controller], count 0
+[rosout][WARNING] 2022-01-06 20:42:50,402: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-06 20:42:50,403: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-06 20:42:50,645: topic[/grid3/controller/cmd] removing connection to /gazebo_controller
+[rospy.core][INFO] 2022-01-06 20:42:52,122: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 20:42:52,125: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 20:42:52,126: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:38329/
+[rospy.internal][WARNING] 2022-01-06 20:42:52,126: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:38907 (http://prajwal-IdeaPad-L340-15IRH-Gaming:38329/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+OSError: [Errno 9] Bad file descriptor
+
+[rospy.internal][INFO] 2022-01-06 20:42:52,126: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:42409/
+[rospy.internal][INFO] 2022-01-06 20:42:52,126: topic[/grid3/robotTrajectories] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:42881/
+[rospy.internal][INFO] 2022-01-06 20:42:52,126: topic[/grid3/planner/status] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:42881/
+[rospy.impl.masterslave][INFO] 2022-01-06 20:42:52,127: signal-2
+[rospy.core][INFO] 2022-01-06 20:42:53,223: signal_shutdown [atexit]

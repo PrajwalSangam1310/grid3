@@ -1,0 +1,14 @@
+Control Message to Bots:
+Size = 2 bytes
+First two bits represent bot ID = 00, 01, 10, 11
+Next three bits represent instruction = 100 (move forward), 101 (move right), 110 (move backwards), 111 (move left), 000 (halt), 001 (drop package)
+Next 5 bits represent linear speed control
+Next 5 bits represent rotational speed control
+Last bit is not used
+
+Test Commands: 
+25038 - move forward
+26424 - increase speed
+24774 - reduce speed
+18430 - halt
+28208 - turn right

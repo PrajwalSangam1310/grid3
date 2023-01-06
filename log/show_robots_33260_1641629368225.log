@@ -1,0 +1,245 @@
+[rospy.client][INFO] 2022-01-08 13:39:28,251: init_node, name[/show_robots_33260_1641629368225], pid[33260]
+[xmlrpc][INFO] 2022-01-08 13:39:28,251: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-08 13:39:28,251: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:44741/]
+[rospy.init][INFO] 2022-01-08 13:39:28,251: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:44741/]
+[rospy.impl.masterslave][INFO] 2022-01-08 13:39:28,251: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:44741/
+[rospy.registration][INFO] 2022-01-08 13:39:28,252: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-08 13:39:28,252: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-08 13:39:28,352: registered with master
+[rospy.rosout][INFO] 2022-01-08 13:39:28,352: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-08 13:39:28,356: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-08 13:39:28,358: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-08 13:39:28,360: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-08 13:39:28,363: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:45613/], count 0
+[rospy.internal][INFO] 2022-01-08 13:39:28,373: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:35871/], count 0
+[rosout][ERROR] 2022-01-08 13:39:28,404: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:28,503: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rospy.internal][INFO] 2022-01-08 13:39:28,595: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-08 13:39:28,596: topic[/grid3/displayrobot] adding connection to [/rviz], count 0
+[rosout][ERROR] 2022-01-08 13:39:28,604: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:28,704: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:28,806: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:28,906: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:29,006: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:29,108: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:29,209: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:29,310: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:29,410: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:29,511: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:29,611: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:29,713: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:29,813: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:29,913: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:30,013: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:30,114: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:30,214: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:30,314: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:30,415: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:30,515: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:30,615: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:30,715: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:30,817: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rosout][ERROR] 2022-01-08 13:39:30,917: bad callback: <bound method robotVisualizer.botPosesSubscriberCb of <__main__.robotVisualizer object at 0x7f8ee3cb6ee0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/visualize_robots.py", line 54, in botPosesSubscriberCb
+    self.robotMarkers.markers[i].orientation.z = data.thetas[i]
+AttributeError: 'Marker' object has no attribute 'orientation'
+
+[rospy.core][INFO] 2022-01-08 13:39:30,928: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-08 13:39:30,930: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-08 13:39:30,931: topic[/grid3/displayrobot] removing connection to /rviz
+[rospy.internal][INFO] 2022-01-08 13:39:30,931: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:45613/
+[rospy.internal][INFO] 2022-01-08 13:39:30,931: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:35871/
+[rospy.impl.masterslave][INFO] 2022-01-08 13:39:30,931: signal-2
+[rospy.internal][WARNING] 2022-01-08 13:39:30,933: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:42047 (http://prajwal-IdeaPad-L340-15IRH-Gaming:35871/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][WARNING] 2022-01-08 13:39:30,933: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:43597 (http://prajwal-IdeaPad-L340-15IRH-Gaming:45613/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-08 13:39:31,530: signal_shutdown [atexit]

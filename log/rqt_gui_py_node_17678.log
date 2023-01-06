@@ -1,0 +1,35 @@
+[rospy.client][INFO] 2022-01-06 23:01:42,653: init_node, name[/rqt_gui_py_node_17678], pid[17678]
+[xmlrpc][INFO] 2022-01-06 23:01:42,654: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 23:01:42,654: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:46329/]
+[rospy.init][INFO] 2022-01-06 23:01:42,654: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:46329/]
+[rospy.impl.masterslave][INFO] 2022-01-06 23:01:42,654: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:46329/
+[rospy.registration][INFO] 2022-01-06 23:01:42,654: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 23:01:42,654: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 23:01:42,754: registered with master
+[rospy.rosout][INFO] 2022-01-06 23:01:42,755: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 23:01:42,757: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 23:01:42,758: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 23:01:42,762: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 23:01:42,767: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:34133/], count 0
+[rospy.internal][INFO] 2022-01-06 23:01:42,985: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-06 23:02:00,638: topic[/grid3/packageLoaded] adding connection to [/brain_17827_1641490320483], count 0
+[rospy.internal][INFO] 2022-01-06 23:02:00,638: topic[/grid3/droppingCompleted] adding connection to [/brain_17827_1641490320483], count 0
+[rospy.internal][INFO] 2022-01-06 23:04:49,986: topic impl's ref count is zero, deleting topic /grid3/droppingCompleted...
+[rospy.internal][INFO] 2022-01-06 23:04:49,987: topic[/grid3/droppingCompleted] removing connection to /brain_17827_1641490320483
+[rospy.internal][INFO] 2022-01-06 23:04:49,989: topic impl's ref count is zero, deleting topic /grid3/packageLoaded...
+[rospy.internal][INFO] 2022-01-06 23:04:49,990: topic[/grid3/packageLoaded] removing connection to /brain_17827_1641490320483
+[rosout][WARNING] 2022-01-06 23:04:49,988: Could not process inbound connection: [/rqt_gui_py_node_17678] is not a publisher of [/grid3/droppingCompleted]. Topics are [['/rosout', 'rosgraph_msgs/Log'], ['/grid3/packageLoaded', 'grid3/packageLoaded'], ['/robot1/cmd_ve', 'geometry_msgs/Twist'], ['/robot2/cmd_ve', 'geometry_msgs/Twist'], ['/robot3/cmd_ve', 'geometry_msgs/Twist'], ['/robot4/cmd_ve', 'geometry_msgs/Twist']]{'callerid': '/brain_17827_1641490320483', 'md5sum': '90041601f8236fdd572be94e8c0d4f45', 'message_definition': 'bool[] status', 'tcp_nodelay': '0', 'topic': '/grid3/droppingCompleted', 'type': 'grid3/droppingCompleted'}
+[rospy.internal][INFO] 2022-01-06 23:04:49,994: topic impl's ref count is zero, deleting topic /robot1/cmd_ve...
+[rosout][WARNING] 2022-01-06 23:04:49,992: Could not process inbound connection: [/rqt_gui_py_node_17678] is not a publisher of [/grid3/packageLoaded]. Topics are [['/rosout', 'rosgraph_msgs/Log'], ['/robot1/cmd_ve', 'geometry_msgs/Twist'], ['/robot2/cmd_ve', 'geometry_msgs/Twist'], ['/robot3/cmd_ve', 'geometry_msgs/Twist'], ['/robot4/cmd_ve', 'geometry_msgs/Twist']]{'callerid': '/brain_17827_1641490320483', 'md5sum': '90041601f8236fdd572be94e8c0d4f45', 'message_definition': 'bool[] status', 'tcp_nodelay': '0', 'topic': '/grid3/packageLoaded', 'type': 'grid3/packageLoaded'}
+[rospy.internal][INFO] 2022-01-06 23:04:49,997: topic impl's ref count is zero, deleting topic /robot2/cmd_ve...
+[rospy.internal][INFO] 2022-01-06 23:04:49,999: topic impl's ref count is zero, deleting topic /robot3/cmd_ve...
+[rospy.internal][INFO] 2022-01-06 23:04:50,001: topic impl's ref count is zero, deleting topic /robot4/cmd_ve...
+[rospy.core][INFO] 2022-01-06 23:04:50,048: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-01-06 23:04:50,049: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 23:04:50,050: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:34133/
+[rospy.impl.masterslave][INFO] 2022-01-06 23:04:50,050: atexit
+[rospy.internal][WARNING] 2022-01-06 23:04:50,050: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35335 (http://prajwal-IdeaPad-L340-15IRH-Gaming:34133/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+

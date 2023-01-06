@@ -1,0 +1,735 @@
+[rospy.client][INFO] 2022-01-06 20:07:17,679: init_node, name[/fake_pose_publisher], pid[5238]
+[xmlrpc][INFO] 2022-01-06 20:07:17,679: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 20:07:17,679: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/]
+[rospy.init][INFO] 2022-01-06 20:07:17,680: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/]
+[rospy.impl.masterslave][INFO] 2022-01-06 20:07:17,680: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rospy.registration][INFO] 2022-01-06 20:07:17,680: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 20:07:17,680: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 20:07:17,780: registered with master
+[rospy.rosout][INFO] 2022-01-06 20:07:17,780: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 20:07:17,783: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 20:07:17,783: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 20:07:17,784: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 20:07:17,785: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/], count 0
+[rosout][INFO] 2022-01-06 20:07:17,793: publishing the poses
+[rospy.internal][INFO] 2022-01-06 20:07:17,795: topic[/robot1/odom] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/], count 0
+[rospy.internal][INFO] 2022-01-06 20:07:17,795: topic[/robot4/odom] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/], count 0
+[rospy.internal][INFO] 2022-01-06 20:07:17,796: topic[/robot2/odom] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/], count 0
+[rospy.internal][INFO] 2022-01-06 20:07:17,796: topic[/robot3/odom] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/], count 0
+[rospy.internal][INFO] 2022-01-06 20:07:17,828: topic[/grid3/allRobots/poses] adding connection to [/brain], count 0
+[rospy.internal][INFO] 2022-01-06 20:07:17,828: topic[/grid3/allRobots/poses] adding connection to [/trajectory_planner], count 1
+[rospy.internal][INFO] 2022-01-06 20:07:18,027: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-06 20:07:18,030: topic[/robot1/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-06 20:07:18,030: topic[/robot2/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-06 20:07:18,030: topic[/robot3/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-06 20:07:18,031: topic[/robot4/cmd_vel] adding connection to [/gazebo], count 0
+[rosout][INFO] 2022-01-06 20:07:18,793: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:19,798: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:20,802: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:21,804: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:22,806: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:23,809: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:24,812: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:25,816: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:26,818: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:27,821: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:28,828: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:29,829: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:30,833: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:31,832: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:32,833: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:33,837: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:34,839: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:35,842: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:36,845: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:37,847: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:38,849: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:39,853: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:40,854: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:41,855: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:42,859: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:43,861: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:44,864: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:45,866: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:46,869: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:47,871: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:48,872: publishing the poses
+[rospy.internal][INFO] 2022-01-06 20:07:49,239: topic[/grid3/allRobots/poses] adding connection to [/controller_ros_interface_5528_1641479869098], count 2
+[rosout][INFO] 2022-01-06 20:07:49,873: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:50,877: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:51,879: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:52,881: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:53,882: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:54,884: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:55,887: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:56,889: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:57,891: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:58,894: publishing the poses
+[rosout][INFO] 2022-01-06 20:07:59,896: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:00,898: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:01,900: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:02,902: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:03,905: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:04,906: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:05,909: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:06,913: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:07,915: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:08,918: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:09,921: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:10,923: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:11,926: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:12,929: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:13,930: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:14,933: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:15,935: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:16,937: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:17,938: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:18,941: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:19,944: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:20,945: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:21,948: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:22,950: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:23,952: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:24,955: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:25,956: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:26,959: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:27,960: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:28,962: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:29,964: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:30,966: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:31,969: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:32,971: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:33,973: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:34,976: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:35,981: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:36,984: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:37,987: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:38,989: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:39,991: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:40,993: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:41,995: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:42,998: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:44,001: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:45,003: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:46,006: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:47,009: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:48,012: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:49,014: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:50,016: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:51,018: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:52,020: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:53,021: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:54,023: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:55,025: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:56,029: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:57,032: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:58,034: publishing the poses
+[rosout][INFO] 2022-01-06 20:08:59,036: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:00,039: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:01,041: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:02,043: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:03,044: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:04,046: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:05,051: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:06,053: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:07,055: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:08,057: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:09,059: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:10,066: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:11,067: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:12,069: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:13,074: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:14,074: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:15,078: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:16,080: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:17,082: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:18,084: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:19,085: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:20,088: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:21,089: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:22,091: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:23,094: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:24,095: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:25,097: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:26,099: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:27,101: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:28,103: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:29,105: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:30,107: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:31,109: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:32,110: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:33,114: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:34,119: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:35,120: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:36,122: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:37,125: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:38,125: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:39,127: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:40,129: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:41,131: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:42,133: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:43,135: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:44,136: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:45,139: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:46,142: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:47,144: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:48,148: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:49,151: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:50,151: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:51,154: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:52,156: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:53,158: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:54,160: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:55,161: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:56,164: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:57,165: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:58,169: publishing the poses
+[rosout][INFO] 2022-01-06 20:09:59,170: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:00,171: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:01,174: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:02,175: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:03,177: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:04,193: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:05,225: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:06,228: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:07,230: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:08,231: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:09,233: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:10,234: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:11,238: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:12,239: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:13,242: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:14,250: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:15,250: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:16,252: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:17,253: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:18,259: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:19,262: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:20,264: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:21,265: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:22,268: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:23,272: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:24,274: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:25,277: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:26,278: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:27,280: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:28,284: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:29,286: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:30,288: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:31,290: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:32,291: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:33,294: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:34,296: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:35,299: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:36,301: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:37,303: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:38,304: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:39,306: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:40,308: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:41,310: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:42,313: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:43,314: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:44,317: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:45,319: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:46,323: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:47,325: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:48,327: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:49,328: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:50,331: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:51,332: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:52,336: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:53,339: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:54,341: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:55,344: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:56,345: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:57,348: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:58,351: publishing the poses
+[rosout][INFO] 2022-01-06 20:10:59,353: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:00,355: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:01,357: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:02,359: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:03,361: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:04,363: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:05,366: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:06,366: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:07,368: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:08,374: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:09,374: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:10,376: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:11,379: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:12,380: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:13,383: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:14,385: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:15,385: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:16,388: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:17,390: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:18,391: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:19,396: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:20,396: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:21,399: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:22,403: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:23,405: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:24,407: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:25,409: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:26,409: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:27,411: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:28,418: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:29,421: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:30,424: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:31,426: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:32,428: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:33,429: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:34,430: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:35,436: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:36,440: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:37,442: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:38,446: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:39,451: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:40,454: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:41,456: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:42,460: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:43,462: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:44,463: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:45,465: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:46,468: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:47,470: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:48,472: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:49,474: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:50,477: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:51,479: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:52,480: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:53,482: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:54,485: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:55,487: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:56,489: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:57,489: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:58,492: publishing the poses
+[rosout][INFO] 2022-01-06 20:11:59,493: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:00,495: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:01,498: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:02,502: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:03,504: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:04,506: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:05,510: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:06,512: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:07,514: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:08,517: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:09,519: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:10,521: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:11,522: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:12,525: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:13,527: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:14,529: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:15,531: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:16,534: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:17,535: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:18,537: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:19,539: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:20,541: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:21,543: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:22,546: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:23,547: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:24,552: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:25,553: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:26,555: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:27,558: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:28,559: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:29,561: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:30,563: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:31,566: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:32,567: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:33,570: publishing the poses
+[rosout][WARNING] 2022-01-06 20:12:34,018: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-06 20:12:34,020: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-06 20:12:34,390: topic[/grid3/allRobots/poses] removing connection to /controller_ros_interface_5528_1641479869098
+[rosout][INFO] 2022-01-06 20:12:34,570: publishing the poses
+[rosout][INFO] 2022-01-06 20:12:35,571: publishing the poses
+[rospy.core][INFO] 2022-01-06 20:12:36,352: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 20:12:36,365: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 20:12:36,365: topic[/robot1/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-06 20:12:36,366: topic[/robot2/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-06 20:12:36,366: topic[/robot3/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-06 20:12:36,366: topic[/robot4/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-06 20:12:36,366: topic[/grid3/allRobots/poses] removing connection to /brain
+[rospy.internal][INFO] 2022-01-06 20:12:36,366: topic[/grid3/allRobots/poses] removing connection to /trajectory_planner
+[rospy.internal][INFO] 2022-01-06 20:12:36,367: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rospy.internal][ERROR] 2022-01-06 20:12:36,367: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 732, in receive_once
+    sock.setblocking(1)
+OSError: [Errno 9] Bad file descriptor
+
+[rospy.internal][INFO] 2022-01-06 20:12:36,367: topic[/robot1/odom] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rospy.internal][INFO] 2022-01-06 20:12:36,367: topic[/robot2/odom] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rospy.internal][INFO] 2022-01-06 20:12:36,368: topic[/robot3/odom] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rospy.internal][WARNING] 2022-01-06 20:12:36,368: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][WARNING] 2022-01-06 20:12:36,368: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][INFO] 2022-01-06 20:12:36,368: topic[/robot4/odom] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rospy.impl.masterslave][INFO] 2022-01-06 20:12:36,369: signal-2
+[rospy.core][INFO] 2022-01-06 20:12:37,508: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-06 20:14:06,268: init_node, name[/fake_pose_publisher], pid[6664]
+[xmlrpc][INFO] 2022-01-06 20:14:06,269: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 20:14:06,269: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/]
+[rospy.impl.masterslave][INFO] 2022-01-06 20:14:06,269: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rospy.init][INFO] 2022-01-06 20:14:06,269: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/]
+[rospy.registration][INFO] 2022-01-06 20:14:06,270: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 20:14:06,270: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 20:14:06,369: registered with master
+[rospy.rosout][INFO] 2022-01-06 20:14:06,370: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 20:14:06,372: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 20:14:06,372: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 20:14:06,373: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 20:14:06,374: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/], count 0
+[rosout][INFO] 2022-01-06 20:14:06,382: publishing the poses
+[rospy.internal][INFO] 2022-01-06 20:14:06,383: topic[/robot1/odom] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/], count 0
+[rospy.internal][INFO] 2022-01-06 20:14:06,384: topic[/robot4/odom] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/], count 0
+[rospy.internal][INFO] 2022-01-06 20:14:06,385: topic[/robot3/odom] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/], count 0
+[rospy.internal][INFO] 2022-01-06 20:14:06,385: topic[/robot2/odom] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/], count 0
+[rospy.internal][INFO] 2022-01-06 20:14:06,395: topic[/grid3/allRobots/poses] adding connection to [/trajectory_planner], count 0
+[rospy.internal][INFO] 2022-01-06 20:14:06,395: topic[/grid3/allRobots/poses] adding connection to [/brain], count 1
+[rospy.internal][INFO] 2022-01-06 20:14:06,592: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-06 20:14:06,596: topic[/robot3/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-06 20:14:06,597: topic[/robot1/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-06 20:14:06,597: topic[/robot4/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-06 20:14:06,597: topic[/robot2/cmd_vel] adding connection to [/gazebo], count 0
+[rosout][INFO] 2022-01-06 20:14:07,382: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:08,386: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:09,389: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:10,389: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:11,394: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:12,394: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:13,395: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:14,400: publishing the poses
+[rospy.internal][INFO] 2022-01-06 20:14:15,271: topic[/grid3/allRobots/poses] adding connection to [/controller_ros_interface_6824_1641480255130], count 2
+[rosout][INFO] 2022-01-06 20:14:15,401: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:16,404: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:17,408: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:18,410: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:19,413: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:20,415: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:21,417: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:22,418: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:23,421: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:24,423: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:25,426: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:26,430: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:27,432: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:28,433: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:29,436: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:30,439: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:31,440: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:32,443: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:33,445: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:34,449: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:35,452: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:36,454: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:37,457: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:38,459: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:39,461: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:40,462: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:41,465: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:42,466: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:43,468: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:44,470: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:45,472: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:46,473: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:47,475: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:48,477: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:49,480: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:50,485: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:51,486: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:52,488: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:53,491: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:54,495: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:55,499: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:56,502: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:57,504: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:58,505: publishing the poses
+[rosout][INFO] 2022-01-06 20:14:59,508: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:00,509: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:01,512: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:02,513: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:03,515: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:04,517: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:05,520: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:06,521: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:07,523: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:08,525: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:09,527: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:10,529: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:11,531: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:12,533: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:13,536: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:14,538: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:15,539: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:16,541: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:17,543: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:18,545: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:19,546: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:20,548: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:21,552: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:22,555: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:23,557: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:24,561: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:25,563: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:26,565: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:27,568: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:28,571: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:29,572: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:30,573: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:31,576: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:32,578: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:33,580: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:34,581: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:35,584: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:36,587: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:37,589: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:38,591: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:39,593: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:40,596: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:41,598: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:42,600: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:43,603: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:44,606: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:45,607: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:46,611: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:47,614: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:48,615: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:49,617: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:50,619: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:51,621: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:52,622: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:53,624: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:54,627: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:55,630: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:56,632: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:57,634: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:58,636: publishing the poses
+[rosout][INFO] 2022-01-06 20:15:59,639: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:00,642: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:01,643: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:02,645: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:03,646: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:04,648: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:05,651: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:06,653: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:07,655: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:08,657: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:09,661: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:10,664: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:11,665: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:12,668: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:13,671: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:14,673: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:15,676: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:16,678: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:17,678: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:18,682: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:19,683: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:20,685: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:21,687: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:22,688: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:23,691: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:24,694: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:25,696: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:26,697: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:27,700: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:28,706: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:29,708: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:30,709: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:31,712: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:32,714: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:33,715: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:34,717: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:35,719: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:36,722: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:37,724: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:38,726: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:39,728: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:40,730: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:41,732: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:42,734: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:43,738: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:44,740: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:45,741: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:46,744: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:47,746: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:48,747: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:49,750: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:50,752: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:51,754: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:52,754: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:53,756: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:54,761: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:55,763: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:56,765: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:57,767: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:58,770: publishing the poses
+[rosout][INFO] 2022-01-06 20:16:59,772: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:00,774: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:01,776: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:02,779: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:03,781: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:04,783: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:05,785: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:06,788: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:07,791: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:08,793: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:09,795: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:10,797: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:11,799: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:12,801: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:13,804: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:14,807: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:15,809: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:16,810: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:17,814: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:18,817: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:19,818: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:20,820: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:21,823: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:22,824: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:23,826: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:24,829: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:25,831: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:26,832: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:27,834: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:28,836: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:29,837: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:30,839: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:31,839: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:32,844: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:33,848: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:34,849: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:35,851: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:36,853: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:37,855: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:38,857: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:39,859: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:40,861: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:41,863: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:42,866: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:43,870: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:44,871: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:45,873: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:46,876: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:47,880: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:48,882: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:49,884: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:50,887: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:51,889: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:52,891: publishing the poses
+[rosout][INFO] 2022-01-06 20:17:53,894: publishing the poses
+[rosout][WARNING] 2022-01-06 20:17:53,915: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-06 20:17:53,917: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-06 20:17:53,953: topic[/grid3/allRobots/poses] removing connection to /controller_ros_interface_6824_1641480255130
+[rospy.internal][ERROR] 2022-01-06 20:17:54,594: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 35089 to [127.0.0.1:41562 on socket 17]] [/fake_pose_publisher].
+
+[rospy.internal][ERROR] 2022-01-06 20:17:54,608: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: received a connection for a nonexistent topic [/robot3/odom] from [TCPROS connection on port 35089 to [127.0.0.1:41586 on socket 16]] [/fake_pose_publisher].
+
+[rospy.internal][ERROR] 2022-01-06 20:17:54,609: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: received a connection for a nonexistent topic [/robot2/odom] from [TCPROS connection on port 35089 to [127.0.0.1:41588 on socket 16]] [/fake_pose_publisher].
+
+[rospy.internal][ERROR] 2022-01-06 20:17:54,610: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: received a connection for a nonexistent topic [/robot1/odom] from [TCPROS connection on port 35089 to [127.0.0.1:41590 on socket 16]] [/fake_pose_publisher].
+
+[rospy.internal][ERROR] 2022-01-06 20:17:54,612: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: received a connection for a nonexistent topic [/robot4/odom] from [TCPROS connection on port 35089 to [127.0.0.1:41592 on socket 16]] [/fake_pose_publisher].
+
+[rospy.internal][INFO] 2022-01-06 20:17:54,953: topic[/robot1/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-06 20:17:54,953: topic[/robot2/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-06 20:17:54,953: topic[/robot3/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-06 20:17:54,954: topic[/robot4/cmd_vel] removing connection to /gazebo
+[rospy.internal][WARNING] 2022-01-06 20:17:55,596: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-06 20:17:55,596: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rospy.internal][WARNING] 2022-01-06 20:17:55,609: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-06 20:17:55,609: topic[/robot3/odom] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rospy.internal][WARNING] 2022-01-06 20:17:55,610: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-06 20:17:55,610: topic[/robot2/odom] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rospy.internal][WARNING] 2022-01-06 20:17:55,611: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-06 20:17:55,611: topic[/robot1/odom] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rospy.internal][WARNING] 2022-01-06 20:17:55,613: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-06 20:17:55,613: topic[/robot4/odom] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rospy.core][INFO] 2022-01-06 20:17:57,463: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 20:17:57,474: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 20:17:57,474: topic[/grid3/allRobots/poses] removing connection to /trajectory_planner
+[rospy.internal][INFO] 2022-01-06 20:17:57,475: topic[/grid3/allRobots/poses] removing connection to /brain
+[rospy.impl.masterslave][INFO] 2022-01-06 20:17:57,475: signal-2
+[rospy.core][INFO] 2022-01-06 20:17:59,323: signal_shutdown [atexit]

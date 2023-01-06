@@ -1,0 +1,41 @@
+[rospy.client][INFO] 2022-01-06 12:45:58,045: init_node, name[/rqt_gui], pid[21086]
+[xmlrpc][INFO] 2022-01-06 12:45:58,045: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 12:45:58,045: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:40341/]
+[rospy.impl.masterslave][INFO] 2022-01-06 12:45:58,045: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:40341/
+[rospy.init][INFO] 2022-01-06 12:45:58,045: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:40341/]
+[rospy.registration][INFO] 2022-01-06 12:45:58,046: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 12:45:58,046: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 12:45:58,146: registered with master
+[rospy.rosout][INFO] 2022-01-06 12:45:58,146: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 12:45:58,147: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 12:45:58,147: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 12:45:58,148: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 12:45:58,149: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:35989/], count 0
+[rospy.internal][INFO] 2022-01-06 12:45:58,366: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-06 12:45:58,577: topic[/grid3/droppingCompleted] adding connection to [/brain], count 0
+[rospy.internal][INFO] 2022-01-06 12:45:58,577: topic[/grid3/packageLoaded] adding connection to [/brain], count 0
+[rospy.internal][INFO] 2022-01-06 12:45:58,767: topic[/robot1/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-06 12:45:58,767: topic[/robot3/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-06 12:46:07,427: topic impl's ref count is zero, deleting topic /grid3/droppingCompleted...
+[rospy.internal][INFO] 2022-01-06 12:46:07,429: topic[/grid3/droppingCompleted] removing connection to /brain
+[rospy.internal][INFO] 2022-01-06 12:46:07,430: topic impl's ref count is zero, deleting topic /grid3/packageLoaded...
+[rospy.internal][INFO] 2022-01-06 12:46:07,431: topic[/grid3/packageLoaded] removing connection to /brain
+[rosout][WARNING] 2022-01-06 12:46:07,431: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-06 12:46:07,433: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-06 12:46:07,435: topic impl's ref count is zero, deleting topic /robot1/cmd_vel...
+[rospy.internal][INFO] 2022-01-06 12:46:07,435: topic[/robot1/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-06 12:46:07,436: topic impl's ref count is zero, deleting topic /robot2/cmd_ve...
+[rospy.internal][INFO] 2022-01-06 12:46:07,438: topic impl's ref count is zero, deleting topic /robot3/cmd_vel...
+[rospy.internal][INFO] 2022-01-06 12:46:07,438: topic[/robot3/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-06 12:46:07,439: topic impl's ref count is zero, deleting topic /robot4/cmd_ve...
+[rospy.core][INFO] 2022-01-06 12:46:07,472: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-01-06 12:46:07,474: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 12:46:07,474: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:35989/
+[rospy.impl.masterslave][INFO] 2022-01-06 12:46:07,474: atexit

@@ -1,0 +1,1046 @@
+[rosmaster.main][INFO] 2022-01-06 20:06:04,404: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-01-06 20:06:04,404: Starting ROS Master Node
+[xmlrpc][INFO] 2022-01-06 20:06:04,405: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-01-06 20:06:04,406: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:11311/]
+[rosmaster.master][INFO] 2022-01-06 20:06:04,406: Master initialized: port[11311], uri[http://prajwal-IdeaPad-L340-15IRH-Gaming:11311/]
+[xmlrpc][INFO] 2022-01-06 20:06:04,406: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-01-06 20:06:04,497: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:06:04,497: +PARAM [/roslaunch/uris/host_prajwal_ideapad_l340_15irh_gaming__42715] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:06:04,612: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:06:04,613: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:06:04,613: +PARAM [/use_sim_time] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:06:04,613: +PARAM [/gazebo/enable_ros_network] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:06:04,613: +PARAM [/robot1/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:06:04,613: +PARAM [/robot2/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:06:04,613: +PARAM [/robot3/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:06:04,613: +PARAM [/robot4/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:06:04,641: +SERVICE [/rosout/get_loggers] /rosout http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/
+[rosmaster.master][INFO] 2022-01-06 20:06:04,641: +SERVICE [/rosout/set_logger_level] /rosout http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/
+[rosmaster.master][INFO] 2022-01-06 20:06:04,644: +SUB [/clock] /rosout http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/
+[rosmaster.master][INFO] 2022-01-06 20:06:04,645: +PUB [/rosout_agg] /rosout http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/
+[rosmaster.master][INFO] 2022-01-06 20:06:04,647: +SUB [/rosout] /rosout http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,219: +PUB [/rosout] /myrobot_spawn3 http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,222: +SUB [/clock] /myrobot_spawn3 http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,223: +SERVICE [/myrobot_spawn3/get_loggers] /myrobot_spawn3 http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,224: +SERVICE [/myrobot_spawn3/set_logger_level] /myrobot_spawn3 http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,227: +PUB [/rosout] /myrobot_spawn2 http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,230: +SUB [/clock] /myrobot_spawn2 http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,231: +SERVICE [/myrobot_spawn2/get_loggers] /myrobot_spawn2 http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,232: +SERVICE [/myrobot_spawn2/set_logger_level] /myrobot_spawn2 http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,245: +PUB [/rosout] /myrobot_spawn1 http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,246: +PUB [/rosout] /myrobot_spawn4 http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,248: +SUB [/clock] /myrobot_spawn1 http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,249: +SUB [/clock] /myrobot_spawn4 http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,250: +SERVICE [/myrobot_spawn1/get_loggers] /myrobot_spawn1 http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,250: +SERVICE [/myrobot_spawn1/set_logger_level] /myrobot_spawn1 http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,251: +SERVICE [/myrobot_spawn4/get_loggers] /myrobot_spawn4 http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,252: +SERVICE [/myrobot_spawn4/set_logger_level] /myrobot_spawn4 http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,306: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/']
+[rosmaster.master][INFO] 2022-01-06 20:06:05,309: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:06:05,309: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/']
+[rosmaster.master][INFO] 2022-01-06 20:06:05,310: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:06:05,310: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/']
+[rosmaster.master][INFO] 2022-01-06 20:06:05,310: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:06:05,310: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/']
+[rosmaster.master][INFO] 2022-01-06 20:06:05,311: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:06:05,547: +PUB [/rosout] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,547: +SERVICE [/gazebo/get_loggers] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,548: +SERVICE [/gazebo/set_logger_level] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,550: +SUB [/clock] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,607: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']
+[rosmaster.master][INFO] 2022-01-06 20:06:05,608: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:06:05,710: +PUB [/rosout] /gazebo_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,711: +SERVICE [/gazebo_gui/get_loggers] /gazebo_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,711: +SERVICE [/gazebo_gui/set_logger_level] /gazebo_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/
+[rosmaster.master][INFO] 2022-01-06 20:06:05,712: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/']
+[rosmaster.master][INFO] 2022-01-06 20:06:05,713: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:06:05,715: +SUB [/clock] /gazebo_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,959: +PUB [/clock] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,960: +SERVICE [/gazebo/spawn_sdf_model] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,961: +SERVICE [/gazebo/spawn_urdf_model] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,961: +SERVICE [/gazebo/delete_model] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,962: +SERVICE [/gazebo/delete_light] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,962: +SERVICE [/gazebo/get_model_properties] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,963: +SERVICE [/gazebo/get_model_state] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,963: +SERVICE [/gazebo/get_world_properties] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,963: +SERVICE [/gazebo/get_joint_properties] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,964: +SERVICE [/gazebo/get_link_properties] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,965: +SERVICE [/gazebo/get_link_state] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,965: +SERVICE [/gazebo/get_light_properties] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,966: +SERVICE [/gazebo/set_light_properties] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,966: +SERVICE [/gazebo/get_physics_properties] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,967: +PUB [/gazebo/link_states] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,967: +PUB [/gazebo/model_states] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,968: +SERVICE [/gazebo/set_link_properties] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,968: +SERVICE [/gazebo/set_physics_properties] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,969: +SERVICE [/gazebo/set_model_state] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,969: +SERVICE [/gazebo/set_model_configuration] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,969: +SERVICE [/gazebo/set_joint_properties] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,970: +SERVICE [/gazebo/set_link_state] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,972: +SUB [/gazebo/set_link_state] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,974: +SUB [/gazebo/set_model_state] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,975: +SERVICE [/gazebo/pause_physics] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,975: +SERVICE [/gazebo/unpause_physics] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,975: +SERVICE [/gazebo/apply_body_wrench] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,976: +SERVICE [/gazebo/apply_joint_effort] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,976: +SERVICE [/gazebo/clear_joint_forces] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,977: +SERVICE [/gazebo/clear_body_wrenches] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,977: +SERVICE [/gazebo/reset_simulation] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,978: +SERVICE [/gazebo/reset_world] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,987: +SERVICE [/gazebo/set_parameters] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,988: +PUB [/gazebo/parameter_descriptions] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,988: +PUB [/gazebo/parameter_updates] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:06,993: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:06,994: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:06,994: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:06,995: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:06,995: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:06,995: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:06,996: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:06,996: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:06,996: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:06,997: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:06,997: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:06,998: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:06,998: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:06,998: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:06,999: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,000: +PARAM [/gazebo/time_step] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,001: +PARAM [/gazebo/max_update_rate] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,001: +PARAM [/gazebo/gravity_x] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,002: +PARAM [/gazebo/gravity_y] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,002: +PARAM [/gazebo/gravity_z] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,002: +PARAM [/gazebo/auto_disable_bodies] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,003: +PARAM [/gazebo/sor_pgs_precon_iters] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,003: +PARAM [/gazebo/sor_pgs_iters] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,004: +PARAM [/gazebo/sor_pgs_w] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,004: +PARAM [/gazebo/sor_pgs_rms_error_tol] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,004: +PARAM [/gazebo/cfm] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,005: +PARAM [/gazebo/erp] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,006: +PARAM [/gazebo/contact_surface_layer] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,006: +PARAM [/gazebo/contact_max_correcting_vel] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,006: +PARAM [/gazebo/max_contacts] by /gazebo
+[rosmaster.master][INFO] 2022-01-06 20:06:07,010: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']
+[rosmaster.master][INFO] 2022-01-06 20:06:07,010: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']
+[rosmaster.master][INFO] 2022-01-06 20:06:07,011: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:06:07,011: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']
+[rosmaster.master][INFO] 2022-01-06 20:06:07,012: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:06:07,012: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:06:07,012: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']
+[rosmaster.master][INFO] 2022-01-06 20:06:07,012: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']
+[rosmaster.master][INFO] 2022-01-06 20:06:07,014: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:06:07,014: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']
+[rosmaster.master][INFO] 2022-01-06 20:06:07,015: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:06:07,015: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']
+[rosmaster.master][INFO] 2022-01-06 20:06:07,017: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:06:07,018: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:06:07,208: -SUB [/clock] /myrobot_spawn3 http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/
+[rosmaster.master][INFO] 2022-01-06 20:06:07,209: -PUB [/rosout] /myrobot_spawn3 http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/
+[rosmaster.master][INFO] 2022-01-06 20:06:07,209: -SERVICE [/myrobot_spawn3/get_loggers] /myrobot_spawn3 rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:38445
+[rosmaster.master][INFO] 2022-01-06 20:06:07,209: -SERVICE [/myrobot_spawn3/set_logger_level] /myrobot_spawn3 rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:38445
+[rosmaster.master][INFO] 2022-01-06 20:06:07,217: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/']
+[rosmaster.master][INFO] 2022-01-06 20:06:07,218: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][ERROR] 2022-01-06 20:06:07,237: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2022-01-06 20:06:07,238: +PUB [/tf] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:07,240: +SUB [/robot3/cmd_vel] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:07,240: +PUB [/robot3/odom] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][ERROR] 2022-01-06 20:06:07,495: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2022-01-06 20:06:07,496: -SUB [/clock] /myrobot_spawn2 http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/
+[rosmaster.master][INFO] 2022-01-06 20:06:07,497: -PUB [/rosout] /myrobot_spawn2 http://prajwal-IdeaPad-L340-15IRH-Gaming:43915/
+[rosmaster.master][INFO] 2022-01-06 20:06:07,497: -SERVICE [/myrobot_spawn2/get_loggers] /myrobot_spawn2 rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:44055
+[rosmaster.master][INFO] 2022-01-06 20:06:07,497: -SERVICE [/myrobot_spawn2/set_logger_level] /myrobot_spawn2 rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:44055
+[rosmaster.master][INFO] 2022-01-06 20:06:07,498: +SUB [/robot2/cmd_vel] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:07,499: +PUB [/robot2/odom] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:07,518: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/']
+[rosmaster.master][INFO] 2022-01-06 20:06:07,519: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][ERROR] 2022-01-06 20:06:07,753: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2022-01-06 20:06:07,755: -SUB [/clock] /myrobot_spawn1 http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/
+[rosmaster.master][INFO] 2022-01-06 20:06:07,755: -PUB [/rosout] /myrobot_spawn1 http://prajwal-IdeaPad-L340-15IRH-Gaming:33941/
+[rosmaster.master][INFO] 2022-01-06 20:06:07,756: +SUB [/robot1/cmd_vel] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:07,756: -SERVICE [/myrobot_spawn1/get_loggers] /myrobot_spawn1 rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:44885
+[rosmaster.master][INFO] 2022-01-06 20:06:07,756: +PUB [/robot1/odom] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:07,756: -SERVICE [/myrobot_spawn1/set_logger_level] /myrobot_spawn1 rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:44885
+[rosmaster.master][INFO] 2022-01-06 20:06:07,819: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/']
+[rosmaster.master][INFO] 2022-01-06 20:06:07,820: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][ERROR] 2022-01-06 20:06:08,013: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 177, in validated_f
+    code, msg, val = f(*newArgs, **kwds)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 435, in searchParam
+    search_key = self.param_server.search_param(caller_id, key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/paramserver.py", line 116, in search_param
+    raise ValueError("namespace must be global")
+ValueError: namespace must be global
+
+[rosmaster.master][INFO] 2022-01-06 20:06:08,014: -SUB [/clock] /myrobot_spawn4 http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/
+[rosmaster.master][INFO] 2022-01-06 20:06:08,014: -PUB [/rosout] /myrobot_spawn4 http://prajwal-IdeaPad-L340-15IRH-Gaming:43657/
+[rosmaster.master][INFO] 2022-01-06 20:06:08,015: -SERVICE [/myrobot_spawn4/get_loggers] /myrobot_spawn4 rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:42473
+[rosmaster.master][INFO] 2022-01-06 20:06:08,015: -SERVICE [/myrobot_spawn4/set_logger_level] /myrobot_spawn4 rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:42473
+[rosmaster.master][INFO] 2022-01-06 20:06:08,016: +SUB [/robot4/cmd_vel] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:08,017: +PUB [/robot4/odom] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:06:08,020: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/']
+[rosmaster.master][INFO] 2022-01-06 20:06:08,020: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:17,377: +PARAM [/roslaunch/uris/host_prajwal_ideapad_l340_15irh_gaming__42181] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:07:17,378: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:07:17,378: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:07:17,695: +PUB [/rosout] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,697: +SUB [/clock] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,697: +PUB [/rosout] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,698: +SERVICE [/brain/get_loggers] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,699: +SUB [/clock] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,699: +SERVICE [/brain/set_logger_level] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,700: +SERVICE [/trajectory_planner/get_loggers] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,700: +SUB [/grid3/allRobots/poses] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,701: +SERVICE [/trajectory_planner/set_logger_level] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,701: +SUB [/grid3/droppingCompleted] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,702: +SUB [/grid3/allRobots/poses] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,703: +SUB [/grid3/packageLoaded] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,704: +SUB [/grid3/planner/status] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,704: +SUB [/grid3/allRobots/goals] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,704: +PUB [/grid3/commenceDropping] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,705: +PUB [/grid3/robotTrajectories] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,705: +PUB [/grid3/allRobots/goals] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,705: +PUB [/grid3/planner/status] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,706: +SUB [/grid3/controller/status] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,723: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/']
+[rosmaster.master][INFO] 2022-01-06 20:07:17,723: publisherUpdate[/grid3/allRobots/goals] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/']
+[rosmaster.master][INFO] 2022-01-06 20:07:17,723: publisherUpdate[/grid3/planner/status] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/']
+[rosmaster.master][INFO] 2022-01-06 20:07:17,724: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:17,724: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/']
+[rosmaster.master][INFO] 2022-01-06 20:07:17,724: publisherUpdate[/grid3/allRobots/goals] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:17,725: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:17,725: publisherUpdate[/grid3/planner/status] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:17,782: +PUB [/rosout] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,784: +SUB [/clock] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,785: +SERVICE [/fake_pose_publisher/get_loggers] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,786: +SERVICE [/fake_pose_publisher/set_logger_level] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,786: +PUB [/robot1/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,787: +PUB [/robot2/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,788: +PUB [/robot3/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,788: +PUB [/robot4/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,789: +PUB [/grid3/allRobots/poses] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,789: +PUB [/grid3/allRobots/posesRC] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,790: +SUB [/robot1/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,791: +SUB [/robot2/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,792: +SUB [/robot3/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,793: +SUB [/robot4/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:07:17,825: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']
+[rosmaster.master][INFO] 2022-01-06 20:07:17,825: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']
+[rosmaster.master][INFO] 2022-01-06 20:07:17,825: publisherUpdate[/grid3/allRobots/poses] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']
+[rosmaster.master][INFO] 2022-01-06 20:07:17,826: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:17,826: publisherUpdate[/grid3/allRobots/poses] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:17,826: publisherUpdate[/grid3/allRobots/poses] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']
+[rosmaster.master][INFO] 2022-01-06 20:07:17,826: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:17,826: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']
+[rosmaster.master][INFO] 2022-01-06 20:07:17,827: publisherUpdate[/grid3/allRobots/poses] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:17,827: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:17,827: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']
+[rosmaster.master][INFO] 2022-01-06 20:07:17,827: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:17,827: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']
+[rosmaster.master][INFO] 2022-01-06 20:07:17,828: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:18,375: +PUB [/rosout] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:07:18,380: +SUB [/clock] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:07:18,383: +SERVICE [/rqt_gui/get_loggers] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:07:18,385: +SERVICE [/rqt_gui/set_logger_level] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:07:18,427: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']
+[rosmaster.master][INFO] 2022-01-06 20:07:18,428: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:18,770: +PUB [/grid3/droppingCompleted] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:07:18,771: +PUB [/grid3/packageLoaded] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:07:18,773: +PUB [/robot1/cmd_vel] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:07:18,776: +PUB [/robot2/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:07:18,779: +PUB [/robot3/cmd_vel] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:07:18,782: +PUB [/robot4/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:07:18,828: publisherUpdate[/grid3/droppingCompleted] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']
+[rosmaster.master][INFO] 2022-01-06 20:07:18,829: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']
+[rosmaster.master][INFO] 2022-01-06 20:07:18,830: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:18,830: publisherUpdate[/grid3/droppingCompleted] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:18,830: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']
+[rosmaster.master][INFO] 2022-01-06 20:07:18,830: publisherUpdate[/grid3/packageLoaded] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']
+[rosmaster.master][INFO] 2022-01-06 20:07:18,831: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:18,831: publisherUpdate[/grid3/packageLoaded] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:31,714: +PARAM [/roslaunch/uris/host_prajwal_ideapad_l340_15irh_gaming__32871] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:07:31,716: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:07:31,716: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:07:31,914: +PUB [/rosout] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:31,915: +SERVICE [/rviz/get_loggers] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:31,915: +SERVICE [/rviz/set_logger_level] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:31,917: +SUB [/clock] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:31,946: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/']
+[rosmaster.master][INFO] 2022-01-06 20:07:31,947: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:32,020: +PUB [/rosout] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,022: +SUB [/clock] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,023: +SERVICE [/display_trajectory/get_loggers] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,024: +SERVICE [/display_trajectory/set_logger_level] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,025: +SUB [/grid3/robotTrajectories] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,026: +PUB [/grid3/displayTrajectory] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,035: +PUB [/rosout] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,037: +SUB [/clock] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,038: +SERVICE [/display_map/get_loggers] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,038: +SERVICE [/display_map/set_logger_level] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,039: +PUB [/grid3/mat] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,047: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/']
+[rosmaster.master][INFO] 2022-01-06 20:07:32,048: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:32,048: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/']
+[rosmaster.master][INFO] 2022-01-06 20:07:32,048: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:07:32,599: +SUB [/tf] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,600: +SUB [/tf_static] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,650: +PUB [/initialpose] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,651: +PUB [/goal] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,660: +SUB [/visualization_marker_array] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,661: -SUB [/visualization_marker_array] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,662: +SUB [/grid3/displayTrajectory] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,665: +SUB [/visualization_marker_array] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,665: -SUB [/visualization_marker_array] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,667: +SUB [/grid3/mat] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,669: -PUB [/goal] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,669: -PUB [/initialpose] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,672: +PUB [/initialpose] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,672: +PUB [/goal] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,672: +PUB [/move_base_simple/goal] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,673: -PUB [/goal] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,673: +PUB [/clicked_point] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,691: +SERVICE [/rviz/reload_shaders] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,691: +SERVICE [/rviz/load_config] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:32,692: +SERVICE [/rviz/save_config] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:07:49,228: +PUB [/rosout] /controller_ros_interface_5528_1641479869098 http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/
+[rosmaster.master][INFO] 2022-01-06 20:07:49,230: +SUB [/clock] /controller_ros_interface_5528_1641479869098 http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/
+[rosmaster.master][INFO] 2022-01-06 20:07:49,232: +SERVICE [/controller_ros_interface_5528_1641479869098/get_loggers] /controller_ros_interface_5528_1641479869098 http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/
+[rosmaster.master][INFO] 2022-01-06 20:07:49,232: +SERVICE [/controller_ros_interface_5528_1641479869098/set_logger_level] /controller_ros_interface_5528_1641479869098 http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/
+[rosmaster.master][INFO] 2022-01-06 20:07:49,233: +PUB [/grid3/controller/cmd] /controller_ros_interface_5528_1641479869098 http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/
+[rosmaster.master][INFO] 2022-01-06 20:07:49,235: +SUB [/grid3/allRobots/poses] /controller_ros_interface_5528_1641479869098 http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/
+[rosmaster.master][INFO] 2022-01-06 20:07:49,236: +SUB [/grid3/robotTrajectories] /controller_ros_interface_5528_1641479869098 http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/
+[rosmaster.master][INFO] 2022-01-06 20:07:49,237: +SUB [/grid3/planner/status] /controller_ros_interface_5528_1641479869098 http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/
+[rosmaster.master][INFO] 2022-01-06 20:07:49,271: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/']
+[rosmaster.master][INFO] 2022-01-06 20:07:49,271: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:10:25,919: +PUB [/rosout] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:10:25,920: +SUB [/clock] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:10:25,922: +SERVICE [/gazebo_controller/get_loggers] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:10:25,922: +SERVICE [/gazebo_controller/set_logger_level] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:10:25,923: +PUB [/robot1/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:10:25,924: +PUB [/robot2/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:10:25,924: +PUB [/robot3/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:10:25,925: +PUB [/robot4/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:10:25,926: +SUB [/grid3/controller/cmd] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:10:25,973: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/']
+[rosmaster.master][INFO] 2022-01-06 20:10:25,974: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/']
+[rosmaster.master][INFO] 2022-01-06 20:10:25,975: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:10:25,975: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:10:25,975: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/']
+[rosmaster.master][INFO] 2022-01-06 20:10:25,976: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:10:25,977: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/']
+[rosmaster.master][INFO] 2022-01-06 20:10:25,977: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:10:25,977: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/']
+[rosmaster.master][INFO] 2022-01-06 20:10:25,978: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:10:59,205: -PUB [/robot1/cmd_vel] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:10:59,206: +PUB [/robot1/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:10:59,219: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/']
+[rosmaster.master][INFO] 2022-01-06 20:10:59,220: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:11:01,345: -PUB [/robot3/cmd_vel] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:11:01,346: +PUB [/robot3/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:11:01,423: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/']
+[rosmaster.master][INFO] 2022-01-06 20:11:01,424: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:11:56,995: -SUB [/clock] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:11:56,995: -SUB [/grid3/controller/cmd] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:11:56,995: -PUB [/rosout] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:11:56,995: -PUB [/robot1/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:11:56,996: -PUB [/robot2/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:11:56,996: -PUB [/robot3/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:11:56,996: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/']
+[rosmaster.master][INFO] 2022-01-06 20:11:56,996: -PUB [/robot4/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41563/
+[rosmaster.master][INFO] 2022-01-06 20:11:56,996: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']
+[rosmaster.master][INFO] 2022-01-06 20:11:56,997: -SERVICE [/gazebo_controller/get_loggers] /gazebo_controller rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:46431
+[rosmaster.master][INFO] 2022-01-06 20:11:56,997: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:11:56,998: -SERVICE [/gazebo_controller/set_logger_level] /gazebo_controller rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:46431
+[rosmaster.master][INFO] 2022-01-06 20:11:56,998: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:11:56,999: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']
+[rosmaster.master][INFO] 2022-01-06 20:11:56,999: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:11:56,999: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']
+[rosmaster.master][INFO] 2022-01-06 20:11:57,000: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:11:57,000: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']
+[rosmaster.master][INFO] 2022-01-06 20:11:57,001: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:00,470: +PUB [/rosout] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:00,474: +SUB [/clock] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:00,476: +SERVICE [/gazebo_controller/get_loggers] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:00,478: +SERVICE [/gazebo_controller/set_logger_level] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:00,479: +PUB [/robot1/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:00,481: +PUB [/robot2/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:00,482: +PUB [/robot3/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:00,483: +PUB [/robot4/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:00,485: +SUB [/grid3/controller/cmd] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:00,501: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']
+[rosmaster.master][INFO] 2022-01-06 20:12:00,502: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:00,502: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']
+[rosmaster.master][INFO] 2022-01-06 20:12:00,503: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:00,503: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']
+[rosmaster.master][INFO] 2022-01-06 20:12:00,504: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:00,504: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']
+[rosmaster.master][INFO] 2022-01-06 20:12:00,505: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:00,505: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']
+[rosmaster.master][INFO] 2022-01-06 20:12:00,506: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:33,747: -SUB [/clock] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,748: -SUB [/clock] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,748: -SUB [/grid3/robotTrajectories] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,748: -PUB [/rosout] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,748: -PUB [/grid3/mat] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:46671/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,748: -SERVICE [/display_map/get_loggers] /display_map rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:39249
+[rosmaster.master][INFO] 2022-01-06 20:12:33,748: -SERVICE [/display_map/set_logger_level] /display_map rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:39249
+[rosmaster.master][INFO] 2022-01-06 20:12:33,749: -PUB [/rosout] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,749: -PUB [/grid3/displayTrajectory] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,749: -SERVICE [/display_trajectory/get_loggers] /display_trajectory rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:39559
+[rosmaster.master][INFO] 2022-01-06 20:12:33,749: -SERVICE [/display_trajectory/set_logger_level] /display_trajectory rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:39559
+[rosmaster.master][INFO] 2022-01-06 20:12:33,816: -PUB [/rosout] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,817: -PUB [/initialpose] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,817: -PUB [/move_base_simple/goal] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,818: -PUB [/clicked_point] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,818: -SUB [/clock] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,819: -SUB [/tf] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,819: -SUB [/tf_static] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,820: -SUB [/grid3/displayTrajectory] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,820: -SUB [/grid3/mat] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/
+[rosmaster.master][INFO] 2022-01-06 20:12:33,821: -SERVICE [/rviz/get_loggers] /rviz rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:37131
+[rosmaster.master][INFO] 2022-01-06 20:12:33,821: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:37131
+[rosmaster.master][INFO] 2022-01-06 20:12:33,822: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:37131
+[rosmaster.master][INFO] 2022-01-06 20:12:33,822: -SERVICE [/rviz/load_config] /rviz rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:37131
+[rosmaster.master][INFO] 2022-01-06 20:12:33,823: -SERVICE [/rviz/save_config] /rviz rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:37131
+[rosmaster.master][INFO] 2022-01-06 20:12:33,848: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']
+[rosmaster.master][INFO] 2022-01-06 20:12:33,848: publisherUpdate[/grid3/mat] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/ []
+[rosmaster.master][INFO] 2022-01-06 20:12:33,848: publisherUpdate[/grid3/mat] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2022-01-06 20:12:33,849: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43503/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:33,849: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']
+[rosmaster.master][INFO] 2022-01-06 20:12:33,850: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:33,850: publisherUpdate[/grid3/displayTrajectory] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/ []
+[rosmaster.master][INFO] 2022-01-06 20:12:33,850: publisherUpdate[/grid3/displayTrajectory] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34885/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2022-01-06 20:12:33,854: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosmaster.threadpool][ERROR] 2022-01-06 20:12:33,854: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2022-01-06 20:12:33,854: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']
+[rosmaster.master][INFO] 2022-01-06 20:12:33,854: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:34,015: -SUB [/clock] /controller_ros_interface_5528_1641479869098 http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/
+[rosmaster.master][INFO] 2022-01-06 20:12:34,016: -SUB [/grid3/allRobots/poses] /controller_ros_interface_5528_1641479869098 http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/
+[rosmaster.master][INFO] 2022-01-06 20:12:34,016: -SUB [/grid3/robotTrajectories] /controller_ros_interface_5528_1641479869098 http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/
+[rosmaster.master][INFO] 2022-01-06 20:12:34,016: -SUB [/grid3/planner/status] /controller_ros_interface_5528_1641479869098 http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/
+[rosmaster.master][INFO] 2022-01-06 20:12:34,016: -PUB [/rosout] /controller_ros_interface_5528_1641479869098 http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/
+[rosmaster.master][INFO] 2022-01-06 20:12:34,016: -PUB [/grid3/controller/cmd] /controller_ros_interface_5528_1641479869098 http://prajwal-IdeaPad-L340-15IRH-Gaming:34953/
+[rosmaster.master][INFO] 2022-01-06 20:12:34,016: -SERVICE [/controller_ros_interface_5528_1641479869098/get_loggers] /controller_ros_interface_5528_1641479869098 rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:32953
+[rosmaster.master][INFO] 2022-01-06 20:12:34,016: -SERVICE [/controller_ros_interface_5528_1641479869098/set_logger_level] /controller_ros_interface_5528_1641479869098 rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:32953
+[rosmaster.master][INFO] 2022-01-06 20:12:34,048: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']
+[rosmaster.master][INFO] 2022-01-06 20:12:34,049: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:34,049: publisherUpdate[/grid3/controller/cmd] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/ []
+[rosmaster.master][INFO] 2022-01-06 20:12:34,050: publisherUpdate[/grid3/controller/cmd] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:34,386: -SUB [/clock] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:34,386: -SUB [/grid3/controller/cmd] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:34,386: -PUB [/rosout] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:34,386: -PUB [/robot1/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:34,386: -PUB [/robot2/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:34,386: -PUB [/robot3/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:34,386: -PUB [/robot4/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:38239/
+[rosmaster.master][INFO] 2022-01-06 20:12:34,386: -SERVICE [/gazebo_controller/get_loggers] /gazebo_controller rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:43137
+[rosmaster.master][INFO] 2022-01-06 20:12:34,386: -SERVICE [/gazebo_controller/set_logger_level] /gazebo_controller rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:43137
+[rosmaster.master][INFO] 2022-01-06 20:12:34,450: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']
+[rosmaster.master][INFO] 2022-01-06 20:12:34,451: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:34,451: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']
+[rosmaster.master][INFO] 2022-01-06 20:12:34,451: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:34,451: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']
+[rosmaster.master][INFO] 2022-01-06 20:12:34,452: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:34,452: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']
+[rosmaster.master][INFO] 2022-01-06 20:12:34,452: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:34,452: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']
+[rosmaster.master][INFO] 2022-01-06 20:12:34,453: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:36,353: -SUB [/clock] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,354: -SUB [/grid3/allRobots/poses] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,355: -SUB [/clock] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,355: -SUB [/clock] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,355: -SUB [/robot1/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,356: -SUB [/grid3/allRobots/poses] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,356: -SUB [/grid3/allRobots/goals] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,356: -SUB [/robot2/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,356: -SUB [/grid3/droppingCompleted] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,356: -SUB [/grid3/controller/status] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,357: -PUB [/rosout] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,357: -SUB [/grid3/packageLoaded] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,357: -SUB [/robot3/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,357: -PUB [/grid3/robotTrajectories] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,357: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']
+[rosmaster.master][INFO] 2022-01-06 20:12:36,358: -SUB [/grid3/planner/status] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,358: -PUB [/rosout] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,358: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:36,359: -PUB [/grid3/planner/status] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,359: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']
+[rosmaster.master][INFO] 2022-01-06 20:12:36,359: -SUB [/robot4/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,360: -PUB [/grid3/commenceDropping] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,360: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:36,360: -SERVICE [/trajectory_planner/get_loggers] /trajectory_planner rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:41809
+[rosmaster.master][INFO] 2022-01-06 20:12:36,361: -SERVICE [/trajectory_planner/set_logger_level] /trajectory_planner rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:41809
+[rosmaster.master][INFO] 2022-01-06 20:12:36,361: -PUB [/rosout] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,361: -PUB [/grid3/allRobots/goals] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,362: -PUB [/robot1/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,362: -SERVICE [/brain/get_loggers] /brain rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:32835
+[rosmaster.master][INFO] 2022-01-06 20:12:36,362: -PUB [/robot2/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,362: -SERVICE [/brain/set_logger_level] /brain rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:32835
+[rosmaster.master][INFO] 2022-01-06 20:12:36,363: -PUB [/robot3/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,363: -PUB [/robot4/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,363: -PUB [/grid3/allRobots/poses] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,363: -PUB [/grid3/allRobots/posesRC] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,363: -SERVICE [/fake_pose_publisher/get_loggers] /fake_pose_publisher rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:40993
+[rosmaster.master][INFO] 2022-01-06 20:12:36,363: -SERVICE [/fake_pose_publisher/set_logger_level] /fake_pose_publisher rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:40993
+[rosmaster.master][INFO] 2022-01-06 20:12:36,373: -PUB [/grid3/droppingCompleted] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,374: -PUB [/grid3/packageLoaded] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,376: -PUB [/robot1/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,378: -PUB [/robot2/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,380: -PUB [/robot3/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,381: -PUB [/robot4/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,419: -SUB [/clock] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,419: -PUB [/rosout] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/
+[rosmaster.master][INFO] 2022-01-06 20:12:36,419: -SERVICE [/rqt_gui/get_loggers] /rqt_gui rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:39737
+[rosmaster.master][INFO] 2022-01-06 20:12:36,419: -SERVICE [/rqt_gui/set_logger_level] /rqt_gui rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:39737
+[rosmaster.master][INFO] 2022-01-06 20:12:36,455: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']
+[rosmaster.master][INFO] 2022-01-06 20:12:36,456: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41613/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:36,456: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ []
+[rosmaster.master][INFO] 2022-01-06 20:12:36,456: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:36,457: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ []
+[rosmaster.master][INFO] 2022-01-06 20:12:36,457: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:36,457: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ []
+[rosmaster.master][INFO] 2022-01-06 20:12:36,457: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:36,457: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ []
+[rosmaster.master][INFO] 2022-01-06 20:12:36,458: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:12:36,458: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/']
+[rosmaster.master][INFO] 2022-01-06 20:12:36,458: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:05,974: +PARAM [/roslaunch/uris/host_prajwal_ideapad_l340_15irh_gaming__43205] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:14:05,976: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:14:05,976: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:14:06,281: +PUB [/rosout] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,282: +SUB [/clock] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,284: +SERVICE [/trajectory_planner/get_loggers] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,285: +SERVICE [/trajectory_planner/set_logger_level] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,286: +SUB [/grid3/allRobots/poses] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,287: +SUB [/grid3/allRobots/goals] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,288: +PUB [/grid3/robotTrajectories] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,288: +PUB [/grid3/planner/status] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,289: +SUB [/grid3/controller/status] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,289: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/']
+[rosmaster.master][INFO] 2022-01-06 20:14:06,290: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:06,295: +PUB [/rosout] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,297: +SUB [/clock] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,298: +SERVICE [/brain/get_loggers] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,299: +SERVICE [/brain/set_logger_level] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,300: +SUB [/grid3/allRobots/poses] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,301: +SUB [/grid3/droppingCompleted] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,302: +SUB [/grid3/packageLoaded] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,303: +SUB [/grid3/planner/status] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,303: +PUB [/grid3/commenceDropping] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,304: +PUB [/grid3/allRobots/goals] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,371: +PUB [/rosout] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,373: +SUB [/clock] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,374: +SERVICE [/fake_pose_publisher/get_loggers] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,375: +SERVICE [/fake_pose_publisher/set_logger_level] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,376: +PUB [/robot1/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,376: +PUB [/robot2/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,377: +PUB [/robot3/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,377: +PUB [/robot4/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,378: +PUB [/grid3/allRobots/poses] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,378: +PUB [/grid3/allRobots/posesRC] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,379: +SUB [/robot1/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,380: +SUB [/robot2/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,381: +SUB [/robot3/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,382: +SUB [/robot4/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,390: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/']
+[rosmaster.master][INFO] 2022-01-06 20:14:06,390: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:06,390: publisherUpdate[/grid3/allRobots/goals] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/']
+[rosmaster.master][INFO] 2022-01-06 20:14:06,391: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:14:06,391: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:14:06,391: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:06,391: publisherUpdate[/grid3/allRobots/goals] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:06,391: publisherUpdate[/grid3/allRobots/poses] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:14:06,392: publisherUpdate[/grid3/allRobots/poses] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:14:06,392: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:06,392: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:14:06,393: publisherUpdate[/grid3/allRobots/poses] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:06,393: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:06,393: publisherUpdate[/grid3/allRobots/poses] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:06,393: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:14:06,394: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:06,394: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:14:06,394: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:06,836: +PUB [/rosout] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,838: +SUB [/clock] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,839: +SERVICE [/rqt_gui/get_loggers] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,840: +SERVICE [/rqt_gui/set_logger_level] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:14:06,894: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/']
+[rosmaster.master][INFO] 2022-01-06 20:14:06,894: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:07,186: +PUB [/grid3/droppingCompleted] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:14:07,187: +PUB [/grid3/packageLoaded] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:14:07,189: +PUB [/robot1/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:14:07,192: +PUB [/robot2/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:14:07,194: publisherUpdate[/grid3/droppingCompleted] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/']
+[rosmaster.master][INFO] 2022-01-06 20:14:07,195: publisherUpdate[/grid3/droppingCompleted] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:07,195: publisherUpdate[/grid3/packageLoaded] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/']
+[rosmaster.master][INFO] 2022-01-06 20:14:07,196: publisherUpdate[/grid3/packageLoaded] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:07,197: +PUB [/robot3/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:14:07,201: +PUB [/robot4/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,313: +PARAM [/roslaunch/uris/host_prajwal_ideapad_l340_15irh_gaming__39467] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:14:12,314: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:14:12,315: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-01-06 20:14:12,496: +PUB [/rosout] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,497: +SERVICE [/rviz/get_loggers] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,497: +SERVICE [/rviz/set_logger_level] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,498: +SUB [/clock] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,502: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/']
+[rosmaster.master][INFO] 2022-01-06 20:14:12,503: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:12,622: +PUB [/rosout] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,623: +SUB [/clock] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,625: +SERVICE [/display_map/get_loggers] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,626: +SERVICE [/display_map/set_logger_level] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,627: +PUB [/grid3/mat] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,640: +PUB [/rosout] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,642: +SUB [/clock] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,643: +SERVICE [/display_trajectory/get_loggers] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,644: +SERVICE [/display_trajectory/set_logger_level] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,646: +SUB [/grid3/robotTrajectories] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,647: +PUB [/grid3/displayTrajectory] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/
+[rosmaster.master][INFO] 2022-01-06 20:14:12,703: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/']
+[rosmaster.master][INFO] 2022-01-06 20:14:12,704: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:12,704: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/']
+[rosmaster.master][INFO] 2022-01-06 20:14:12,704: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:13,127: +SUB [/tf] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,128: +SUB [/tf_static] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,194: +PUB [/initialpose] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,195: +PUB [/goal] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,203: +SUB [/visualization_marker_array] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,204: -SUB [/visualization_marker_array] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,205: +SUB [/grid3/displayTrajectory] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,208: +SUB [/visualization_marker_array] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,208: -SUB [/visualization_marker_array] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,210: +SUB [/grid3/mat] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,212: -PUB [/goal] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,212: -PUB [/initialpose] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,214: +PUB [/initialpose] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,214: +PUB [/goal] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,215: +PUB [/move_base_simple/goal] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,215: -PUB [/goal] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,215: +PUB [/clicked_point] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,232: +SERVICE [/rviz/reload_shaders] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,233: +SERVICE [/rviz/load_config] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:13,233: +SERVICE [/rviz/save_config] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:14:15,260: +PUB [/rosout] /controller_ros_interface_6824_1641480255130 http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/
+[rosmaster.master][INFO] 2022-01-06 20:14:15,262: +SUB [/clock] /controller_ros_interface_6824_1641480255130 http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/
+[rosmaster.master][INFO] 2022-01-06 20:14:15,263: +SERVICE [/controller_ros_interface_6824_1641480255130/get_loggers] /controller_ros_interface_6824_1641480255130 http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/
+[rosmaster.master][INFO] 2022-01-06 20:14:15,264: +SERVICE [/controller_ros_interface_6824_1641480255130/set_logger_level] /controller_ros_interface_6824_1641480255130 http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/
+[rosmaster.master][INFO] 2022-01-06 20:14:15,264: +PUB [/grid3/controller/cmd] /controller_ros_interface_6824_1641480255130 http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/
+[rosmaster.master][INFO] 2022-01-06 20:14:15,266: +SUB [/grid3/allRobots/poses] /controller_ros_interface_6824_1641480255130 http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/
+[rosmaster.master][INFO] 2022-01-06 20:14:15,267: +SUB [/grid3/robotTrajectories] /controller_ros_interface_6824_1641480255130 http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/
+[rosmaster.master][INFO] 2022-01-06 20:14:15,268: +SUB [/grid3/planner/status] /controller_ros_interface_6824_1641480255130 http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/
+[rosmaster.master][INFO] 2022-01-06 20:14:15,307: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/']
+[rosmaster.master][INFO] 2022-01-06 20:14:15,307: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:18,118: +PUB [/rosout] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:14:18,120: +SUB [/clock] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:14:18,122: +SERVICE [/gazebo_controller/get_loggers] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:14:18,123: +SERVICE [/gazebo_controller/set_logger_level] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:14:18,123: +PUB [/robot1/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:14:18,124: +PUB [/robot2/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:14:18,124: +PUB [/robot3/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:14:18,125: +PUB [/robot4/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:14:18,126: +SUB [/grid3/controller/cmd] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:14:18,211: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/']
+[rosmaster.master][INFO] 2022-01-06 20:14:18,212: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/']
+[rosmaster.master][INFO] 2022-01-06 20:14:18,213: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:18,214: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:18,214: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/']
+[rosmaster.master][INFO] 2022-01-06 20:14:18,215: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:18,216: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/']
+[rosmaster.master][INFO] 2022-01-06 20:14:18,217: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:14:18,217: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/']
+[rosmaster.master][INFO] 2022-01-06 20:14:18,218: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:16:16,857: -SUB [/clock] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:16:16,857: -SUB [/grid3/controller/cmd] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:16:16,857: -PUB [/rosout] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:16:16,857: -PUB [/robot1/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:16:16,857: -PUB [/robot2/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:16:16,857: -PUB [/robot3/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:16:16,857: -PUB [/robot4/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:34947/
+[rosmaster.master][INFO] 2022-01-06 20:16:16,857: -SERVICE [/gazebo_controller/get_loggers] /gazebo_controller rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35133
+[rosmaster.master][INFO] 2022-01-06 20:16:16,858: -SERVICE [/gazebo_controller/set_logger_level] /gazebo_controller rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35133
+[rosmaster.master][INFO] 2022-01-06 20:16:16,866: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/']
+[rosmaster.master][INFO] 2022-01-06 20:16:16,866: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:16:16,867: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:16:16,867: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:16:16,867: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:16:16,868: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:16:16,868: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:16:16,869: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:16:16,869: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:16:16,870: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:16:26,546: +PUB [/rosout] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:16:26,548: +SUB [/clock] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:16:26,550: +SERVICE [/gazebo_controller/get_loggers] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:16:26,551: +SERVICE [/gazebo_controller/set_logger_level] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:16:26,552: +PUB [/robot1/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:16:26,552: +PUB [/robot2/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:16:26,553: +PUB [/robot3/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:16:26,554: +PUB [/robot4/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:16:26,555: +SUB [/grid3/controller/cmd] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:16:26,579: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/']
+[rosmaster.master][INFO] 2022-01-06 20:16:26,580: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:16:26,580: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/']
+[rosmaster.master][INFO] 2022-01-06 20:16:26,581: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:16:26,581: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/']
+[rosmaster.master][INFO] 2022-01-06 20:16:26,581: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:16:26,582: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/']
+[rosmaster.master][INFO] 2022-01-06 20:16:26,582: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:16:26,582: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/']
+[rosmaster.master][INFO] 2022-01-06 20:16:26,582: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:30,784: -SUB [/clock] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:17:30,784: -SUB [/grid3/controller/cmd] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:17:30,784: -PUB [/rosout] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:17:30,784: -PUB [/robot1/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:17:30,784: -PUB [/robot2/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:17:30,785: -PUB [/robot3/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:17:30,785: -PUB [/robot4/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:39131/
+[rosmaster.master][INFO] 2022-01-06 20:17:30,785: -SERVICE [/gazebo_controller/get_loggers] /gazebo_controller rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:38397
+[rosmaster.master][INFO] 2022-01-06 20:17:30,785: -SERVICE [/gazebo_controller/set_logger_level] /gazebo_controller rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:38397
+[rosmaster.master][INFO] 2022-01-06 20:17:30,866: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/']
+[rosmaster.master][INFO] 2022-01-06 20:17:30,866: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:17:30,867: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:30,867: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:30,867: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:17:30,868: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:30,868: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:17:30,868: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:30,868: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:17:30,869: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:34,483: +PUB [/rosout] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:34,485: +SUB [/clock] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:34,487: +SERVICE [/gazebo_controller/get_loggers] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:34,487: +SERVICE [/gazebo_controller/set_logger_level] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:34,489: +PUB [/robot1/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:34,489: +PUB [/robot2/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:34,490: +PUB [/robot3/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:34,490: +PUB [/robot4/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:34,492: +SUB [/grid3/controller/cmd] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:34,571: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/']
+[rosmaster.master][INFO] 2022-01-06 20:17:34,571: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/']
+[rosmaster.master][INFO] 2022-01-06 20:17:34,572: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:34,572: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:34,572: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/']
+[rosmaster.master][INFO] 2022-01-06 20:17:34,573: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:34,573: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/']
+[rosmaster.master][INFO] 2022-01-06 20:17:34,574: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:34,574: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/']
+[rosmaster.master][INFO] 2022-01-06 20:17:34,574: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:44,496: -SUB [/clock] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:44,496: -SUB [/grid3/controller/cmd] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:44,496: -PUB [/rosout] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:44,496: -PUB [/robot1/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:44,496: -PUB [/robot2/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:44,496: -PUB [/robot3/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:44,497: -PUB [/robot4/cmd_vel] /gazebo_controller http://prajwal-IdeaPad-L340-15IRH-Gaming:41779/
+[rosmaster.master][INFO] 2022-01-06 20:17:44,497: -SERVICE [/gazebo_controller/get_loggers] /gazebo_controller rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:38335
+[rosmaster.master][INFO] 2022-01-06 20:17:44,497: -SERVICE [/gazebo_controller/set_logger_level] /gazebo_controller rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:38335
+[rosmaster.master][INFO] 2022-01-06 20:17:44,585: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/']
+[rosmaster.master][INFO] 2022-01-06 20:17:44,586: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:17:44,586: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:44,587: publisherUpdate[/robot1/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:44,587: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:17:44,588: publisherUpdate[/robot2/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:44,588: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:17:44,588: publisherUpdate[/robot3/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:44,588: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']
+[rosmaster.master][INFO] 2022-01-06 20:17:44,589: publisherUpdate[/robot4/cmd_vel] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:53,910: -SUB [/clock] /controller_ros_interface_6824_1641480255130 http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/
+[rosmaster.master][INFO] 2022-01-06 20:17:53,910: -SUB [/grid3/allRobots/poses] /controller_ros_interface_6824_1641480255130 http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/
+[rosmaster.master][INFO] 2022-01-06 20:17:53,910: -SUB [/grid3/robotTrajectories] /controller_ros_interface_6824_1641480255130 http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/
+[rosmaster.master][INFO] 2022-01-06 20:17:53,911: -SUB [/grid3/planner/status] /controller_ros_interface_6824_1641480255130 http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/
+[rosmaster.master][INFO] 2022-01-06 20:17:53,911: -PUB [/rosout] /controller_ros_interface_6824_1641480255130 http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/
+[rosmaster.master][INFO] 2022-01-06 20:17:53,911: -PUB [/grid3/controller/cmd] /controller_ros_interface_6824_1641480255130 http://prajwal-IdeaPad-L340-15IRH-Gaming:41345/
+[rosmaster.master][INFO] 2022-01-06 20:17:53,911: -SERVICE [/controller_ros_interface_6824_1641480255130/get_loggers] /controller_ros_interface_6824_1641480255130 rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:45349
+[rosmaster.master][INFO] 2022-01-06 20:17:53,911: -SERVICE [/controller_ros_interface_6824_1641480255130/set_logger_level] /controller_ros_interface_6824_1641480255130 rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:45349
+[rosmaster.master][INFO] 2022-01-06 20:17:53,999: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/']
+[rosmaster.master][INFO] 2022-01-06 20:17:54,000: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,591: -SUB [/gazebo/set_link_state] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,592: -SUB [/gazebo/set_model_state] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,592: -PUB [/gazebo/link_states] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,593: -PUB [/gazebo/model_states] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,593: -PUB [/clock] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,594: -SERVICE [/gazebo/spawn_sdf_model] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,594: -SERVICE [/gazebo/spawn_urdf_model] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,594: -SERVICE [/gazebo/delete_model] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,595: -SERVICE [/gazebo/delete_light] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,595: -SERVICE [/gazebo/get_model_properties] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,595: -SERVICE [/gazebo/get_model_state] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,596: -SERVICE [/gazebo/get_world_properties] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,596: -SERVICE [/gazebo/get_joint_properties] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,596: -SERVICE [/gazebo/get_link_properties] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,596: -SERVICE [/gazebo/get_link_state] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,597: -SERVICE [/gazebo/get_light_properties] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,597: -SERVICE [/gazebo/set_light_properties] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,597: -SERVICE [/gazebo/get_physics_properties] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,598: -SERVICE [/gazebo/set_link_properties] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,598: -SERVICE [/gazebo/set_physics_properties] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,598: -SERVICE [/gazebo/set_model_state] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,598: -SERVICE [/gazebo/set_model_configuration] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,599: -SERVICE [/gazebo/set_joint_properties] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,599: -SERVICE [/gazebo/set_link_state] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,599: -SERVICE [/gazebo/pause_physics] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,599: -SERVICE [/gazebo/unpause_physics] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,600: -SERVICE [/gazebo/apply_body_wrench] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,600: -SERVICE [/gazebo/apply_joint_effort] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,600: -SERVICE [/gazebo/clear_joint_forces] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,600: -SERVICE [/gazebo/clear_body_wrenches] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,600: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:54,601: -SERVICE [/gazebo/reset_simulation] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,601: -SERVICE [/gazebo/reset_world] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,601: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,601: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:54,601: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:54,602: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,602: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:54,602: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:54,602: -PUB [/gazebo/parameter_descriptions] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,603: -PUB [/gazebo/parameter_updates] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,603: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,603: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,604: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:54,603: -SERVICE [/gazebo/set_parameters] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,604: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,603: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:54,604: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:54,605: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,605: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,605: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:54,605: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:54,605: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,606: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,606: publisherUpdate[/clock] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,607: -SUB [/robot3/cmd_vel] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,607: -PUB [/robot3/odom] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,608: -SUB [/robot2/cmd_vel] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,608: -PUB [/robot2/odom] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,609: -SUB [/robot1/cmd_vel] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,609: -PUB [/robot1/odom] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,610: -SUB [/robot4/cmd_vel] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,611: -PUB [/robot4/odom] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,611: -PUB [/tf] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,706: publisherUpdate[/robot3/odom] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:54,706: publisherUpdate[/robot3/odom] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,706: publisherUpdate[/robot2/odom] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:54,706: publisherUpdate[/tf] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:54,707: publisherUpdate[/robot2/odom] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,707: publisherUpdate[/tf] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,707: publisherUpdate[/robot1/odom] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:54,708: publisherUpdate[/robot1/odom] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,708: publisherUpdate[/robot4/odom] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:54,708: publisherUpdate[/robot4/odom] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,802: -PUB [/rosout] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,803: -SUB [/clock] /gazebo http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,803: -SERVICE [/gazebo/get_loggers] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,803: -SERVICE [/gazebo/set_logger_level] /gazebo rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:35089
+[rosmaster.master][INFO] 2022-01-06 20:17:54,807: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/']
+[rosmaster.master][INFO] 2022-01-06 20:17:54,807: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:54,981: -SUB [/clock] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,982: -SUB [/clock] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,982: -PUB [/rosout] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,982: -SUB [/grid3/robotTrajectories] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,982: -PUB [/grid3/mat] /display_map http://prajwal-IdeaPad-L340-15IRH-Gaming:42215/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,982: -PUB [/rosout] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,982: -SERVICE [/display_map/get_loggers] /display_map rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:46313
+[rosmaster.master][INFO] 2022-01-06 20:17:54,982: -PUB [/grid3/displayTrajectory] /display_trajectory http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/
+[rosmaster.master][INFO] 2022-01-06 20:17:54,982: -SERVICE [/display_map/set_logger_level] /display_map rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:46313
+[rosmaster.master][INFO] 2022-01-06 20:17:54,983: -SERVICE [/display_trajectory/get_loggers] /display_trajectory rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:33859
+[rosmaster.master][INFO] 2022-01-06 20:17:54,983: -SERVICE [/display_trajectory/set_logger_level] /display_trajectory rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:33859
+[rosmaster.master][INFO] 2022-01-06 20:17:55,008: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/']
+[rosmaster.master][INFO] 2022-01-06 20:17:55,008: publisherUpdate[/grid3/mat] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:55,008: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:40303/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:55,008: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/']
+[rosmaster.master][INFO] 2022-01-06 20:17:55,009: publisherUpdate[/grid3/mat] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:55,009: publisherUpdate[/grid3/displayTrajectory] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:55,009: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:55,010: publisherUpdate[/grid3/displayTrajectory] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:55,110: -PUB [/rosout] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:17:55,110: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/']
+[rosmaster.master][INFO] 2022-01-06 20:17:55,110: -PUB [/initialpose] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:17:55,111: -PUB [/move_base_simple/goal] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:17:55,111: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:55,111: -PUB [/clicked_point] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:17:55,112: -SUB [/clock] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:17:55,112: -SUB [/tf] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:17:55,113: -SUB [/tf_static] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:17:55,113: -SUB [/grid3/displayTrajectory] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:17:55,113: -SUB [/grid3/mat] /rviz http://prajwal-IdeaPad-L340-15IRH-Gaming:37031/
+[rosmaster.master][INFO] 2022-01-06 20:17:55,113: -SERVICE [/rviz/get_loggers] /rviz rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:59749
+[rosmaster.master][INFO] 2022-01-06 20:17:55,114: -SERVICE [/rviz/set_logger_level] /rviz rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:59749
+[rosmaster.master][INFO] 2022-01-06 20:17:55,114: -SERVICE [/rviz/reload_shaders] /rviz rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:59749
+[rosmaster.master][INFO] 2022-01-06 20:17:55,114: -SERVICE [/rviz/load_config] /rviz rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:59749
+[rosmaster.master][INFO] 2022-01-06 20:17:55,114: -SERVICE [/rviz/save_config] /rviz rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:59749
+[rosmaster.master][INFO] 2022-01-06 20:17:57,465: -SUB [/clock] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,467: -SUB [/clock] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,468: -SUB [/clock] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,468: -SUB [/grid3/allRobots/poses] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,468: -SUB [/grid3/allRobots/poses] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,469: -SUB [/robot1/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,469: -SUB [/grid3/droppingCompleted] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,469: -SUB [/grid3/allRobots/goals] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,469: -SUB [/robot2/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,470: -SUB [/grid3/packageLoaded] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,470: -SUB [/grid3/controller/status] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,470: -SUB [/robot3/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,470: -SUB [/robot4/odom] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,470: -PUB [/rosout] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,470: -PUB [/grid3/robotTrajectories] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,470: -PUB [/rosout] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,471: -PUB [/robot1/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,471: -PUB [/grid3/planner/status] /trajectory_planner http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,471: -SUB [/grid3/planner/status] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,471: -PUB [/robot2/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,471: -SERVICE [/trajectory_planner/get_loggers] /trajectory_planner rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:41817
+[rosmaster.master][INFO] 2022-01-06 20:17:57,471: -PUB [/rosout] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,471: -PUB [/grid3/commenceDropping] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,471: -PUB [/grid3/allRobots/goals] /brain http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,472: -SERVICE [/brain/get_loggers] /brain rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:42571
+[rosmaster.master][INFO] 2022-01-06 20:17:57,472: -SERVICE [/trajectory_planner/set_logger_level] /trajectory_planner rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:41817
+[rosmaster.master][INFO] 2022-01-06 20:17:57,472: -PUB [/robot3/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,472: -SERVICE [/brain/set_logger_level] /brain rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:42571
+[rosmaster.master][INFO] 2022-01-06 20:17:57,472: -PUB [/robot4/cmd_vel] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,473: -PUB [/grid3/allRobots/poses] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,473: -PUB [/grid3/allRobots/posesRC] /fake_pose_publisher http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,473: -SERVICE [/fake_pose_publisher/get_loggers] /fake_pose_publisher rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:34643
+[rosmaster.master][INFO] 2022-01-06 20:17:57,473: -SERVICE [/fake_pose_publisher/set_logger_level] /fake_pose_publisher rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:34643
+[rosmaster.master][INFO] 2022-01-06 20:17:57,473: -PUB [/grid3/droppingCompleted] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,475: -PUB [/grid3/packageLoaded] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,476: -PUB [/robot1/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,478: -PUB [/robot2/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,478: -PUB [/robot3/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,479: -PUB [/robot4/cmd_ve] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,506: -SUB [/clock] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,506: -PUB [/rosout] /rqt_gui http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/
+[rosmaster.master][INFO] 2022-01-06 20:17:57,507: -SERVICE [/rqt_gui/get_loggers] /rqt_gui rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:40701
+[rosmaster.master][INFO] 2022-01-06 20:17:57,507: -SERVICE [/rqt_gui/set_logger_level] /rqt_gui rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:40701
+[rosmaster.master][INFO] 2022-01-06 20:17:57,512: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/']
+[rosmaster.master][INFO] 2022-01-06 20:17:57,513: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:57,513: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/']
+[rosmaster.master][INFO] 2022-01-06 20:17:57,513: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:57,513: publisherUpdate[/grid3/planner/status] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/ []
+[rosmaster.master][INFO] 2022-01-06 20:17:57,514: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/']
+[rosmaster.master][INFO] 2022-01-06 20:17:57,514: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/', 'http://prajwal-IdeaPad-L340-15IRH-Gaming:43351/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:17:57,514: publisherUpdate[/grid3/planner/status] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2022-01-06 20:17:57,514: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/']
+[rosmaster.threadpool][ERROR] 2022-01-06 20:17:57,514: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2022-01-06 20:17:57,515: publisherUpdate[/rosout] -> http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/ ['http://prajwal-IdeaPad-L340-15IRH-Gaming:32829/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-01-06 20:18:09,836: -PUB [/rosout_agg] /rosout http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/
+[rosmaster.master][INFO] 2022-01-06 20:18:09,836: -SUB [/clock] /rosout http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/
+[rosmaster.master][INFO] 2022-01-06 20:18:09,837: -SUB [/rosout] /rosout http://prajwal-IdeaPad-L340-15IRH-Gaming:34863/
+[rosmaster.master][INFO] 2022-01-06 20:18:09,837: -SERVICE [/rosout/get_loggers] /rosout rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:47599
+[rosmaster.master][INFO] 2022-01-06 20:18:09,838: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://prajwal-IdeaPad-L340-15IRH-Gaming:47599
+[rosmaster.main][INFO] 2022-01-06 20:18:09,884: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-01-06 20:18:09,884: stopping master...
+[rospy.core][INFO] 2022-01-06 20:18:09,884: signal_shutdown [atexit]

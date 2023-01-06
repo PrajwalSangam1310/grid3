@@ -1,0 +1,1140 @@
+[rospy.client][INFO] 2022-01-06 11:39:55,550: init_node, name[/trajectory_planner], pid[14421]
+[xmlrpc][INFO] 2022-01-06 11:39:55,550: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 11:39:55,551: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:43963/]
+[rospy.init][INFO] 2022-01-06 11:39:55,551: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:43963/]
+[rospy.impl.masterslave][INFO] 2022-01-06 11:39:55,551: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:43963/
+[rospy.registration][INFO] 2022-01-06 11:39:55,553: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 11:39:55,553: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 11:39:55,651: registered with master
+[rospy.rosout][INFO] 2022-01-06 11:39:55,652: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 11:39:55,654: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 11:39:55,655: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 11:39:55,656: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 11:39:55,658: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/], count 0
+[rosout][INFO] 2022-01-06 11:39:55,665: node started
+[rosout][INFO] 2022-01-06 11:39:55,667: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:39:55,668: Published new trajectories
+[rospy.internal][INFO] 2022-01-06 11:39:55,703: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:38937/], count 0
+[rospy.internal][INFO] 2022-01-06 11:39:55,805: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:40837/], count 0
+[rospy.internal][INFO] 2022-01-06 11:39:55,903: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-06 11:39:56,669: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:39:56,670: Published new trajectories
+[rosout][INFO] 2022-01-06 11:39:57,689: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:39:57,690: Published new trajectories
+[rosout][INFO] 2022-01-06 11:39:58,695: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:39:58,696: Published new trajectories
+[rosout][INFO] 2022-01-06 11:39:59,691: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:39:59,692: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:00,690: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:00,691: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:01,704: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:01,705: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:02,711: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:02,713: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:03,709: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:03,711: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:04,711: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:04,713: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:05,712: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:05,713: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:06,723: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:06,724: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:07,726: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:07,728: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:08,729: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:08,731: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:09,729: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:09,730: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:10,748: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:10,750: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:11,737: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:11,739: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:12,731: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:12,731: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:13,737: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:13,738: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:14,745: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:14,746: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:15,752: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:15,754: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:16,751: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:16,752: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:17,750: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:17,751: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:18,754: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:18,755: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:19,762: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:19,763: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:20,762: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:20,764: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:21,766: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:21,767: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:22,768: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:22,770: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:23,772: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:23,773: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:24,775: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:24,776: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:25,774: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:25,775: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:26,777: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:26,778: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:27,779: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:27,781: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:28,782: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:28,784: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:29,784: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:29,786: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:30,780: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:30,781: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:31,795: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:31,797: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:32,793: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:32,794: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:33,801: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:33,803: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:34,804: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:34,805: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:35,802: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:35,804: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:36,805: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:36,806: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:37,810: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:37,811: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:38,811: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:38,812: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:39,813: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:39,815: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:40,816: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:40,817: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:41,823: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:41,824: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:42,818: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:42,820: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:43,824: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:43,826: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:44,824: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:44,826: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:45,824: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:45,826: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:46,833: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:46,835: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:47,841: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:47,842: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:48,830: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:48,831: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:49,846: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:49,848: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:50,841: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:50,842: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:51,838: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:51,839: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:52,852: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:52,854: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:53,851: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:53,852: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:54,855: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:54,857: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:55,860: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:55,862: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:56,873: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:56,875: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:57,873: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:57,874: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:58,870: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:58,871: Published new trajectories
+[rosout][INFO] 2022-01-06 11:40:59,875: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:40:59,876: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:00,889: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:00,891: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:01,891: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:01,892: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:02,893: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:02,894: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:03,891: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:03,892: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:04,893: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:04,895: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:05,893: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:05,894: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:06,901: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:06,903: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:07,900: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:07,901: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:08,907: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:08,908: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:09,906: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:09,907: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:10,916: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:10,917: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:11,922: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:11,924: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:12,930: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:12,931: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:13,944: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:13,947: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:14,935: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:14,937: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:15,938: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:15,939: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:16,939: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:16,940: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:17,951: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:17,952: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:18,943: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:18,944: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:19,957: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:19,958: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:20,951: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:20,952: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:21,963: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:21,965: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:22,979: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:22,981: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:23,975: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:23,976: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:24,973: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:24,974: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:25,987: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:25,989: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:26,992: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:26,994: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:27,992: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:27,994: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:28,997: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:28,999: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:30,007: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:30,008: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:31,014: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:31,016: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:32,002: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:32,004: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:33,010: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:33,011: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:34,013: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:34,014: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:35,018: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:35,019: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:36,028: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:36,030: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:37,031: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:37,032: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:38,032: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:38,034: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:39,034: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:39,035: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:40,032: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:40,033: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:41,040: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:41,043: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:42,042: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:42,044: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:43,046: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:43,048: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:44,052: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:44,054: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:45,057: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:45,058: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:46,057: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:46,058: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:47,059: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:47,060: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:48,061: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:48,063: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:49,065: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:49,067: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:50,067: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:50,069: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:51,070: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:51,071: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:52,067: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:52,068: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:53,075: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:53,076: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:54,091: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:54,093: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:55,087: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:55,088: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:56,082: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:56,083: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:57,097: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:57,098: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:58,094: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:58,096: Published new trajectories
+[rosout][INFO] 2022-01-06 11:41:59,098: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:41:59,099: Published new trajectories
+[rosout][INFO] 2022-01-06 11:42:00,101: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:42:00,102: Published new trajectories
+[rosout][INFO] 2022-01-06 11:42:01,102: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:42:01,103: Published new trajectories
+[rosout][INFO] 2022-01-06 11:42:02,107: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:42:02,109: Published new trajectories
+[rosout][INFO] 2022-01-06 11:42:03,110: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:42:03,112: Published new trajectories
+[rosout][INFO] 2022-01-06 11:42:04,110: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:42:04,111: Published new trajectories
+[rosout][INFO] 2022-01-06 11:42:05,115: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:42:05,116: Published new trajectories
+[rosout][INFO] 2022-01-06 11:42:06,123: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:42:06,125: Published new trajectories
+[rosout][INFO] 2022-01-06 11:42:07,121: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:42:07,122: Published new trajectories
+[rosout][INFO] 2022-01-06 11:42:08,124: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:42:08,126: Published new trajectories
+[rosout][INFO] 2022-01-06 11:42:09,129: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:42:09,131: Published new trajectories
+[rosout][INFO] 2022-01-06 11:42:10,126: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:42:10,127: Published new trajectories
+[rosout][INFO] 2022-01-06 11:42:11,134: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:42:11,136: Published new trajectories
+[rosout][INFO] 2022-01-06 11:42:12,133: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:42:12,135: Published new trajectories
+[rosout][INFO] 2022-01-06 11:42:13,140: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:42:13,142: Published new trajectories
+[rosout][INFO] 2022-01-06 11:42:14,143: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:42:14,145: Published new trajectories
+[rospy.core][INFO] 2022-01-06 11:42:14,225: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 11:42:14,233: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 11:42:14,234: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/
+[rospy.internal][INFO] 2022-01-06 11:42:14,234: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:40837/
+[rospy.internal][INFO] 2022-01-06 11:42:14,234: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:38937/
+[rospy.impl.masterslave][INFO] 2022-01-06 11:42:14,235: signal-2
+[rospy.internal][WARNING] 2022-01-06 11:42:14,235: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40703 (http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-06 11:42:15,616: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-06 11:44:06,265: init_node, name[/trajectory_planner], pid[14784]
+[xmlrpc][INFO] 2022-01-06 11:44:06,265: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 11:44:06,265: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:39907/]
+[rospy.impl.masterslave][INFO] 2022-01-06 11:44:06,265: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:39907/
+[rospy.registration][INFO] 2022-01-06 11:44:06,266: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-01-06 11:44:06,266: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:39907/]
+[xmlrpc][INFO] 2022-01-06 11:44:06,266: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 11:44:06,266: registered with master
+[rospy.rosout][INFO] 2022-01-06 11:44:06,267: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 11:44:06,269: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 11:44:06,270: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 11:44:06,271: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 11:44:06,272: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/], count 0
+[rosout][INFO] 2022-01-06 11:44:06,278: node started
+[rosout][INFO] 2022-01-06 11:44:06,279: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:06,280: Published new trajectories
+[rospy.internal][INFO] 2022-01-06 11:44:06,470: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:45013/], count 0
+[rospy.internal][INFO] 2022-01-06 11:44:06,473: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:37035/], count 0
+[rospy.internal][INFO] 2022-01-06 11:44:06,569: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-06 11:44:07,280: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:07,281: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:08,314: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:08,316: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:09,314: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:09,316: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:10,308: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:10,309: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:11,311: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:11,312: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:12,311: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:12,312: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:13,315: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:13,316: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:14,318: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:14,319: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:15,320: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:15,321: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:16,326: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:16,328: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:17,322: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:17,323: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:18,329: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:18,330: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:19,340: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:19,342: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:20,335: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:20,337: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:21,338: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:21,339: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:22,340: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:22,342: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:23,345: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:23,347: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:24,345: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:24,346: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:25,350: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:25,351: Published new trajectories
+[rospy.core][INFO] 2022-01-06 11:44:26,283: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 11:44:26,290: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 11:44:26,290: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/
+[rospy.internal][INFO] 2022-01-06 11:44:26,290: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:37035/
+[rospy.internal][INFO] 2022-01-06 11:44:26,291: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:45013/
+[rospy.internal][WARNING] 2022-01-06 11:44:26,291: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40703 (http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.impl.masterslave][INFO] 2022-01-06 11:44:26,292: signal-2
+[rospy.internal][WARNING] 2022-01-06 11:44:26,292: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40795 (http://prajwal-IdeaPad-L340-15IRH-Gaming:45013/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-06 11:44:27,525: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-06 11:44:34,138: init_node, name[/trajectory_planner], pid[14912]
+[xmlrpc][INFO] 2022-01-06 11:44:34,138: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 11:44:34,138: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:33123/]
+[rospy.init][INFO] 2022-01-06 11:44:34,138: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:33123/]
+[rospy.impl.masterslave][INFO] 2022-01-06 11:44:34,138: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:33123/
+[rospy.registration][INFO] 2022-01-06 11:44:34,139: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 11:44:34,139: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 11:44:34,239: registered with master
+[rospy.rosout][INFO] 2022-01-06 11:44:34,239: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 11:44:34,241: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 11:44:34,242: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 11:44:34,243: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 11:44:34,246: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/], count 0
+[rosout][INFO] 2022-01-06 11:44:34,252: node started
+[rosout][INFO] 2022-01-06 11:44:34,252: Publishing new trajectories
+[rospy.internal][INFO] 2022-01-06 11:44:34,253: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:35545/], count 0
+[rosout][INFO] 2022-01-06 11:44:34,253: Published new trajectories
+[rospy.internal][INFO] 2022-01-06 11:44:34,420: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:44649/], count 0
+[rospy.internal][INFO] 2022-01-06 11:44:34,520: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-06 11:44:35,253: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:35,254: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:36,271: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:36,272: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:37,279: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:37,281: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:38,284: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:38,286: Published new trajectories
+[rosout][INFO] 2022-01-06 11:44:39,291: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:44:39,293: Published new trajectories
+[rospy.core][INFO] 2022-01-06 11:44:39,932: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 11:44:39,948: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 11:44:39,948: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/
+[rospy.internal][INFO] 2022-01-06 11:44:39,949: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:44649/
+[rospy.internal][ERROR] 2022-01-06 11:44:39,950: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 732, in receive_once
+    sock.setblocking(1)
+OSError: [Errno 9] Bad file descriptor
+
+[rospy.internal][WARNING] 2022-01-06 11:44:39,951: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:36513 (http://prajwal-IdeaPad-L340-15IRH-Gaming:44649/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][ERROR] 2022-01-06 11:44:39,951: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:45275 (http://prajwal-IdeaPad-L340-15IRH-Gaming:35545/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2022-01-06 11:44:39,951: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:35545/
+[rospy.impl.masterslave][INFO] 2022-01-06 11:44:39,952: signal-2
+[rospy.core][INFO] 2022-01-06 11:44:40,925: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-06 11:45:45,955: init_node, name[/trajectory_planner], pid[15119]
+[xmlrpc][INFO] 2022-01-06 11:45:45,955: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 11:45:45,955: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:44031/]
+[rospy.impl.masterslave][INFO] 2022-01-06 11:45:45,955: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:44031/
+[rospy.init][INFO] 2022-01-06 11:45:45,955: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:44031/]
+[rospy.registration][INFO] 2022-01-06 11:45:45,956: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 11:45:45,956: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 11:45:46,056: registered with master
+[rospy.rosout][INFO] 2022-01-06 11:45:46,056: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 11:45:46,058: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 11:45:46,059: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 11:45:46,060: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 11:45:46,062: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/], count 0
+[rosout][INFO] 2022-01-06 11:45:46,067: node started
+[rosout][INFO] 2022-01-06 11:45:46,068: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:45:46,068: Published new trajectories
+[rospy.internal][INFO] 2022-01-06 11:45:46,133: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:34509/], count 0
+[rospy.internal][INFO] 2022-01-06 11:45:46,234: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:43035/], count 0
+[rospy.internal][INFO] 2022-01-06 11:45:46,333: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-06 11:45:47,068: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:45:47,069: Published new trajectories
+[rosout][INFO] 2022-01-06 11:45:48,086: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:45:48,088: Published new trajectories
+[rosout][INFO] 2022-01-06 11:45:49,090: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:45:49,091: Published new trajectories
+[rospy.core][INFO] 2022-01-06 11:45:49,746: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 11:45:49,756: topic[/rosout] removing connection to /rosout
+[rospy.internal][ERROR] 2022-01-06 11:45:49,756: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40245 (http://prajwal-IdeaPad-L340-15IRH-Gaming:34509/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2022-01-06 11:45:49,757: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/
+[rospy.internal][INFO] 2022-01-06 11:45:49,757: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:43035/
+[rospy.internal][INFO] 2022-01-06 11:45:49,757: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:34509/
+[rospy.internal][WARNING] 2022-01-06 11:45:49,757: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40703 (http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.impl.masterslave][INFO] 2022-01-06 11:45:49,758: signal-2
+[rospy.internal][WARNING] 2022-01-06 11:45:49,758: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:44175 (http://prajwal-IdeaPad-L340-15IRH-Gaming:43035/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-06 11:45:50,830: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-06 11:46:36,354: init_node, name[/trajectory_planner], pid[15349]
+[xmlrpc][INFO] 2022-01-06 11:46:36,354: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 11:46:36,354: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:42233/]
+[rospy.impl.masterslave][INFO] 2022-01-06 11:46:36,354: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:42233/
+[rospy.init][INFO] 2022-01-06 11:46:36,354: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:42233/]
+[rospy.registration][INFO] 2022-01-06 11:46:36,355: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 11:46:36,355: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 11:46:36,455: registered with master
+[rospy.rosout][INFO] 2022-01-06 11:46:36,455: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 11:46:36,458: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 11:46:36,459: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 11:46:36,460: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 11:46:36,462: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/], count 0
+[rosout][INFO] 2022-01-06 11:46:36,468: node started
+[rosout][INFO] 2022-01-06 11:46:36,469: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:36,470: Published new trajectories
+[rospy.internal][INFO] 2022-01-06 11:46:36,515: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:39283/], count 0
+[rospy.internal][INFO] 2022-01-06 11:46:36,618: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36451/], count 0
+[rospy.internal][INFO] 2022-01-06 11:46:36,714: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-06 11:46:37,470: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:37,471: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:38,489: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:38,491: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:39,492: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:39,493: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:40,499: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:40,501: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:41,498: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:41,500: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:42,507: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:42,508: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:43,508: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:43,510: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:44,511: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:44,512: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:45,529: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:45,530: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:46,518: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:46,519: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:47,527: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:47,528: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:48,531: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:48,532: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:49,533: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:49,535: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:50,542: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:50,544: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:51,543: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:51,544: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:52,544: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:52,546: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:53,537: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:53,538: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:54,554: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:54,555: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:55,553: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:55,554: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:56,558: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:56,559: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:57,563: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:57,564: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:58,568: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:58,570: Published new trajectories
+[rosout][INFO] 2022-01-06 11:46:59,577: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:46:59,578: Published new trajectories
+[rosout][INFO] 2022-01-06 11:47:00,578: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:47:00,579: Published new trajectories
+[rosout][INFO] 2022-01-06 11:47:01,586: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:47:01,588: Published new trajectories
+[rosout][INFO] 2022-01-06 11:47:02,587: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:47:02,588: Published new trajectories
+[rosout][INFO] 2022-01-06 11:47:03,592: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:47:03,593: Published new trajectories
+[rosout][INFO] 2022-01-06 11:47:04,597: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:47:04,599: Published new trajectories
+[rosout][INFO] 2022-01-06 11:47:05,603: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:47:05,604: Published new trajectories
+[rosout][INFO] 2022-01-06 11:47:06,604: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:47:06,606: Published new trajectories
+[rospy.core][INFO] 2022-01-06 11:47:06,612: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 11:47:06,620: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 11:47:06,620: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/
+[rospy.internal][INFO] 2022-01-06 11:47:06,620: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36451/
+[rospy.internal][INFO] 2022-01-06 11:47:06,621: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:39283/
+[rospy.impl.masterslave][INFO] 2022-01-06 11:47:06,622: signal-2
+[rospy.internal][WARNING] 2022-01-06 11:47:06,623: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:37821 (http://prajwal-IdeaPad-L340-15IRH-Gaming:39283/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2022-01-06 11:47:06,624: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40883 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36451/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][WARNING] 2022-01-06 11:47:06,624: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40703 (http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-06 11:47:07,729: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-06 11:49:35,095: init_node, name[/trajectory_planner], pid[15883]
+[xmlrpc][INFO] 2022-01-06 11:49:35,095: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 11:49:35,095: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:38639/]
+[rospy.impl.masterslave][INFO] 2022-01-06 11:49:35,095: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:38639/
+[rospy.init][INFO] 2022-01-06 11:49:35,095: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:38639/]
+[rospy.registration][INFO] 2022-01-06 11:49:35,096: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 11:49:35,096: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 11:49:35,196: registered with master
+[rospy.rosout][INFO] 2022-01-06 11:49:35,196: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 11:49:35,199: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 11:49:35,199: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 11:49:35,200: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 11:49:35,202: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/], count 0
+[rosout][INFO] 2022-01-06 11:49:35,208: node started
+[rosout][INFO] 2022-01-06 11:49:35,209: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:35,209: Published new trajectories
+[rospy.internal][INFO] 2022-01-06 11:49:35,284: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:43423/], count 0
+[rospy.internal][INFO] 2022-01-06 11:49:35,287: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:41509/], count 0
+[rospy.internal][INFO] 2022-01-06 11:49:35,485: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-06 11:49:36,209: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:36,210: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:37,235: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:37,237: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:38,231: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:38,232: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:39,250: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:39,252: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:40,247: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:40,248: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:41,249: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:41,250: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:42,254: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:42,256: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:43,250: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:43,251: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:44,264: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:44,267: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:45,258: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:45,259: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:46,259: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:46,261: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:47,266: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:47,267: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:48,272: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:48,273: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:49,270: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:49,271: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:50,275: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:50,276: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:51,279: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:51,280: Published new trajectories
+[rosout][INFO] 2022-01-06 11:49:52,285: Publishing new trajectories
+[rosout][INFO] 2022-01-06 11:49:52,287: Published new trajectories
+[rospy.core][INFO] 2022-01-06 11:49:52,614: signal_shutdown [signal-2]
+[rospy.internal][ERROR] 2022-01-06 11:49:52,620: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:38467 (http://prajwal-IdeaPad-L340-15IRH-Gaming:43423/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2022-01-06 11:49:52,621: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 11:49:52,622: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/
+[rospy.internal][INFO] 2022-01-06 11:49:52,622: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:41509/
+[rospy.internal][INFO] 2022-01-06 11:49:52,622: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:43423/
+[rospy.impl.masterslave][INFO] 2022-01-06 11:49:52,622: signal-2
+[rospy.internal][WARNING] 2022-01-06 11:49:52,623: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40703 (http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][WARNING] 2022-01-06 11:49:52,623: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:33923 (http://prajwal-IdeaPad-L340-15IRH-Gaming:41509/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-06 11:49:53,585: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-06 12:08:55,619: init_node, name[/trajectory_planner], pid[17097]
+[xmlrpc][INFO] 2022-01-06 12:08:55,620: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 12:08:55,620: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:41459/]
+[rospy.init][INFO] 2022-01-06 12:08:55,620: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:41459/]
+[rospy.impl.masterslave][INFO] 2022-01-06 12:08:55,620: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:41459/
+[rospy.registration][INFO] 2022-01-06 12:08:55,620: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 12:08:55,620: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 12:08:55,720: registered with master
+[rospy.rosout][INFO] 2022-01-06 12:08:55,720: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 12:08:55,722: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 12:08:55,723: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 12:08:55,724: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 12:08:55,726: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/], count 0
+[rosout][INFO] 2022-01-06 12:08:55,732: node started
+[rosout][INFO] 2022-01-06 12:08:55,733: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:08:55,734: Published new trajectories
+[rospy.internal][INFO] 2022-01-06 12:08:55,818: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:42409/], count 0
+[rospy.internal][INFO] 2022-01-06 12:08:55,820: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:34055/], count 0
+[rospy.internal][INFO] 2022-01-06 12:08:56,019: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-06 12:08:56,734: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:08:56,736: Published new trajectories
+[rosout][INFO] 2022-01-06 12:08:57,765: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:08:57,766: Published new trajectories
+[rosout][INFO] 2022-01-06 12:08:58,760: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:08:58,761: Published new trajectories
+[rosout][INFO] 2022-01-06 12:08:59,760: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:08:59,762: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:00,762: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:00,763: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:01,768: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:01,769: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:02,769: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:02,771: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:03,772: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:03,773: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:04,777: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:04,779: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:05,777: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:05,780: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:06,783: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:06,784: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:07,787: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:07,789: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:08,786: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:08,787: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:09,788: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:09,789: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:10,791: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:10,792: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:11,794: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:11,796: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:12,787: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:12,788: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:13,801: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:13,802: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:14,802: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:14,803: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:15,808: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:15,809: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:16,814: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:16,816: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:17,813: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:17,814: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:18,813: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:18,815: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:19,821: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:19,822: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:20,822: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:20,823: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:21,827: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:21,830: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:22,829: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:22,831: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:23,821: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:23,822: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:24,836: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:24,837: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:25,841: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:25,843: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:26,852: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:26,854: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:27,839: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:27,841: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:28,852: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:28,854: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:29,847: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:29,849: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:30,839: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:30,840: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:31,840: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:31,842: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:32,844: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:32,845: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:33,849: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:33,851: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:34,853: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:34,854: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:35,855: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:35,857: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:36,856: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:36,858: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:37,860: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:37,862: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:38,863: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:38,864: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:39,865: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:39,867: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:40,867: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:40,868: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:41,871: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:41,872: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:42,872: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:42,873: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:43,875: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:43,877: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:44,879: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:44,881: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:45,881: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:45,882: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:46,889: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:46,890: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:47,891: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:47,893: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:48,894: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:48,895: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:49,899: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:49,900: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:50,903: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:50,904: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:51,904: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:51,905: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:52,908: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:52,910: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:53,908: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:53,909: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:54,913: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:54,914: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:55,916: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:55,918: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:56,920: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:56,921: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:57,924: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:57,926: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:58,927: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:58,928: Published new trajectories
+[rosout][INFO] 2022-01-06 12:09:59,929: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:09:59,930: Published new trajectories
+[rosout][INFO] 2022-01-06 12:10:00,931: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:10:00,932: Published new trajectories
+[rosout][INFO] 2022-01-06 12:10:01,935: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:10:01,937: Published new trajectories
+[rosout][INFO] 2022-01-06 12:10:02,940: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:10:02,941: Published new trajectories
+[rosout][INFO] 2022-01-06 12:10:03,945: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:10:03,947: Published new trajectories
+[rosout][INFO] 2022-01-06 12:10:04,952: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:10:04,954: Published new trajectories
+[rosout][INFO] 2022-01-06 12:10:05,953: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:10:05,955: Published new trajectories
+[rosout][INFO] 2022-01-06 12:10:06,956: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:10:06,958: Published new trajectories
+[rospy.core][INFO] 2022-01-06 12:10:07,770: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 12:10:07,777: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 12:10:07,777: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/
+[rospy.internal][INFO] 2022-01-06 12:10:07,778: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:34055/
+[rospy.internal][INFO] 2022-01-06 12:10:07,778: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:42409/
+[rospy.internal][WARNING] 2022-01-06 12:10:07,779: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40703 (http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][WARNING] 2022-01-06 12:10:07,779: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:43055 (http://prajwal-IdeaPad-L340-15IRH-Gaming:34055/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.impl.masterslave][INFO] 2022-01-06 12:10:07,779: signal-2
+[rospy.internal][WARNING] 2022-01-06 12:10:07,781: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:38089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:42409/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.core][INFO] 2022-01-06 12:10:08,859: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-06 12:15:00,332: init_node, name[/trajectory_planner], pid[17841]
+[xmlrpc][INFO] 2022-01-06 12:15:00,332: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 12:15:00,332: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:35893/]
+[rospy.init][INFO] 2022-01-06 12:15:00,332: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:35893/]
+[rospy.impl.masterslave][INFO] 2022-01-06 12:15:00,332: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:35893/
+[rospy.registration][INFO] 2022-01-06 12:15:00,333: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 12:15:00,333: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 12:15:00,433: registered with master
+[rospy.rosout][INFO] 2022-01-06 12:15:00,433: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 12:15:00,435: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 12:15:00,435: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 12:15:00,436: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 12:15:00,438: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/], count 0
+[rosout][INFO] 2022-01-06 12:15:00,444: node started
+[rosout][INFO] 2022-01-06 12:15:00,444: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:15:00,445: Published new trajectories
+[rospy.internal][INFO] 2022-01-06 12:15:00,468: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:45365/], count 0
+[rospy.internal][INFO] 2022-01-06 12:15:00,569: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:33809/], count 0
+[rospy.internal][INFO] 2022-01-06 12:15:00,668: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-06 12:15:01,445: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:15:01,446: Published new trajectories
+[rosout][INFO] 2022-01-06 12:15:02,459: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:15:02,460: Published new trajectories
+[rosout][INFO] 2022-01-06 12:15:03,463: Publishing new trajectories
+[rosout][INFO] 2022-01-06 12:15:03,464: Published new trajectories
+[rospy.core][INFO] 2022-01-06 12:15:03,833: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 12:15:03,843: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 12:15:03,843: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/
+[rospy.internal][INFO] 2022-01-06 12:15:03,843: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:33809/
+[rospy.internal][INFO] 2022-01-06 12:15:03,844: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:45365/
+[rospy.impl.masterslave][INFO] 2022-01-06 12:15:03,844: signal-2
+[rospy.internal][WARNING] 2022-01-06 12:15:03,845: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:43319 (http://prajwal-IdeaPad-L340-15IRH-Gaming:33809/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-06 12:15:05,243: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-06 12:27:12,821: init_node, name[/trajectory_planner], pid[18811]
+[xmlrpc][INFO] 2022-01-06 12:27:12,822: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 12:27:12,822: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:44845/]
+[rospy.init][INFO] 2022-01-06 12:27:12,822: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:44845/]
+[rospy.impl.masterslave][INFO] 2022-01-06 12:27:12,822: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:44845/
+[rospy.registration][INFO] 2022-01-06 12:27:12,823: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 12:27:12,823: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 12:27:12,922: registered with master
+[rospy.rosout][INFO] 2022-01-06 12:27:12,922: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 12:27:12,926: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 12:27:12,927: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 12:27:12,928: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 12:27:12,929: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/], count 0
+[rospy.internal][INFO] 2022-01-06 12:27:12,961: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:46775/], count 0
+[rospy.internal][INFO] 2022-01-06 12:27:13,063: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:35133/], count 0
+[rospy.internal][INFO] 2022-01-06 12:27:13,162: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-01-06 12:27:13,707: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 12:27:13,711: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 12:27:13,711: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/
+[rospy.internal][INFO] 2022-01-06 12:27:13,711: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:35133/
+[rospy.internal][INFO] 2022-01-06 12:27:13,711: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:46775/
+[rospy.impl.masterslave][INFO] 2022-01-06 12:27:13,711: signal-2
+[rospy.internal][WARNING] 2022-01-06 12:27:13,712: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40703 (http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2022-01-06 12:27:14,639: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-06 12:27:29,849: init_node, name[/trajectory_planner], pid[18932]
+[xmlrpc][INFO] 2022-01-06 12:27:29,849: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 12:27:29,849: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:45341/]
+[rospy.impl.masterslave][INFO] 2022-01-06 12:27:29,849: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:45341/
+[rospy.registration][INFO] 2022-01-06 12:27:29,850: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2022-01-06 12:27:29,850: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:45341/]
+[xmlrpc][INFO] 2022-01-06 12:27:29,850: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 12:27:29,850: registered with master
+[rospy.rosout][INFO] 2022-01-06 12:27:29,851: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 12:27:29,853: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 12:27:29,853: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 12:27:29,855: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 12:27:29,856: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/], count 0
+[rospy.internal][INFO] 2022-01-06 12:27:29,991: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:33959/], count 0
+[rospy.internal][INFO] 2022-01-06 12:27:30,089: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-06 12:27:30,095: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:33023/], count 0
+[rospy.core][INFO] 2022-01-06 12:27:36,256: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 12:27:36,265: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 12:27:36,266: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/
+[rospy.internal][INFO] 2022-01-06 12:27:36,266: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:33023/
+[rospy.internal][ERROR] 2022-01-06 12:27:36,267: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:45147 (http://prajwal-IdeaPad-L340-15IRH-Gaming:33959/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2022-01-06 12:27:36,267: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:33959/
+[rospy.internal][WARNING] 2022-01-06 12:27:36,268: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:39361 (http://prajwal-IdeaPad-L340-15IRH-Gaming:33023/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][WARNING] 2022-01-06 12:27:36,268: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40703 (http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.impl.masterslave][INFO] 2022-01-06 12:27:36,269: signal-2
+[rospy.core][INFO] 2022-01-06 12:27:37,389: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-06 12:27:45,512: init_node, name[/trajectory_planner], pid[19070]
+[xmlrpc][INFO] 2022-01-06 12:27:45,512: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 12:27:45,512: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:37601/]
+[rospy.init][INFO] 2022-01-06 12:27:45,512: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:37601/]
+[rospy.impl.masterslave][INFO] 2022-01-06 12:27:45,512: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:37601/
+[rospy.registration][INFO] 2022-01-06 12:27:45,513: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 12:27:45,513: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 12:27:45,612: registered with master
+[rospy.rosout][INFO] 2022-01-06 12:27:45,613: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 12:27:45,615: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 12:27:45,615: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 12:27:45,616: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 12:27:45,618: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/], count 0
+[rospy.internal][INFO] 2022-01-06 12:27:45,722: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:42419/], count 0
+[rospy.internal][INFO] 2022-01-06 12:27:45,724: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:35527/], count 0
+[rospy.internal][INFO] 2022-01-06 12:27:45,822: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-01-06 12:28:22,679: signal_shutdown [signal-2]
+[rospy.internal][ERROR] 2022-01-06 12:28:22,686: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:38875 (http://prajwal-IdeaPad-L340-15IRH-Gaming:42419/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2022-01-06 12:28:22,688: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 12:28:22,688: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/
+[rospy.internal][INFO] 2022-01-06 12:28:22,688: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:35527/
+[rospy.internal][WARNING] 2022-01-06 12:28:22,688: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40703 (http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][INFO] 2022-01-06 12:28:22,689: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:42419/
+[rospy.internal][WARNING] 2022-01-06 12:28:22,689: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35807 (http://prajwal-IdeaPad-L340-15IRH-Gaming:35527/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.impl.masterslave][INFO] 2022-01-06 12:28:22,689: signal-2
+[rospy.core][INFO] 2022-01-06 12:28:23,589: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-06 12:28:25,868: init_node, name[/trajectory_planner], pid[19307]
+[xmlrpc][INFO] 2022-01-06 12:28:25,868: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 12:28:25,869: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:41553/]
+[rospy.init][INFO] 2022-01-06 12:28:25,869: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:41553/]
+[rospy.impl.masterslave][INFO] 2022-01-06 12:28:25,869: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:41553/
+[rospy.registration][INFO] 2022-01-06 12:28:25,869: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 12:28:25,869: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 12:28:25,969: registered with master
+[rospy.rosout][INFO] 2022-01-06 12:28:25,969: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 12:28:25,971: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 12:28:25,972: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 12:28:25,973: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 12:28:25,975: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/], count 0
+[rospy.internal][INFO] 2022-01-06 12:28:25,988: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:45797/], count 0
+[rospy.internal][INFO] 2022-01-06 12:28:26,085: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-06 12:28:26,088: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:33257/], count 0
+[rospy.core][INFO] 2022-01-06 12:29:36,008: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 12:29:36,017: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 12:29:36,017: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/
+[rospy.internal][INFO] 2022-01-06 12:29:36,018: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:33257/
+[rospy.internal][INFO] 2022-01-06 12:29:36,018: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:45797/
+[rospy.impl.masterslave][INFO] 2022-01-06 12:29:36,018: signal-2
+[rospy.internal][WARNING] 2022-01-06 12:29:36,019: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40601 (http://prajwal-IdeaPad-L340-15IRH-Gaming:33257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+OSError: [Errno 9] Bad file descriptor
+
+[rospy.internal][WARNING] 2022-01-06 12:29:36,019: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:46363 (http://prajwal-IdeaPad-L340-15IRH-Gaming:45797/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+OSError: [Errno 9] Bad file descriptor
+
+[rospy.core][INFO] 2022-01-06 12:29:37,147: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-06 12:29:39,605: init_node, name[/trajectory_planner], pid[19652]
+[xmlrpc][INFO] 2022-01-06 12:29:39,606: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 12:29:39,606: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:43757/]
+[rospy.init][INFO] 2022-01-06 12:29:39,606: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:43757/]
+[rospy.impl.masterslave][INFO] 2022-01-06 12:29:39,606: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:43757/
+[rospy.registration][INFO] 2022-01-06 12:29:39,606: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 12:29:39,607: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 12:29:39,706: registered with master
+[rospy.rosout][INFO] 2022-01-06 12:29:39,706: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 12:29:39,709: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 12:29:39,710: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 12:29:39,712: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 12:29:39,713: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/], count 0
+[rospy.internal][INFO] 2022-01-06 12:29:39,722: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:46429/], count 0
+[rospy.internal][INFO] 2022-01-06 12:29:39,799: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:33089/], count 0
+[rospy.internal][INFO] 2022-01-06 12:29:39,997: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-01-06 12:30:12,754: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 12:30:12,761: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 12:30:12,762: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/
+[rospy.internal][INFO] 2022-01-06 12:30:12,762: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:33089/
+[rospy.internal][INFO] 2022-01-06 12:30:12,762: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:46429/
+[rospy.impl.masterslave][INFO] 2022-01-06 12:30:12,762: signal-2
+[rospy.internal][WARNING] 2022-01-06 12:30:12,763: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40703 (http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][WARNING] 2022-01-06 12:30:12,764: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:34921 (http://prajwal-IdeaPad-L340-15IRH-Gaming:33089/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-06 12:30:13,869: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-06 12:42:46,757: init_node, name[/trajectory_planner], pid[20494]
+[xmlrpc][INFO] 2022-01-06 12:42:46,757: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 12:42:46,757: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:46019/]
+[rospy.impl.masterslave][INFO] 2022-01-06 12:42:46,757: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:46019/
+[rospy.init][INFO] 2022-01-06 12:42:46,757: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:46019/]
+[rospy.registration][INFO] 2022-01-06 12:42:46,758: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 12:42:46,758: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 12:42:46,858: registered with master
+[rospy.rosout][INFO] 2022-01-06 12:42:46,858: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 12:42:46,860: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 12:42:46,861: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 12:42:46,862: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 12:42:46,864: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/], count 0
+[rospy.internal][INFO] 2022-01-06 12:42:46,875: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36099/], count 0
+[rospy.internal][INFO] 2022-01-06 12:42:46,978: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:35505/], count 0
+[rospy.internal][INFO] 2022-01-06 12:42:47,076: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-01-06 12:43:05,371: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 12:43:05,377: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 12:43:05,377: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/
+[rospy.internal][INFO] 2022-01-06 12:43:05,377: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:35505/
+[rospy.internal][INFO] 2022-01-06 12:43:05,378: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36099/
+[rospy.impl.masterslave][INFO] 2022-01-06 12:43:05,378: signal-2
+[rospy.internal][WARNING] 2022-01-06 12:43:05,379: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:41541 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36099/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2022-01-06 12:43:05,379: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40703 (http://prajwal-IdeaPad-L340-15IRH-Gaming:40825/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2022-01-06 12:43:06,645: signal_shutdown [atexit]

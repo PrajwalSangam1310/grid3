@@ -1,0 +1,21 @@
+[rospy.client][INFO] 2022-01-06 22:29:44,271: init_node, name[/rqt_gui], pid[15709]
+[xmlrpc][INFO] 2022-01-06 22:29:44,271: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 22:29:44,271: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:35051/]
+[rospy.impl.masterslave][INFO] 2022-01-06 22:29:44,271: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:35051/
+[rospy.init][INFO] 2022-01-06 22:29:44,271: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:35051/]
+[rospy.registration][INFO] 2022-01-06 22:29:44,271: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 22:29:44,272: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 22:29:44,372: registered with master
+[rospy.rosout][INFO] 2022-01-06 22:29:44,372: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 22:29:44,373: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 22:29:44,373: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-06 22:29:44,638: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-06 22:29:53,713: topic impl's ref count is zero, deleting topic /grid3/droppingCompleted...
+[rospy.internal][INFO] 2022-01-06 22:29:53,714: topic impl's ref count is zero, deleting topic /grid3/packageLoaded...
+[rospy.internal][INFO] 2022-01-06 22:29:53,715: topic impl's ref count is zero, deleting topic /robot1/cmd_ve...
+[rospy.internal][INFO] 2022-01-06 22:29:53,716: topic impl's ref count is zero, deleting topic /robot2/cmd_ve...
+[rospy.internal][INFO] 2022-01-06 22:29:53,717: topic impl's ref count is zero, deleting topic /robot3/cmd_ve...
+[rospy.internal][INFO] 2022-01-06 22:29:53,717: topic impl's ref count is zero, deleting topic /robot4/cmd_ve...
+[rospy.core][INFO] 2022-01-06 22:29:53,753: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-01-06 22:29:53,754: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-01-06 22:29:53,754: atexit

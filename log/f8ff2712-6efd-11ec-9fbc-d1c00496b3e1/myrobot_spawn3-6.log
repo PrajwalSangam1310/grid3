@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2022-01-06 20:06:05,115: init_node, name[/myrobot_spawn3], pid[4570]
+[xmlrpc][INFO] 2022-01-06 20:06:05,115: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 20:06:05,116: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/]
+[rospy.init][INFO] 2022-01-06 20:06:05,116: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/]
+[rospy.impl.masterslave][INFO] 2022-01-06 20:06:05,116: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:43065/
+[rospy.registration][INFO] 2022-01-06 20:06:05,117: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 20:06:05,117: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 20:06:05,216: registered with master
+[rospy.rosout][INFO] 2022-01-06 20:06:05,217: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 20:06:05,220: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 20:06:05,220: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 20:06:05,222: connected to core topic /clock
+[rosout][INFO] 2022-01-06 20:06:05,224: Loading model XML from ros parameter /robot3/robot_description
+[rosout][INFO] 2022-01-06 20:06:05,231: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2022-01-06 20:06:05,513: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-06 20:06:07,013: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/], count 0
+[rosout][INFO] 2022-01-06 20:06:07,040: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2022-01-06 20:06:07,206: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2022-01-06 20:06:07,208: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-01-06 20:06:07,209: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 20:06:07,209: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rospy.impl.masterslave][INFO] 2022-01-06 20:06:07,210: atexit

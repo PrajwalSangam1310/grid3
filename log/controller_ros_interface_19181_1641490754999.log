@@ -1,0 +1,41 @@
+[rospy.client][INFO] 2022-01-06 23:09:15,027: init_node, name[/controller_ros_interface_19181_1641490754999], pid[19181]
+[xmlrpc][INFO] 2022-01-06 23:09:15,027: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 23:09:15,027: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:44887/]
+[rospy.impl.masterslave][INFO] 2022-01-06 23:09:15,027: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:44887/
+[rospy.init][INFO] 2022-01-06 23:09:15,027: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:44887/]
+[rospy.registration][INFO] 2022-01-06 23:09:15,028: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 23:09:15,028: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 23:09:15,128: registered with master
+[rospy.rosout][INFO] 2022-01-06 23:09:15,128: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 23:09:15,132: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 23:09:15,133: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 23:09:15,135: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 23:09:15,137: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:34133/], count 0
+[rospy.internal][INFO] 2022-01-06 23:09:15,146: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:35553/], count 0
+[rospy.internal][INFO] 2022-01-06 23:09:15,149: topic[/grid3/robotTrajectories] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:44373/], count 0
+[rospy.internal][INFO] 2022-01-06 23:09:15,150: topic[/grid3/planner/status] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:44373/], count 0
+[rospy.internal][INFO] 2022-01-06 23:09:15,204: topic[/grid3/controller/cmd] adding connection to [/gazebo_controller], count 0
+[rospy.internal][INFO] 2022-01-06 23:09:15,402: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-06 23:09:23,652: topic[/grid3/controller/cmd] removing connection to /gazebo_controller
+[rospy.internal][INFO] 2022-01-06 23:09:25,627: topic[/grid3/controller/cmd] adding connection to [/gazebo_controller], count 0
+[rospy.core][INFO] 2022-01-06 23:09:45,381: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 23:09:45,385: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 23:09:45,385: topic[/grid3/controller/cmd] removing connection to /gazebo_controller
+[rospy.internal][INFO] 2022-01-06 23:09:45,386: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:34133/
+[rospy.internal][INFO] 2022-01-06 23:09:45,386: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:35553/
+[rospy.internal][INFO] 2022-01-06 23:09:45,386: topic[/grid3/robotTrajectories] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:44373/
+[rospy.internal][WARNING] 2022-01-06 23:09:45,387: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35335 (http://prajwal-IdeaPad-L340-15IRH-Gaming:34133/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2022-01-06 23:09:45,387: topic[/grid3/planner/status] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:44373/
+[rospy.impl.masterslave][INFO] 2022-01-06 23:09:45,387: signal-2
+[rospy.internal][WARNING] 2022-01-06 23:09:45,388: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:41853 (http://prajwal-IdeaPad-L340-15IRH-Gaming:44373/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-06 23:09:46,581: signal_shutdown [atexit]

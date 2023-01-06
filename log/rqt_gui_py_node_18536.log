@@ -1,0 +1,1369 @@
+[rospy.client][INFO] 2022-01-07 10:56:56,115: init_node, name[/rqt_gui_py_node_18536], pid[18536]
+[xmlrpc][INFO] 2022-01-07 10:56:56,115: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-07 10:56:56,115: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:45627/]
+[rospy.init][INFO] 2022-01-07 10:56:56,115: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:45627/]
+[rospy.impl.masterslave][INFO] 2022-01-07 10:56:56,115: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:45627/
+[rospy.registration][INFO] 2022-01-07 10:56:56,116: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-07 10:56:56,116: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-07 10:56:56,216: registered with master
+[rospy.rosout][INFO] 2022-01-07 10:56:56,216: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-07 10:56:56,217: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-07 10:56:56,218: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-07 10:56:56,220: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-07 10:56:56,222: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:33861/], count 0
+[rospy.internal][INFO] 2022-01-07 10:56:56,500: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-07 10:56:56,802: topic[/robot1/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-07 10:56:56,803: topic[/robot2/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-07 10:56:56,803: topic[/robot3/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][ERROR] 2022-01-07 10:58:10,190: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:41053 (http://prajwal-IdeaPad-L340-15IRH-Gaming:33861/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 41053 to [127.0.0.1:59990 on socket 17]] [/rqt_gui_py_node_18536].
+
+[rospy.internal][INFO] 2022-01-07 10:58:10,245: topic[/robot1/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-07 10:58:10,246: topic[/robot2/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-07 10:58:10,246: topic[/robot3/cmd_vel] removing connection to /gazebo
+[rospy.internal][WARNING] 2022-01-07 10:58:11,192: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:41053 (http://prajwal-IdeaPad-L340-15IRH-Gaming:33861/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-07 10:58:11,192: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:33861/
+[rospy.internal][INFO] 2022-01-07 10:58:25,255: topic[/rosout] removing connection to /rosout
+[rospy.rosout][ERROR] 2022-01-07 10:58:25,359: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rqt_topic/topic_widget.py", line 125, in refresh_topics
+    topic_list = rospy.get_published_topics()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 379, in get_published_topics
+    code, msg, val = get_master().getPublishedTopics(namespace)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 104, in wrappedF
+    return f(*args, **kwds)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 159, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 167, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 162, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][ERROR] 2022-01-07 10:58:25,358: Communication with rosmaster failed: Connection refused
+[rospy.rosout][ERROR] 2022-01-07 10:58:26,359: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rqt_topic/topic_widget.py", line 125, in refresh_topics
+    topic_list = rospy.get_published_topics()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 379, in get_published_topics
+    code, msg, val = get_master().getPublishedTopics(namespace)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 104, in wrappedF
+    return f(*args, **kwds)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 159, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 167, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 162, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][ERROR] 2022-01-07 10:58:26,358: Communication with rosmaster failed: Connection refused
+[rospy.rosout][ERROR] 2022-01-07 10:58:27,359: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rqt_topic/topic_widget.py", line 125, in refresh_topics
+    topic_list = rospy.get_published_topics()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 379, in get_published_topics
+    code, msg, val = get_master().getPublishedTopics(namespace)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 104, in wrappedF
+    return f(*args, **kwds)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 159, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 167, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 162, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][ERROR] 2022-01-07 10:58:27,358: Communication with rosmaster failed: Connection refused
+[rospy.rosout][ERROR] 2022-01-07 10:58:28,359: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rqt_topic/topic_widget.py", line 125, in refresh_topics
+    topic_list = rospy.get_published_topics()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 379, in get_published_topics
+    code, msg, val = get_master().getPublishedTopics(namespace)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 104, in wrappedF
+    return f(*args, **kwds)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 159, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 167, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 162, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][ERROR] 2022-01-07 10:58:28,358: Communication with rosmaster failed: Connection refused
+[rospy.rosout][ERROR] 2022-01-07 10:58:29,359: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rqt_topic/topic_widget.py", line 125, in refresh_topics
+    topic_list = rospy.get_published_topics()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 379, in get_published_topics
+    code, msg, val = get_master().getPublishedTopics(namespace)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 104, in wrappedF
+    return f(*args, **kwds)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 159, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 167, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 162, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][ERROR] 2022-01-07 10:58:29,358: Communication with rosmaster failed: Connection refused
+[rospy.rosout][ERROR] 2022-01-07 10:58:30,359: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rqt_topic/topic_widget.py", line 125, in refresh_topics
+    topic_list = rospy.get_published_topics()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 379, in get_published_topics
+    code, msg, val = get_master().getPublishedTopics(namespace)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 104, in wrappedF
+    return f(*args, **kwds)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 159, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 167, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 162, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][ERROR] 2022-01-07 10:58:30,358: Communication with rosmaster failed: Connection refused
+[rospy.rosout][ERROR] 2022-01-07 10:58:31,359: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rqt_topic/topic_widget.py", line 125, in refresh_topics
+    topic_list = rospy.get_published_topics()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 379, in get_published_topics
+    code, msg, val = get_master().getPublishedTopics(namespace)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 104, in wrappedF
+    return f(*args, **kwds)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 159, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 167, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 162, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][ERROR] 2022-01-07 10:58:31,358: Communication with rosmaster failed: Connection refused
+[rospy.internal][INFO] 2022-01-07 10:58:32,364: topic impl's ref count is zero, deleting topic /grid3/droppingCompleted...
+[rospy.rosout][ERROR] 2022-01-07 10:58:32,365: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/registration.py", line 412, in reg_removed
+    master.unregisterPublisher(get_caller_id(), resolved_name, self.uri)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 159, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 167, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 162, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][WARNING] 2022-01-07 10:58:32,364: unable to communicate with ROS Master, registrations are now out of sync
+[rospy.registration][ERROR] 2022-01-07 10:58:32,365: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/registration.py", line 412, in reg_removed
+    master.unregisterPublisher(get_caller_id(), resolved_name, self.uri)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-07 10:58:32,365: topic impl's ref count is zero, deleting topic /grid3/packageLoaded...
+[rospy.rosout][ERROR] 2022-01-07 10:58:32,366: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/registration.py", line 412, in reg_removed
+    master.unregisterPublisher(get_caller_id(), resolved_name, self.uri)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 159, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 167, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 162, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][WARNING] 2022-01-07 10:58:32,365: unable to communicate with ROS Master, registrations are now out of sync
+[rospy.registration][ERROR] 2022-01-07 10:58:32,366: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/registration.py", line 412, in reg_removed
+    master.unregisterPublisher(get_caller_id(), resolved_name, self.uri)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-07 10:58:32,366: topic impl's ref count is zero, deleting topic /robot1/cmd_vel...
+[rospy.rosout][ERROR] 2022-01-07 10:58:32,367: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/registration.py", line 412, in reg_removed
+    master.unregisterPublisher(get_caller_id(), resolved_name, self.uri)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 159, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 167, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 162, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][WARNING] 2022-01-07 10:58:32,366: unable to communicate with ROS Master, registrations are now out of sync
+[rospy.registration][ERROR] 2022-01-07 10:58:32,367: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/registration.py", line 412, in reg_removed
+    master.unregisterPublisher(get_caller_id(), resolved_name, self.uri)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-07 10:58:32,367: topic impl's ref count is zero, deleting topic /robot2/cmd_vel...
+[rospy.rosout][ERROR] 2022-01-07 10:58:32,368: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/registration.py", line 412, in reg_removed
+    master.unregisterPublisher(get_caller_id(), resolved_name, self.uri)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 159, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 167, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 162, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][WARNING] 2022-01-07 10:58:32,367: unable to communicate with ROS Master, registrations are now out of sync
+[rospy.registration][ERROR] 2022-01-07 10:58:32,368: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/registration.py", line 412, in reg_removed
+    master.unregisterPublisher(get_caller_id(), resolved_name, self.uri)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-07 10:58:32,368: topic impl's ref count is zero, deleting topic /robot3/cmd_vel...
+[rospy.rosout][ERROR] 2022-01-07 10:58:32,369: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/registration.py", line 412, in reg_removed
+    master.unregisterPublisher(get_caller_id(), resolved_name, self.uri)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 159, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 167, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 162, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][WARNING] 2022-01-07 10:58:32,369: unable to communicate with ROS Master, registrations are now out of sync
+[rospy.registration][ERROR] 2022-01-07 10:58:32,369: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/registration.py", line 412, in reg_removed
+    master.unregisterPublisher(get_caller_id(), resolved_name, self.uri)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-07 10:58:32,369: topic impl's ref count is zero, deleting topic /robot4/cmd_ve...
+[rospy.rosout][ERROR] 2022-01-07 10:58:32,370: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/registration.py", line 412, in reg_removed
+    master.unregisterPublisher(get_caller_id(), resolved_name, self.uri)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 159, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 167, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 162, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][WARNING] 2022-01-07 10:58:32,369: unable to communicate with ROS Master, registrations are now out of sync
+[rospy.registration][ERROR] 2022-01-07 10:58:32,370: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/registration.py", line 412, in reg_removed
+    master.unregisterPublisher(get_caller_id(), resolved_name, self.uri)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.rosout][ERROR] 2022-01-07 10:58:32,371: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rqt_topic/topic_widget.py", line 125, in refresh_topics
+    topic_list = rospy.get_published_topics()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 379, in get_published_topics
+    code, msg, val = get_master().getPublishedTopics(namespace)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 104, in wrappedF
+    return f(*args, **kwds)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 159, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 167, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 490, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 162, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 665, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1250, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1010, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 950, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 921, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][ERROR] 2022-01-07 10:58:32,371: Communication with rosmaster failed: Connection refused
+[rospy.core][INFO] 2022-01-07 10:58:32,415: signal_shutdown [atexit]
+[rospy.registration][WARNING] 2022-01-07 10:58:32,416: cannot unregister with master due to network issues
+[rospy.impl.masterslave][INFO] 2022-01-07 10:58:32,416: atexit

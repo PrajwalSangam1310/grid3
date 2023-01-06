@@ -1,0 +1,92 @@
+[rospy.client][INFO] 2022-01-08 13:51:17,073: init_node, name[/rqt_gui], pid[34662]
+[xmlrpc][INFO] 2022-01-08 13:51:17,073: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-08 13:51:17,074: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:33821/]
+[rospy.init][INFO] 2022-01-08 13:51:17,074: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:33821/]
+[rospy.impl.masterslave][INFO] 2022-01-08 13:51:17,074: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:33821/
+[rospy.registration][INFO] 2022-01-08 13:51:17,074: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-08 13:51:17,074: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-08 13:51:17,174: registered with master
+[rospy.rosout][INFO] 2022-01-08 13:51:17,174: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-08 13:51:17,175: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-08 13:51:17,175: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-08 13:51:17,176: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-08 13:51:17,178: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/], count 0
+[rospy.internal][INFO] 2022-01-08 13:51:17,467: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-08 13:51:17,582: topic[/grid3/droppingCompleted] adding connection to [/brain_34675_1641630076549], count 0
+[rospy.internal][INFO] 2022-01-08 13:51:17,584: topic[/grid3/packageLoaded] adding connection to [/brain_34675_1641630076549], count 0
+[rospy.internal][INFO] 2022-01-08 13:51:17,771: topic[/robot1/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-08 13:51:17,771: topic[/robot2/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-08 13:51:17,772: topic[/robot3/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-08 13:53:15,254: topic impl's ref count is zero, deleting topic /grid3/droppingCompleted...
+[rospy.internal][INFO] 2022-01-08 13:53:15,255: topic[/grid3/droppingCompleted] removing connection to /brain_34675_1641630076549
+[rospy.internal][INFO] 2022-01-08 13:53:15,257: topic impl's ref count is zero, deleting topic /grid3/packageLoaded...
+[rospy.internal][INFO] 2022-01-08 13:53:15,257: topic[/grid3/packageLoaded] removing connection to /brain_34675_1641630076549
+[rosout][WARNING] 2022-01-08 13:53:15,256: Could not process inbound connection: [/rqt_gui] is not a publisher of [/grid3/droppingCompleted]. Topics are [['/rosout', 'rosgraph_msgs/Log'], ['/grid3/packageLoaded', 'grid3/packageLoaded'], ['/robot1/cmd_vel', 'geometry_msgs/Twist'], ['/robot2/cmd_vel', 'geometry_msgs/Twist'], ['/robot3/cmd_vel', 'geometry_msgs/Twist'], ['/robot4/cmd_ve', 'geometry_msgs/Twist']]{'callerid': '/brain_34675_1641630076549', 'md5sum': '90041601f8236fdd572be94e8c0d4f45', 'message_definition': 'bool[] status', 'tcp_nodelay': '0', 'topic': '/grid3/droppingCompleted', 'type': 'grid3/droppingCompleted'}
+[rosout][WARNING] 2022-01-08 13:53:15,259: Could not process inbound connection: [/rqt_gui] is not a publisher of [/grid3/packageLoaded]. Topics are [['/rosout', 'rosgraph_msgs/Log'], ['/robot1/cmd_vel', 'geometry_msgs/Twist'], ['/robot2/cmd_vel', 'geometry_msgs/Twist'], ['/robot3/cmd_vel', 'geometry_msgs/Twist'], ['/robot4/cmd_ve', 'geometry_msgs/Twist']]{'callerid': '/brain_34675_1641630076549', 'md5sum': '90041601f8236fdd572be94e8c0d4f45', 'message_definition': 'bool[] status', 'tcp_nodelay': '0', 'topic': '/grid3/packageLoaded', 'type': 'grid3/packageLoaded'}
+[rospy.internal][INFO] 2022-01-08 13:53:15,261: topic impl's ref count is zero, deleting topic /robot1/cmd_vel...
+[rospy.internal][INFO] 2022-01-08 13:53:15,261: topic[/robot1/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-08 13:53:15,263: topic impl's ref count is zero, deleting topic /robot2/cmd_vel...
+[rospy.internal][INFO] 2022-01-08 13:53:15,263: topic[/robot2/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-08 13:53:15,264: topic impl's ref count is zero, deleting topic /robot3/cmd_vel...
+[rospy.internal][INFO] 2022-01-08 13:53:15,265: topic[/robot3/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-08 13:53:15,266: topic impl's ref count is zero, deleting topic /robot4/cmd_ve...
+[rospy.core][INFO] 2022-01-08 13:53:15,308: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-01-08 13:53:15,310: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-08 13:53:15,310: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/
+[rospy.impl.masterslave][INFO] 2022-01-08 13:53:15,310: atexit
+[rospy.internal][WARNING] 2022-01-08 13:53:15,311: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:56887 (http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.client][INFO] 2022-01-08 13:53:51,522: init_node, name[/rqt_gui], pid[35269]
+[xmlrpc][INFO] 2022-01-08 13:53:51,522: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-08 13:53:51,523: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:39225/]
+[rospy.impl.masterslave][INFO] 2022-01-08 13:53:51,523: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:39225/
+[rospy.init][INFO] 2022-01-08 13:53:51,523: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:39225/]
+[rospy.registration][INFO] 2022-01-08 13:53:51,523: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-08 13:53:51,523: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-08 13:53:51,623: registered with master
+[rospy.rosout][INFO] 2022-01-08 13:53:51,624: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-08 13:53:51,626: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-08 13:53:51,628: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-08 13:53:51,631: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-08 13:53:51,635: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/], count 0
+[rospy.internal][INFO] 2022-01-08 13:53:51,909: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-08 13:53:52,011: topic[/grid3/droppingCompleted] adding connection to [/brain_34675_1641630076549], count 0
+[rospy.internal][INFO] 2022-01-08 13:53:52,012: topic[/grid3/droppingCompleted] adding connection to [/brain_35280_1641630230955], count 1
+[rospy.internal][INFO] 2022-01-08 13:53:52,013: topic[/grid3/packageLoaded] adding connection to [/brain_34675_1641630076549], count 0
+[rospy.internal][INFO] 2022-01-08 13:53:52,014: topic[/grid3/packageLoaded] adding connection to [/brain_35280_1641630230955], count 1
+[rospy.internal][INFO] 2022-01-08 13:53:52,213: topic[/robot1/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-08 13:53:52,214: topic[/robot2/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-08 13:53:52,214: topic[/robot3/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-08 14:00:53,247: topic impl's ref count is zero, deleting topic /grid3/droppingCompleted...
+[rospy.internal][INFO] 2022-01-08 14:00:53,247: topic[/grid3/droppingCompleted] removing connection to /brain_34675_1641630076549
+[rospy.internal][INFO] 2022-01-08 14:00:53,248: topic[/grid3/droppingCompleted] removing connection to /brain_35280_1641630230955
+[rospy.internal][INFO] 2022-01-08 14:00:53,249: topic impl's ref count is zero, deleting topic /grid3/packageLoaded...
+[rospy.internal][INFO] 2022-01-08 14:00:53,249: topic[/grid3/packageLoaded] removing connection to /brain_34675_1641630076549
+[rospy.internal][INFO] 2022-01-08 14:00:53,249: topic[/grid3/packageLoaded] removing connection to /brain_35280_1641630230955
+[rosout][WARNING] 2022-01-08 14:00:53,248: Could not process inbound connection: Internal error processing topic [/grid3/droppingCompleted]{'callerid': '/brain_34675_1641630076549', 'md5sum': '90041601f8236fdd572be94e8c0d4f45', 'message_definition': 'bool[] status', 'tcp_nodelay': '0', 'topic': '/grid3/droppingCompleted', 'type': 'grid3/droppingCompleted'}
+[rosout][WARNING] 2022-01-08 14:00:53,250: Could not process inbound connection: [/rqt_gui] is not a publisher of [/grid3/droppingCompleted]. Topics are [['/rosout', 'rosgraph_msgs/Log'], ['/robot1/cmd_vel', 'geometry_msgs/Twist'], ['/robot2/cmd_vel', 'geometry_msgs/Twist'], ['/robot3/cmd_vel', 'geometry_msgs/Twist'], ['/robot4/cmd_ve', 'geometry_msgs/Twist']]{'callerid': '/brain_35280_1641630230955', 'md5sum': '90041601f8236fdd572be94e8c0d4f45', 'message_definition': 'bool[] status', 'tcp_nodelay': '0', 'topic': '/grid3/droppingCompleted', 'type': 'grid3/droppingCompleted'}
+[rospy.internal][INFO] 2022-01-08 14:00:53,252: topic impl's ref count is zero, deleting topic /robot1/cmd_vel...
+[rospy.internal][INFO] 2022-01-08 14:00:53,253: topic[/robot1/cmd_vel] removing connection to /gazebo
+[rosout][WARNING] 2022-01-08 14:00:53,253: Could not process inbound connection: [/rqt_gui] is not a publisher of [/grid3/packageLoaded]. Topics are [['/rosout', 'rosgraph_msgs/Log'], ['/robot1/cmd_vel', 'geometry_msgs/Twist'], ['/robot2/cmd_vel', 'geometry_msgs/Twist'], ['/robot3/cmd_vel', 'geometry_msgs/Twist'], ['/robot4/cmd_ve', 'geometry_msgs/Twist']]{'callerid': '/brain_34675_1641630076549', 'md5sum': '90041601f8236fdd572be94e8c0d4f45', 'message_definition': 'bool[] status', 'tcp_nodelay': '0', 'topic': '/grid3/packageLoaded', 'type': 'grid3/packageLoaded'}
+[rospy.internal][INFO] 2022-01-08 14:00:53,255: topic impl's ref count is zero, deleting topic /robot2/cmd_vel...
+[rospy.internal][INFO] 2022-01-08 14:00:53,255: topic[/robot2/cmd_vel] removing connection to /gazebo
+[rosout][WARNING] 2022-01-08 14:00:53,255: Could not process inbound connection: [/rqt_gui] is not a publisher of [/grid3/packageLoaded]. Topics are [['/rosout', 'rosgraph_msgs/Log'], ['/robot2/cmd_vel', 'geometry_msgs/Twist'], ['/robot3/cmd_vel', 'geometry_msgs/Twist'], ['/robot4/cmd_ve', 'geometry_msgs/Twist']]{'callerid': '/brain_35280_1641630230955', 'md5sum': '90041601f8236fdd572be94e8c0d4f45', 'message_definition': 'bool[] status', 'tcp_nodelay': '0', 'topic': '/grid3/packageLoaded', 'type': 'grid3/packageLoaded'}
+[rospy.internal][INFO] 2022-01-08 14:00:53,259: topic impl's ref count is zero, deleting topic /robot3/cmd_vel...
+[rospy.internal][INFO] 2022-01-08 14:00:53,259: topic[/robot3/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-08 14:00:53,260: topic impl's ref count is zero, deleting topic /robot4/cmd_ve...
+[rospy.core][INFO] 2022-01-08 14:00:53,316: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-01-08 14:00:53,319: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-08 14:00:53,319: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/
+[rospy.impl.masterslave][INFO] 2022-01-08 14:00:53,319: atexit
+[rospy.internal][ERROR] 2022-01-08 14:00:53,320: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 737, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 104, in recv_buff
+    d = sock.recv(buff_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+

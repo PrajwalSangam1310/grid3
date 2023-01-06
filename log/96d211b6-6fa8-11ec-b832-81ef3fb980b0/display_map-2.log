@@ -1,0 +1,35 @@
+[rospy.client][INFO] 2022-01-07 16:27:37,741: init_node, name[/display_map], pid[14784]
+[xmlrpc][INFO] 2022-01-07 16:27:37,741: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-07 16:27:37,741: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:46279/]
+[rospy.init][INFO] 2022-01-07 16:27:37,742: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:46279/]
+[rospy.impl.masterslave][INFO] 2022-01-07 16:27:37,742: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:46279/
+[rospy.registration][INFO] 2022-01-07 16:27:37,742: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-07 16:27:37,742: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-07 16:27:37,842: registered with master
+[rospy.rosout][INFO] 2022-01-07 16:27:37,842: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-07 16:27:37,845: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-07 16:27:37,845: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-07 16:27:37,847: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-07 16:27:37,848: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:39413/], count 0
+[rospy.internal][INFO] 2022-01-07 16:27:37,982: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-07 16:27:38,584: topic[/grid3/mat] adding connection to [/rviz], count 0
+[rospy.internal][ERROR] 2022-01-07 16:34:10,009: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:37395 (http://prajwal-IdeaPad-L340-15IRH-Gaming:39413/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 37395 to [127.0.0.1:57600 on socket 18]] [/display_map].
+
+[rospy.internal][WARNING] 2022-01-07 16:34:11,010: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:37395 (http://prajwal-IdeaPad-L340-15IRH-Gaming:39413/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-07 16:34:11,010: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:39413/
+[rospy.core][INFO] 2022-01-07 16:34:15,169: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-07 16:34:15,176: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-07 16:34:15,176: topic[/grid3/mat] removing connection to /rviz
+[rospy.impl.masterslave][INFO] 2022-01-07 16:34:15,176: signal-2
+[rospy.core][INFO] 2022-01-07 16:34:17,373: signal_shutdown [atexit]

@@ -1,0 +1,7 @@
+
+
+1641487739.435251877  Node Startup
+1641487739.822190523 INFO /fake_pose_publisher [fake_pose_publisher.py:170(<module>)] [topics: /robot3/cmd_vel, /robot2/cmd_vel, /grid3/allRobots/poses, /rosout, /robot1/odom, /robot1/cmd_vel, /robot2/odom, /robot3/odom, /robot4/cmd_vel, /grid3/allRobots/posesRC, /robot4/odom] publishing the poses
+1641487740.823809385 INFO /fake_pose_publisher [fake_pose_publisher.py:170(<module>)] [topics: /robot3/cmd_vel, /robot2/cmd_vel, /grid3/allRobots/poses, /rosout, /robot1/odom, /robot1/cmd_vel, /robot2/odom, /robot3/odom, /robot4/cmd_vel, /grid3/allRobots/posesRC, /robot4/odom] publishing the poses
+1641487741.824766635 INFO /fake_pose_publisher [fake_pose_publisher.py:170(<module>)] [topics: /robot3/cmd_vel, /robot2/cmd_vel, /grid3/allRobots/poses, /rosout, /robot1/odom, /robot1/cmd_vel, /robot2/odom, /robot3/odom, /robot4/cmd_vel, /grid3/allRobots/posesRC, /robot4/odom] publishing the poses
+1641487742.824901103 INFO /fake_pose_publisher [fake_pose_publisher.py:170(<module>)] [topics: /robot3/cmd_vel, /robot2/cmd_vel, /grid3/allRobots/poses, /rosout, /robot1/odom, /robot1/cmd_vel, /robot2/odom, /robot3/odom, /robot4/cmd_vel, /grid3/allRobots/posesRC, /robot4/odom] publishing the poses

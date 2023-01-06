@@ -1,0 +1,37 @@
+[rospy.client][INFO] 2022-01-06 22:29:00,790: init_node, name[/fake_pose_publisher], pid[15494]
+[xmlrpc][INFO] 2022-01-06 22:29:00,790: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 22:29:00,790: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:35545/]
+[rospy.impl.masterslave][INFO] 2022-01-06 22:29:00,790: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:35545/
+[rospy.init][INFO] 2022-01-06 22:29:00,791: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:35545/]
+[rospy.registration][INFO] 2022-01-06 22:29:00,791: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 22:29:00,791: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 22:29:00,892: registered with master
+[rospy.rosout][INFO] 2022-01-06 22:29:00,892: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 22:29:00,894: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 22:29:00,895: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-01-06 22:29:00,904: publishing the poses
+[rospy.internal][INFO] 2022-01-06 22:29:00,957: topic[/grid3/allRobots/poses] adding connection to [/trajectory_planner], count 0
+[rospy.internal][INFO] 2022-01-06 22:29:01,156: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-01-06 22:29:01,905: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:02,906: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:03,906: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:04,906: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:05,906: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:06,906: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:07,905: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:08,906: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:09,906: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:10,905: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:11,905: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:12,906: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:13,906: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:14,906: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:15,906: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:16,905: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:17,905: publishing the poses
+[rosout][INFO] 2022-01-06 22:29:18,906: publishing the poses
+[rospy.core][INFO] 2022-01-06 22:29:18,987: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 22:29:19,000: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 22:29:19,000: topic[/grid3/allRobots/poses] removing connection to /trajectory_planner
+[rospy.impl.masterslave][INFO] 2022-01-06 22:29:19,000: signal-2
+[rospy.core][INFO] 2022-01-06 22:29:19,905: signal_shutdown [atexit]

@@ -1,0 +1,8 @@
+<launch>
+        <node pkg="grid3"
+                type="set_camera.sh" name="set_camera"
+                output="screen"
+        />
+        <node name="bot_identifier_ros" pkg="grid3" type="bot_identifier_ros.py" output="screen"/>
+        
+</launch>

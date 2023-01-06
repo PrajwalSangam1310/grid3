@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2022-01-08 12:08:45,078: init_node, name[/trajectory_planner], pid[24063]
+[xmlrpc][INFO] 2022-01-08 12:08:45,079: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-08 12:08:45,079: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:46443/]
+[rospy.init][INFO] 2022-01-08 12:08:45,079: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:46443/]
+[rospy.impl.masterslave][INFO] 2022-01-08 12:08:45,079: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:46443/
+[rospy.registration][INFO] 2022-01-08 12:08:45,080: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-08 12:08:45,080: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-08 12:08:45,180: registered with master
+[rospy.rosout][INFO] 2022-01-08 12:08:45,180: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-08 12:08:45,184: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-08 12:08:45,186: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-08 12:08:45,397: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:46113/], count 0
+[rospy.internal][INFO] 2022-01-08 12:08:45,442: topic[/grid3/planner/status] adding connection to [/brain_24097_1641623925300], count 0
+[rospy.internal][INFO] 2022-01-08 12:08:45,495: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-08 12:08:45,498: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:37235/], count 0
+[rospy.core][INFO] 2022-01-08 12:08:49,371: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-08 12:08:49,375: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-08 12:08:49,375: topic[/grid3/planner/status] removing connection to /brain_24097_1641623925300
+[rospy.internal][INFO] 2022-01-08 12:08:49,375: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:46113/
+[rospy.internal][INFO] 2022-01-08 12:08:49,375: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:37235/
+[rospy.impl.masterslave][INFO] 2022-01-08 12:08:49,376: signal-2
+[rosout][INFO] 2022-01-08 12:08:49,972: ended
+[rospy.core][INFO] 2022-01-08 12:08:49,972: signal_shutdown [atexit]

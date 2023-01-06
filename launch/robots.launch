@@ -1,0 +1,42 @@
+<launch>
+<param name="/robot1/robot_description" textfile="$(find grid3)/urdf/robot1.urdf"/>
+<param name="/robot2/robot_description" textfile="$(find grid3)/urdf/robot1.urdf"/>
+<param name="/robot3/robot_description" textfile="$(find grid3)/urdf/robot1.urdf"/>
+<param name="/robot4/robot_description" textfile="$(find grid3)/urdf/robot1.urdf"/>
+<param name="/robot1/tf_prefix" value="/robot1"/>
+<param name="/robot2/tf_prefix" value="/robot2"/>
+<param name="/robot3/tf_prefix" value="/robot3"/>
+<param name="/robot4/tf_prefix" value="/robot4"/>
+
+<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ns="/robot1"/>
+<node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher1">
+      <remap from="robot_description" to="/robot1/robot_description" />
+      <remap from="joint_states" to="/robot1/joint_states"/>
+      <remap from="tf_prefix" to="/robot1/tf_prefix"/>
+</node>
+
+
+<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ns="/robot2"/>
+<node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher2">
+      <remap from="robot_description" to="/robot2/robot_description" />
+      <remap from="joint_states" to="/robot2/joint_states"/>
+      <remap from="tf_prefix" to="/robot2/tf_prefix"/>
+</node>
+
+
+ <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ns="/robot3"/>
+ <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher3">
+      <remap from="robot_description" to="/robot3/robot_description" />
+      <remap from="joint_states" to="/robot3/joint_states"/>
+      <remap from="tf_prefix" to="/robot3/tf_prefix"/>
+</node>
+
+
+ <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ns="/robot4"/>
+ <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher4">
+      <remap from="robot_description" to="/robot4/robot_description" />
+      <remap from="joint_states" to="/robot4/joint_states"/>
+      <remap from="tf_prefix" to="/robot4/tf_prefix"/>
+</node>
+
+</launch>

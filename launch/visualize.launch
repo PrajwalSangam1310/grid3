@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="display_trajectory" pkg="grid3" type="display_trajectory.py" output="screen"/>
+    <node name="display_map" pkg="grid3" type="visualize_rviz.py" output="screen"/>
+    <node name="show_robots" pkg="grid3" type="visualize_robots.py" output="screen"/>
+    <node name="rviz" pkg="rviz" type="rviz" output="screen"     args="-d $(find grid3)/rviz/save1.rviz" />/>
+    
+    <!-- <node name="rqt_gui" pkg="rqt_gui" type="rqt_gui" output="screen"/> -->
+</launch>

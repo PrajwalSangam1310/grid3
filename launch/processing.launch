@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="trajectory_planner" pkg="grid3" type="trajectory_planner_ros_v2.py" output="screen"/>
+    <!-- <node name="fake_pose_publisher" pkg="grid3" type="fake_pose_publisher.py" output="log"/> -->
+    <node name="brain" pkg="grid3" type="brain2.py" output="screen" launch-prefix="gnome-terminal --command"/>
+    <!-- <node name="brain" pkg="grid3" type="brain.py" output="screen"/> -->
+
+    <!-- <node name="rqt_gui" pkg="rqt_gui" type="rqt_gui" output="screen"/> -->
+</launch>

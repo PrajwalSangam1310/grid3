@@ -1,0 +1,34 @@
+[rospy.client][INFO] 2022-01-06 22:31:56,181: init_node, name[/rqt_gui], pid[16059]
+[xmlrpc][INFO] 2022-01-06 22:31:56,181: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 22:31:56,182: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:41115/]
+[rospy.init][INFO] 2022-01-06 22:31:56,182: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:41115/]
+[rospy.impl.masterslave][INFO] 2022-01-06 22:31:56,182: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:41115/
+[rospy.registration][INFO] 2022-01-06 22:31:56,182: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 22:31:56,182: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 22:31:56,282: registered with master
+[rospy.rosout][INFO] 2022-01-06 22:31:56,282: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 22:31:56,283: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 22:31:56,284: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-06 22:31:56,519: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-06 22:31:56,645: topic[/grid3/droppingCompleted] adding connection to [/brain_16086_1641488515768], count 0
+[rospy.internal][INFO] 2022-01-06 22:31:56,646: topic[/grid3/packageLoaded] adding connection to [/brain_16086_1641488515768], count 0
+[rosout][WARNING] 2022-01-06 22:32:35,292: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-06 22:32:35,295: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-06 22:32:35,712: topic[/grid3/droppingCompleted] removing connection to /brain_16086_1641488515768
+[rospy.internal][INFO] 2022-01-06 22:32:35,712: topic[/grid3/packageLoaded] removing connection to /brain_16086_1641488515768
+[rospy.internal][INFO] 2022-01-06 22:32:37,114: topic impl's ref count is zero, deleting topic /grid3/droppingCompleted...
+[rospy.internal][INFO] 2022-01-06 22:32:37,115: topic impl's ref count is zero, deleting topic /grid3/packageLoaded...
+[rospy.internal][INFO] 2022-01-06 22:32:37,115: topic impl's ref count is zero, deleting topic /robot1/cmd_ve...
+[rospy.internal][INFO] 2022-01-06 22:32:37,116: topic impl's ref count is zero, deleting topic /robot2/cmd_ve...
+[rospy.internal][INFO] 2022-01-06 22:32:37,117: topic impl's ref count is zero, deleting topic /robot3/cmd_ve...
+[rospy.internal][INFO] 2022-01-06 22:32:37,118: topic impl's ref count is zero, deleting topic /robot4/cmd_ve...
+[rospy.core][INFO] 2022-01-06 22:32:37,153: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-01-06 22:32:37,154: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-01-06 22:32:37,154: atexit

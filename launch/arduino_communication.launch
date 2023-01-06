@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="arduino_communicator1" pkg="rosserial_arduino" type="serial_node.py"  output="screen" args="/dev/ttyUSB0"/>
+    <node name="arduino_communicator2" pkg="rosserial_arduino" type="serial_node.py"  output="screen" args="/dev/ttyUSB1"/>
+    <node name="arduino_communicator3" pkg="rosserial_arduino" type="serial_node.py"  output="screen" args="/dev/ttyACM0"/>
+    <node name="arduino_communicator4" pkg="rosserial_arduino" type="serial_node.py"  output="screen" args="/dev/ttyACM1"/>
+    <!-- <node name="rqt_gui" pkg="rqt_gui" type="rqt_gui" output="screen"/> -->
+    
+</launch>

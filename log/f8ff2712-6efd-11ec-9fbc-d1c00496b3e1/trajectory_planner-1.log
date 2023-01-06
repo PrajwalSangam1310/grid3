@@ -1,0 +1,147 @@
+[rospy.client][INFO] 2022-01-06 20:07:17,595: init_node, name[/trajectory_planner], pid[5237]
+[xmlrpc][INFO] 2022-01-06 20:07:17,595: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 20:07:17,595: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/]
+[rospy.init][INFO] 2022-01-06 20:07:17,595: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/]
+[rospy.impl.masterslave][INFO] 2022-01-06 20:07:17,595: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:46221/
+[rospy.registration][INFO] 2022-01-06 20:07:17,596: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 20:07:17,596: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 20:07:17,696: registered with master
+[rospy.rosout][INFO] 2022-01-06 20:07:17,696: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 20:07:17,698: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 20:07:17,698: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 20:07:17,700: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 20:07:17,701: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/], count 0
+[rospy.internal][INFO] 2022-01-06 20:07:17,726: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/], count 0
+[rospy.internal][INFO] 2022-01-06 20:07:17,727: topic[/grid3/planner/status] adding connection to [/brain], count 0
+[rospy.internal][INFO] 2022-01-06 20:07:17,827: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/], count 0
+[rospy.internal][INFO] 2022-01-06 20:07:17,926: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-06 20:07:32,027: topic[/grid3/robotTrajectories] adding connection to [/display_trajectory], count 0
+[rospy.internal][INFO] 2022-01-06 20:07:49,241: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_5528_1641479869098], count 1
+[rospy.internal][INFO] 2022-01-06 20:07:49,241: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_5528_1641479869098], count 1
+[rosout][WARNING] 2022-01-06 20:12:33,752: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-06 20:12:33,754: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rosout][WARNING] 2022-01-06 20:12:34,019: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-06 20:12:34,020: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-06 20:12:34,088: topic[/grid3/robotTrajectories] removing connection to /display_trajectory
+[rospy.internal][INFO] 2022-01-06 20:12:34,224: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_5528_1641479869098
+[rospy.internal][INFO] 2022-01-06 20:12:34,224: topic[/grid3/planner/status] removing connection to /controller_ros_interface_5528_1641479869098
+[rospy.core][INFO] 2022-01-06 20:12:36,352: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 20:12:36,362: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 20:12:36,363: topic[/grid3/planner/status] removing connection to /brain
+[rospy.internal][INFO] 2022-01-06 20:12:36,363: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rospy.internal][WARNING] 2022-01-06 20:12:36,364: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2022-01-06 20:12:36,364: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/
+[rospy.internal][INFO] 2022-01-06 20:12:36,364: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:38849/
+[rospy.impl.masterslave][INFO] 2022-01-06 20:12:36,364: signal-2
+[rospy.internal][WARNING] 2022-01-06 20:12:36,365: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:40993 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36813/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-06 20:12:37,454: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-06 20:14:06,178: init_node, name[/trajectory_planner], pid[6663]
+[xmlrpc][INFO] 2022-01-06 20:14:06,178: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-06 20:14:06,178: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/]
+[rospy.init][INFO] 2022-01-06 20:14:06,179: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/]
+[rospy.impl.masterslave][INFO] 2022-01-06 20:14:06,179: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:37443/
+[rospy.registration][INFO] 2022-01-06 20:14:06,179: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-06 20:14:06,179: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-06 20:14:06,279: registered with master
+[rospy.rosout][INFO] 2022-01-06 20:14:06,279: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-06 20:14:06,281: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-06 20:14:06,282: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-06 20:14:06,283: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-06 20:14:06,284: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/], count 0
+[rospy.internal][INFO] 2022-01-06 20:14:06,305: topic[/grid3/planner/status] adding connection to [/brain], count 0
+[rospy.internal][INFO] 2022-01-06 20:14:06,392: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/], count 0
+[rospy.internal][INFO] 2022-01-06 20:14:06,394: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/], count 0
+[rospy.internal][INFO] 2022-01-06 20:14:06,492: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-06 20:14:12,648: topic[/grid3/robotTrajectories] adding connection to [/display_trajectory], count 0
+[rospy.internal][INFO] 2022-01-06 20:14:15,271: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_6824_1641480255130], count 1
+[rospy.internal][INFO] 2022-01-06 20:14:15,271: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_6824_1641480255130], count 1
+[rosout][WARNING] 2022-01-06 20:17:53,914: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-06 20:17:53,916: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rosout][WARNING] 2022-01-06 20:17:53,917: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-06 20:17:53,918: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-06 20:17:54,106: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_6824_1641480255130
+[rospy.internal][INFO] 2022-01-06 20:17:54,106: topic[/grid3/planner/status] removing connection to /controller_ros_interface_6824_1641480255130
+[rospy.internal][ERROR] 2022-01-06 20:17:54,594: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 35089 to [127.0.0.1:41560 on socket 18]] [/trajectory_planner].
+
+[rosout][WARNING] 2022-01-06 20:17:54,984: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-06 20:17:54,985: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-06 20:17:55,106: topic[/grid3/robotTrajectories] removing connection to /display_trajectory
+[rospy.internal][WARNING] 2022-01-06 20:17:55,595: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35089 (http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2022-01-06 20:17:55,596: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36257/
+[rospy.core][INFO] 2022-01-06 20:17:57,463: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-06 20:17:57,473: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-06 20:17:57,473: topic[/grid3/planner/status] removing connection to /brain
+[rospy.internal][INFO] 2022-01-06 20:17:57,473: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/
+[rospy.internal][INFO] 2022-01-06 20:17:57,473: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/
+[rospy.impl.masterslave][INFO] 2022-01-06 20:17:57,474: signal-2
+[rospy.internal][WARNING] 2022-01-06 20:17:57,474: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:34643 (http://prajwal-IdeaPad-L340-15IRH-Gaming:32909/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][WARNING] 2022-01-06 20:17:57,474: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:42571 (http://prajwal-IdeaPad-L340-15IRH-Gaming:32963/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-06 20:17:59,119: signal_shutdown [atexit]

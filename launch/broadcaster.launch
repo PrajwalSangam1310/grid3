@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="arduino_communicator1" pkg="rosserial_arduino" type="serial_node.py"  output="screen" args="/dev/ttyUSB0"/>
+    
+</launch>

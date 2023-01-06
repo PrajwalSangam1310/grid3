@@ -1,0 +1,300 @@
+[rospy.client][INFO] 2022-01-08 12:17:05,086: init_node, name[/trajectory_planner], pid[26140]
+[xmlrpc][INFO] 2022-01-08 12:17:05,086: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-08 12:17:05,086: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:35423/]
+[rospy.impl.masterslave][INFO] 2022-01-08 12:17:05,086: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:35423/
+[rospy.init][INFO] 2022-01-08 12:17:05,086: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:35423/]
+[rospy.registration][INFO] 2022-01-08 12:17:05,087: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-08 12:17:05,087: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-08 12:17:05,187: registered with master
+[rospy.rosout][INFO] 2022-01-08 12:17:05,187: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-08 12:17:05,190: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-08 12:17:05,190: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-08 12:17:05,191: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-08 12:17:05,193: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:41297/], count 0
+[rospy.internal][INFO] 2022-01-08 12:17:05,368: topic[/grid3/allRobots/poses] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:41809/], count 0
+[rospy.internal][INFO] 2022-01-08 12:17:05,465: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-08 12:17:05,500: topic[/grid3/planner/status] adding connection to [/brain_26175_1641624425356], count 0
+[rospy.internal][INFO] 2022-01-08 12:17:05,568: topic[/grid3/allRobots/goals] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:34963/], count 0
+[rospy.internal][INFO] 2022-01-08 12:17:06,993: topic[/grid3/robotTrajectories] adding connection to [/display_trajectory], count 0
+[rospy.internal][INFO] 2022-01-08 12:17:09,431: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_26326_1641624429282], count 1
+[rospy.internal][INFO] 2022-01-08 12:17:09,432: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_26326_1641624429282], count 1
+[rospy.internal][INFO] 2022-01-08 12:18:19,056: topic[/grid3/planner/status] adding connection to [/rqt_gui], count 2
+[rosout][WARNING] 2022-01-08 12:19:21,876: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 12:19:21,878: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 12:19:22,107: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_26326_1641624429282
+[rospy.internal][INFO] 2022-01-08 12:19:22,108: topic[/grid3/planner/status] removing connection to /controller_ros_interface_26326_1641624429282
+[rospy.internal][INFO] 2022-01-08 12:19:24,350: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_26565_1641624564207], count 1
+[rospy.internal][INFO] 2022-01-08 12:19:24,350: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_26565_1641624564207], count 2
+[rosout][WARNING] 2022-01-08 12:21:37,529: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 12:21:37,532: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 12:21:37,648: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_26565_1641624564207
+[rospy.internal][INFO] 2022-01-08 12:21:37,648: topic[/grid3/planner/status] removing connection to /controller_ros_interface_26565_1641624564207
+[rospy.internal][INFO] 2022-01-08 12:21:39,856: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_26674_1641624699697], count 1
+[rospy.internal][INFO] 2022-01-08 12:21:39,857: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_26674_1641624699697], count 2
+[rosout][WARNING] 2022-01-08 12:21:39,950: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 12:21:39,952: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 12:21:40,149: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_26674_1641624699697
+[rospy.internal][INFO] 2022-01-08 12:21:40,149: topic[/grid3/planner/status] removing connection to /controller_ros_interface_26674_1641624699697
+[rospy.internal][INFO] 2022-01-08 12:21:55,669: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_26774_1641624715502], count 1
+[rospy.internal][INFO] 2022-01-08 12:21:55,669: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_26774_1641624715502], count 2
+[rosout][WARNING] 2022-01-08 12:22:10,480: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 12:22:10,482: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 12:22:10,659: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_26774_1641624715502
+[rospy.internal][INFO] 2022-01-08 12:22:10,659: topic[/grid3/planner/status] removing connection to /controller_ros_interface_26774_1641624715502
+[rospy.internal][INFO] 2022-01-08 12:22:12,868: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_26853_1641624732716], count 1
+[rospy.internal][INFO] 2022-01-08 12:22:12,868: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_26853_1641624732716], count 2
+[rospy.internal][INFO] 2022-01-08 12:22:13,160: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_26853_1641624732716
+[rospy.internal][INFO] 2022-01-08 12:22:13,161: topic[/grid3/planner/status] removing connection to /controller_ros_interface_26853_1641624732716
+[rospy.internal][INFO] 2022-01-08 12:23:11,495: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_26949_1641624791350], count 2
+[rospy.internal][INFO] 2022-01-08 12:23:11,496: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_26949_1641624791350], count 1
+[rospy.internal][INFO] 2022-01-08 12:23:11,679: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_26949_1641624791350
+[rospy.internal][INFO] 2022-01-08 12:23:11,679: topic[/grid3/planner/status] removing connection to /controller_ros_interface_26949_1641624791350
+[rospy.internal][INFO] 2022-01-08 12:24:12,313: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_27031_1641624852164], count 2
+[rospy.internal][INFO] 2022-01-08 12:24:12,313: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_27031_1641624852164], count 1
+[rosout][WARNING] 2022-01-08 12:24:12,516: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 12:24:12,518: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 12:24:12,700: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_27031_1641624852164
+[rospy.internal][INFO] 2022-01-08 12:24:12,700: topic[/grid3/planner/status] removing connection to /controller_ros_interface_27031_1641624852164
+[rospy.internal][INFO] 2022-01-08 12:25:42,906: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_27128_1641624942750], count 1
+[rospy.internal][INFO] 2022-01-08 12:25:42,906: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_27128_1641624942750], count 2
+[rospy.internal][INFO] 2022-01-08 12:25:43,226: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_27128_1641624942750
+[rospy.internal][INFO] 2022-01-08 12:25:43,226: topic[/grid3/planner/status] removing connection to /controller_ros_interface_27128_1641624942750
+[rospy.internal][INFO] 2022-01-08 12:26:10,415: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_27200_1641624970253], count 2
+[rospy.internal][INFO] 2022-01-08 12:26:10,415: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_27200_1641624970253], count 1
+[rospy.internal][INFO] 2022-01-08 12:26:10,736: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_27200_1641624970253
+[rospy.internal][INFO] 2022-01-08 12:26:10,736: topic[/grid3/planner/status] removing connection to /controller_ros_interface_27200_1641624970253
+[rospy.internal][INFO] 2022-01-08 12:26:26,346: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_27259_1641624986191], count 2
+[rospy.internal][INFO] 2022-01-08 12:26:26,347: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_27259_1641624986191], count 1
+[rospy.internal][INFO] 2022-01-08 12:26:26,740: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_27259_1641624986191
+[rospy.internal][INFO] 2022-01-08 12:26:26,741: topic[/grid3/planner/status] removing connection to /controller_ros_interface_27259_1641624986191
+[rospy.internal][INFO] 2022-01-08 12:28:14,196: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_27417_1641625094047], count 2
+[rospy.internal][INFO] 2022-01-08 12:28:14,197: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_27417_1641625094047], count 1
+[rosout][WARNING] 2022-01-08 12:30:30,190: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 12:30:30,192: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rosout][WARNING] 2022-01-08 12:30:30,192: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 12:30:30,194: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 12:30:30,315: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_27417_1641625094047
+[rospy.internal][INFO] 2022-01-08 12:30:30,316: topic[/grid3/planner/status] removing connection to /controller_ros_interface_27417_1641625094047
+[rospy.internal][INFO] 2022-01-08 12:30:32,440: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_27543_1641625232298], count 1
+[rospy.internal][INFO] 2022-01-08 12:30:32,441: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_27543_1641625232298], count 2
+[rosout][WARNING] 2022-01-08 12:46:38,389: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 12:46:38,390: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 12:46:38,643: topic[/grid3/robotTrajectories] removing connection to /display_trajectory
+[rosout][WARNING] 2022-01-08 12:46:39,689: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 12:46:39,692: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 12:46:39,820: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_27543_1641625232298
+[rospy.internal][INFO] 2022-01-08 12:46:39,820: topic[/grid3/planner/status] removing connection to /controller_ros_interface_27543_1641625232298
+[rospy.internal][INFO] 2022-01-08 12:55:16,083: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_28557_1641626715926], count 2
+[rospy.internal][INFO] 2022-01-08 12:55:16,084: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_28557_1641626715926], count 0
+[rospy.internal][INFO] 2022-01-08 12:55:26,537: topic[/grid3/planner/status] removing connection to /controller_ros_interface_28557_1641626715926
+[rospy.internal][INFO] 2022-01-08 12:55:26,537: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_28557_1641626715926
+[rospy.internal][INFO] 2022-01-08 12:55:41,966: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_28636_1641626741814], count 0
+[rospy.internal][INFO] 2022-01-08 12:55:41,967: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_28636_1641626741814], count 2
+[rosout][WARNING] 2022-01-08 12:55:50,934: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 12:55:50,936: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 12:55:51,144: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_28636_1641626741814
+[rospy.internal][INFO] 2022-01-08 12:55:51,144: topic[/grid3/planner/status] removing connection to /controller_ros_interface_28636_1641626741814
+[rospy.internal][INFO] 2022-01-08 12:56:12,828: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_28731_1641626772675], count 0
+[rospy.internal][INFO] 2022-01-08 12:56:12,828: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_28731_1641626772675], count 2
+[rosout][WARNING] 2022-01-08 12:57:04,542: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 12:57:04,543: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 12:57:04,689: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_28731_1641626772675
+[rospy.internal][INFO] 2022-01-08 12:57:04,690: topic[/grid3/planner/status] removing connection to /controller_ros_interface_28731_1641626772675
+[rospy.internal][INFO] 2022-01-08 12:57:06,871: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_28854_1641626826707], count 0
+[rospy.internal][INFO] 2022-01-08 12:57:06,871: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_28854_1641626826707], count 2
+[rosout][WARNING] 2022-01-08 12:57:10,316: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 12:57:10,317: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rosout][WARNING] 2022-01-08 12:57:10,318: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 12:57:10,319: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 12:57:10,614: topic[/grid3/planner/status] removing connection to /controller_ros_interface_28854_1641626826707
+[rospy.internal][INFO] 2022-01-08 12:57:10,615: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_28854_1641626826707
+[rospy.internal][INFO] 2022-01-08 12:57:46,615: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_28937_1641626866467], count 2
+[rospy.internal][INFO] 2022-01-08 12:57:46,615: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_28937_1641626866467], count 0
+[rosout][WARNING] 2022-01-08 12:59:44,347: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 12:59:44,349: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 12:59:44,576: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_28937_1641626866467
+[rospy.internal][INFO] 2022-01-08 12:59:44,576: topic[/grid3/planner/status] removing connection to /controller_ros_interface_28937_1641626866467
+[rospy.internal][INFO] 2022-01-08 12:59:46,616: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_29076_1641626986467], count 0
+[rospy.internal][INFO] 2022-01-08 12:59:46,617: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_29076_1641626986467], count 2
+[rosout][WARNING] 2022-01-08 13:00:58,318: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 13:00:58,322: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rosout][WARNING] 2022-01-08 13:00:58,322: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 13:00:58,325: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 13:00:58,534: topic[/grid3/planner/status] removing connection to /controller_ros_interface_29076_1641626986467
+[rospy.internal][INFO] 2022-01-08 13:00:58,535: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_29076_1641626986467
+[rospy.internal][INFO] 2022-01-08 13:01:00,423: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_29167_1641627060275], count 0
+[rospy.internal][INFO] 2022-01-08 13:01:00,424: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_29167_1641627060275], count 2
+[rosout][WARNING] 2022-01-08 13:01:53,812: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 13:01:53,813: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 13:01:53,856: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_29167_1641627060275
+[rospy.internal][INFO] 2022-01-08 13:01:53,856: topic[/grid3/planner/status] removing connection to /controller_ros_interface_29167_1641627060275
+[rospy.internal][INFO] 2022-01-08 13:01:55,964: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_29288_1641627115815], count 0
+[rospy.internal][INFO] 2022-01-08 13:01:55,964: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_29288_1641627115815], count 2
+[rosout][WARNING] 2022-01-08 13:03:36,049: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 13:03:36,051: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 13:03:36,429: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_29288_1641627115815
+[rospy.internal][INFO] 2022-01-08 13:03:36,429: topic[/grid3/planner/status] removing connection to /controller_ros_interface_29288_1641627115815
+[rospy.internal][INFO] 2022-01-08 13:03:38,386: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_29379_1641627218219], count 0
+[rospy.internal][INFO] 2022-01-08 13:03:38,386: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_29379_1641627218219], count 2
+[rosout][WARNING] 2022-01-08 13:04:20,681: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2022-01-08 13:04:20,682: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 327, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, BytesIO(), buff_size)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+rosgraph.network.ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2022-01-08 13:04:20,952: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_29379_1641627218219
+[rospy.internal][INFO] 2022-01-08 13:04:20,952: topic[/grid3/planner/status] removing connection to /controller_ros_interface_29379_1641627218219
+[rospy.internal][INFO] 2022-01-08 13:04:23,009: topic[/grid3/robotTrajectories] adding connection to [/controller_ros_interface_29451_1641627262840], count 0
+[rospy.internal][INFO] 2022-01-08 13:04:23,011: topic[/grid3/planner/status] adding connection to [/controller_ros_interface_29451_1641627262840], count 2
+[rospy.core][INFO] 2022-01-08 13:09:07,787: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-08 13:09:07,793: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-08 13:09:07,793: topic[/grid3/robotTrajectories] removing connection to /controller_ros_interface_29451_1641627262840
+[rospy.internal][INFO] 2022-01-08 13:09:07,794: topic[/grid3/planner/status] removing connection to /brain_26175_1641624425356
+[rospy.internal][INFO] 2022-01-08 13:09:07,794: topic[/grid3/planner/status] removing connection to /rqt_gui
+[rospy.internal][INFO] 2022-01-08 13:09:07,794: topic[/grid3/planner/status] removing connection to /controller_ros_interface_29451_1641627262840
+[rospy.internal][INFO] 2022-01-08 13:09:07,795: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:41297/
+[rospy.internal][INFO] 2022-01-08 13:09:07,796: topic[/grid3/allRobots/poses] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:41809/
+[rospy.internal][WARNING] 2022-01-08 13:09:07,796: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:35733 (http://prajwal-IdeaPad-L340-15IRH-Gaming:41809/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 560, in connect
+    self.socket.connect((dest_addr, dest_port))
+OSError: [Errno 9] Bad file descriptor
+
+[rospy.internal][INFO] 2022-01-08 13:09:07,797: topic[/grid3/allRobots/goals] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:34963/
+[rospy.internal][WARNING] 2022-01-08 13:09:07,797: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:32841 (http://prajwal-IdeaPad-L340-15IRH-Gaming:41297/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.impl.masterslave][INFO] 2022-01-08 13:09:07,797: signal-2
+[rospy.core][INFO] 2022-01-08 13:09:09,045: signal_shutdown [atexit]

@@ -1,0 +1,15 @@
+[rospy.client][INFO] 2022-01-09 11:37:44,655: init_node, name[/rqt_gui_py_node_18362], pid[18362]
+[xmlrpc][INFO] 2022-01-09 11:37:44,655: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-09 11:37:44,656: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:37399/]
+[rospy.init][INFO] 2022-01-09 11:37:44,656: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:37399/]
+[rospy.impl.masterslave][INFO] 2022-01-09 11:37:44,656: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:37399/
+[rospy.registration][INFO] 2022-01-09 11:37:44,656: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-09 11:37:44,656: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-09 11:37:44,756: registered with master
+[rospy.rosout][INFO] 2022-01-09 11:37:44,757: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-09 11:37:44,759: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-09 11:37:44,760: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-01-09 11:37:44,991: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-01-09 11:38:12,861: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-01-09 11:38:12,862: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-01-09 11:38:12,862: atexit

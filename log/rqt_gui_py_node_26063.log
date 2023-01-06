@@ -1,0 +1,26 @@
+[rospy.client][INFO] 2022-01-07 11:45:11,328: init_node, name[/rqt_gui_py_node_26063], pid[26063]
+[xmlrpc][INFO] 2022-01-07 11:45:11,328: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-07 11:45:11,328: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:37865/]
+[rospy.impl.masterslave][INFO] 2022-01-07 11:45:11,328: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:37865/
+[rospy.init][INFO] 2022-01-07 11:45:11,328: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:37865/]
+[rospy.registration][INFO] 2022-01-07 11:45:11,329: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-07 11:45:11,329: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-07 11:45:11,429: registered with master
+[rospy.rosout][INFO] 2022-01-07 11:45:11,429: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-07 11:45:11,431: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-07 11:45:11,433: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-07 11:45:11,436: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-07 11:45:11,440: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:36335/], count 0
+[rospy.internal][INFO] 2022-01-07 11:45:11,711: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-07 11:45:12,012: topic[/robot1/cmd_vel] adding connection to [/gazebo], count 0
+[rospy.internal][INFO] 2022-01-07 11:46:35,083: topic impl's ref count is zero, deleting topic /grid3/droppingCompleted...
+[rospy.internal][INFO] 2022-01-07 11:46:35,086: topic impl's ref count is zero, deleting topic /grid3/packageLoaded...
+[rospy.internal][INFO] 2022-01-07 11:46:35,090: topic impl's ref count is zero, deleting topic /robot1/cmd_vel...
+[rospy.internal][INFO] 2022-01-07 11:46:35,091: topic[/robot1/cmd_vel] removing connection to /gazebo
+[rospy.internal][INFO] 2022-01-07 11:46:35,094: topic impl's ref count is zero, deleting topic /robot2/cmd_vel...
+[rospy.internal][INFO] 2022-01-07 11:46:35,097: topic impl's ref count is zero, deleting topic /robot3/cmd_vel...
+[rospy.internal][INFO] 2022-01-07 11:46:35,100: topic impl's ref count is zero, deleting topic /robot4/cmd_ve...
+[rospy.core][INFO] 2022-01-07 11:46:35,176: signal_shutdown [atexit]
+[rospy.internal][INFO] 2022-01-07 11:46:35,178: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-07 11:46:35,178: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:36335/
+[rospy.impl.masterslave][INFO] 2022-01-07 11:46:35,178: atexit

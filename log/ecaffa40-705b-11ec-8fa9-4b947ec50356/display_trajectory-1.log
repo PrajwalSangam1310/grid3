@@ -1,0 +1,657 @@
+[rospy.client][INFO] 2022-01-08 13:51:22,025: init_node, name[/display_trajectory], pid[34782]
+[xmlrpc][INFO] 2022-01-08 13:51:22,025: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-08 13:51:22,025: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:41497/]
+[rospy.impl.masterslave][INFO] 2022-01-08 13:51:22,026: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:41497/
+[rospy.init][INFO] 2022-01-08 13:51:22,026: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:41497/]
+[rospy.registration][INFO] 2022-01-08 13:51:22,026: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-08 13:51:22,026: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-08 13:51:22,126: registered with master
+[rospy.rosout][INFO] 2022-01-08 13:51:22,126: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-08 13:51:22,129: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-08 13:51:22,129: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-08 13:51:22,131: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-08 13:51:22,133: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/], count 0
+[rospy.internal][INFO] 2022-01-08 13:51:22,137: topic[/grid3/robotTrajectories] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:32965/], count 0
+[rospy.internal][INFO] 2022-01-08 13:51:22,376: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2022-01-08 13:53:15,179: Unable to initiate TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:42173 (http://prajwal-IdeaPad-L340-15IRH-Gaming:32965/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 600, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+rospy.exceptions.TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2022-01-08 13:53:16,181: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:42173 (http://prajwal-IdeaPad-L340-15IRH-Gaming:32965/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2022-01-08 13:53:16,181: topic[/grid3/robotTrajectories] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:32965/
+[rospy.core][INFO] 2022-01-08 13:53:18,795: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-08 13:53:18,801: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-08 13:53:18,801: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/
+[rospy.impl.masterslave][INFO] 2022-01-08 13:53:18,801: signal-2
+[rospy.internal][WARNING] 2022-01-08 13:53:18,802: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:56887 (http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-08 13:53:19,396: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-08 13:55:01,319: init_node, name[/display_trajectory], pid[35597]
+[xmlrpc][INFO] 2022-01-08 13:55:01,319: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-08 13:55:01,320: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:36715/]
+[rospy.impl.masterslave][INFO] 2022-01-08 13:55:01,320: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:36715/
+[rospy.init][INFO] 2022-01-08 13:55:01,320: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:36715/]
+[rospy.registration][INFO] 2022-01-08 13:55:01,321: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-08 13:55:01,321: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-08 13:55:01,421: registered with master
+[rospy.rosout][INFO] 2022-01-08 13:55:01,421: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-08 13:55:01,423: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-08 13:55:01,424: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-08 13:55:01,425: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-08 13:55:01,426: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/], count 0
+[rospy.internal][INFO] 2022-01-08 13:55:01,431: topic[/grid3/robotTrajectories] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:34867/], count 0
+[rospy.internal][INFO] 2022-01-08 13:55:01,712: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-08 13:55:13,327: topic[/grid3/displayTrajectory] adding connection to [/rviz], count 0
+[rospy.core][INFO] 2022-01-08 13:59:31,585: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-08 13:59:31,592: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-08 13:59:31,592: topic[/grid3/displayTrajectory] removing connection to /rviz
+[rospy.internal][INFO] 2022-01-08 13:59:31,592: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/
+[rospy.internal][INFO] 2022-01-08 13:59:31,592: topic[/grid3/robotTrajectories] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:34867/
+[rospy.impl.masterslave][INFO] 2022-01-08 13:59:31,593: signal-2
+[rospy.internal][WARNING] 2022-01-08 13:59:31,593: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:56887 (http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][WARNING] 2022-01-08 13:59:31,594: Unknown error initiating TCP/IP socket to prajwal-IdeaPad-L340-15IRH-Gaming:43781 (http://prajwal-IdeaPad-L340-15IRH-Gaming:34867/): Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2022-01-08 13:59:32,186: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-08 13:59:34,912: init_node, name[/display_trajectory], pid[35841]
+[xmlrpc][INFO] 2022-01-08 13:59:34,912: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-08 13:59:34,913: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:45839/]
+[rospy.init][INFO] 2022-01-08 13:59:34,913: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:45839/]
+[rospy.impl.masterslave][INFO] 2022-01-08 13:59:34,913: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:45839/
+[rospy.registration][INFO] 2022-01-08 13:59:34,913: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-08 13:59:34,913: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-08 13:59:35,013: registered with master
+[rospy.rosout][INFO] 2022-01-08 13:59:35,013: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-08 13:59:35,016: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-08 13:59:35,017: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-08 13:59:35,018: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-08 13:59:35,019: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/], count 0
+[rospy.internal][INFO] 2022-01-08 13:59:35,023: topic[/grid3/robotTrajectories] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:34867/], count 0
+[rospy.internal][INFO] 2022-01-08 13:59:35,219: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2022-01-08 13:59:35,221: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:35,421: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:35,621: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:35,823: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:36,026: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:36,228: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:36,428: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:36,629: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:36,834: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:37,034: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:37,235: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:37,436: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:37,637: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:37,837: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:38,038: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:38,240: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:38,439: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:38,640: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:38,841: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:39,043: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:39,244: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:39,445: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:39,646: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:39,847: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:40,047: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:40,249: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:40,449: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:40,650: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:40,850: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:41,051: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:41,252: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:41,453: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:41,653: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:41,854: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:42,055: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:42,256: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:42,457: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:42,657: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:42,859: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rospy.internal][INFO] 2022-01-08 13:59:42,929: topic[/grid3/displayTrajectory] adding connection to [/rviz], count 0
+[rosout][ERROR] 2022-01-08 13:59:43,058: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:43,260: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:43,461: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:43,661: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:43,862: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:44,063: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:44,265: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:44,465: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:44,666: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:44,866: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:45,067: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:45,268: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:45,470: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:45,670: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:45,871: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:46,072: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:46,273: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:46,474: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:46,675: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:46,876: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:47,077: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:47,278: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:47,479: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:47,681: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:47,880: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:48,082: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rosout][ERROR] 2022-01-08 13:59:48,282: bad callback: <bound method trajectoryVisualizer.trajectorySubscriberCb of <__main__.trajectoryVisualizer object at 0x7fd370b9e1c0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/prajwal/Documents/catkin/src/grid3/scripts/display_trajectory.py", line 56, in trajectorySubscriberCb
+    if len(self.trajectoryMarkers[i].points) == 1:
+TypeError: 'MarkerArray' object is not subscriptable
+
+[rospy.core][INFO] 2022-01-08 13:59:48,294: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-08 13:59:48,301: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-08 13:59:48,301: topic[/grid3/displayTrajectory] removing connection to /rviz
+[rospy.internal][INFO] 2022-01-08 13:59:48,301: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/
+[rospy.internal][INFO] 2022-01-08 13:59:48,301: topic[/grid3/robotTrajectories] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:34867/
+[rospy.impl.masterslave][INFO] 2022-01-08 13:59:48,302: signal-2
+[rospy.core][INFO] 2022-01-08 13:59:48,897: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-01-08 14:00:10,896: init_node, name[/display_trajectory], pid[35961]
+[xmlrpc][INFO] 2022-01-08 14:00:10,896: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-01-08 14:00:10,896: Started XML-RPC server [http://prajwal-IdeaPad-L340-15IRH-Gaming:37359/]
+[rospy.init][INFO] 2022-01-08 14:00:10,896: ROS Slave URI: [http://prajwal-IdeaPad-L340-15IRH-Gaming:37359/]
+[rospy.impl.masterslave][INFO] 2022-01-08 14:00:10,896: _ready: http://prajwal-IdeaPad-L340-15IRH-Gaming:37359/
+[rospy.registration][INFO] 2022-01-08 14:00:10,897: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2022-01-08 14:00:10,897: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-01-08 14:00:10,997: registered with master
+[rospy.rosout][INFO] 2022-01-08 14:00:10,997: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-01-08 14:00:10,999: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-01-08 14:00:11,000: initializing /clock core topic
+[rospy.simtime][INFO] 2022-01-08 14:00:11,001: connected to core topic /clock
+[rospy.internal][INFO] 2022-01-08 14:00:11,002: topic[/clock] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/], count 0
+[rospy.internal][INFO] 2022-01-08 14:00:11,007: topic[/grid3/robotTrajectories] adding connection to [http://prajwal-IdeaPad-L340-15IRH-Gaming:34867/], count 0
+[rospy.internal][INFO] 2022-01-08 14:00:11,182: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-01-08 14:00:11,783: topic[/grid3/displayTrajectory] adding connection to [/rviz], count 0
+[rospy.core][INFO] 2022-01-08 14:00:52,535: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-01-08 14:00:52,540: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-01-08 14:00:52,541: topic[/grid3/displayTrajectory] removing connection to /rviz
+[rospy.internal][INFO] 2022-01-08 14:00:52,541: topic[/clock] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:37677/
+[rospy.internal][INFO] 2022-01-08 14:00:52,541: topic[/grid3/robotTrajectories] removing connection to http://prajwal-IdeaPad-L340-15IRH-Gaming:34867/
+[rospy.impl.masterslave][INFO] 2022-01-08 14:00:52,541: signal-2
+[rospy.core][INFO] 2022-01-08 14:00:53,136: signal_shutdown [atexit]
