@@ -3,7 +3,6 @@
 
 ### **Ros Scripts**
 
-
 - Brain.py
 - controller_ros.py
 - trajectory_planner_ros.py
@@ -17,6 +16,10 @@
 ### **Utility scripts**
     
 - gridIdentifier.py 
+
+### **Models**
+
+- Place the planestage2 folder in the models folder into your ~/.gazebo/models folder.
 
 ---
 ### **Details about Scripts**
@@ -157,5 +160,6 @@
 - controller publishes the corresponding commands on the topics
 - the arduino collects the topics using rosserial_arduino serial_node.py command.
 - the transmitter arduino sends it the robots.
+---
 
 
