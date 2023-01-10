@@ -73,8 +73,11 @@
 
 
   <!-- The export tag contains other, unspecified, tags -->
-  <export>
-    <!-- Other tools can request additional information be placed here -->
 
-  </export>
+  <exec_depend>gazebo_ros</exec_depend>
+
+<export>    
+  <gazebo_ros gazebo_media_path="${prefix}"/>                             
+</export>
+
 </package>
