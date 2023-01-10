@@ -1,7 +1,7 @@
 # Flipkart Grid 3.0 robotics challenge
 ## Team IIT Bhubaneswar
 
-### Ros Scripts
+### **Ros Scripts**
 
 
 - Brain.py
@@ -9,17 +9,56 @@
 - trajectory_planner_ros.py
 - bot_identifier_ros.py
 
-
-### Gazebo Related Scripts
+### **Gazebo Related Scripts**
 
 - fake_pose_publisher.py
 - gazebo_controller.py
 
-### Utility scripts
+### **Utility scripts**
     
 - gridIdentifier.py 
 
-### Launch Files
+---
+### **Details about Scripts**
+
+- **Gazebo scripts**
+    - fake_pose_publisher.py
+        - reads the robot_states topic and publishes the robot poses in the form of image cordinates to mimic the bot identification(Used for testing)
+    - gazebo_controller.py
+        - subscribes the commands published by the controller_ros.py and converts them in the form of twist msgs to use /cmd_vel topic.
+        - publishes on /robot1/cmd_vel, /robot2/cmd_vel, /robot3/cmd_vel, /robot4/cmd_vel.
+
+- **Processing related scripts**
+    - Brain.py
+        - checks when to plan trajectory.
+        - checks when to initiate dropping command.
+        - checks start moving.
+        - publishes the robot goal locations
+            - induction points if the robot has dropped the package.
+            - to the destination if the robot is at induction.
+
+    - trajectory_planner_ros.py
+        - publishes the planned trajectories.
+        - publishes the planner_status
+            - planner status will indicate if the robot has valid path, has reached the end of trajectory or it has to wait.
+        - subscribes the robot goals
+        - subscribes the robot poses
+
+    - controller_ros.py
+        - subscribes the current positions and current trajectories.
+        - publishes the controller output accordingly.
+        - encodes the command into 2 bytes to send them to the correponding bots.
+
+    - bot_identifier_ros.py
+        - connects to the web cam for bot_identification.
+        - publishes the robot poses.
+
+- **Util Scripts.**
+    - gridIdentifier.py
+        - contains functions to convert the image pixels i,j to x,y and r,c and other functions.   
+--- 
+
+### **Launch Files**
 
 - **processing.launch**
     - Nodes corresponding to processing.
@@ -56,23 +95,30 @@
             - subscribes to the planned trajectory to show them in the rviz.
             - uses line strip marker type.
 
+- **grid3.launch**
+    - This will launch the gazebo simulation.
+    - Loads all the four robots and the platform.
+    - Place the "planestage2" folder in the ~/,gazebo/models folder .
+
+- **simulation.launch**
+    - Starts brain.py, trajectory_planner.py, controller_ros.py. 
+
 - **arduino_communication.launch**
     - runs the rosserial_arduino serial_node.py to connect to the connected arduino nrf transmitters.
+---
 
-- **bot_identifier_ros.py**
-    - connects to the web cam for bot_identification.
-    - publishes the robot poses.
+### **To run the simulation**
 
-- **Gazebo scripts**
-    - fake_pose_publisher.py
-        - reads the robot_states topic and publishes the robot poses in the form of image cordinates to mimic the bot identification(Used for testing)
-    - gazebo_controller.py
-        - subscribes the commands published by the controller_ros.py and converts them in the form of twist msgs to use /cmd_vel topic.
-        - publishes on /robot1/cmd_vel, /robot2/cmd_vel, /robot3/cmd_vel, /robot4/cmd_vel.
+1. launch the grid3.launch
+    - launches the gazebo siulation environment, loads the robots.
+2. launch the simulation.launch 
+    - launches all the required scripts for processing.
+3. launch the visualize.launch 
+    - this launches the rviz visualization
 
-- **Util Scripts.**
-    - gridIdentifier.py
-        - contains functions to convert the image pixels i,j to x,y and r,c and other functions.   
+---
+
+
 
 ### Brief on communication architecture.
 
@@ -102,19 +148,14 @@
     - All the robots receive their commmands using the nrf module.
     - the received data is 2 bytes.
     - The arduino decodes to get the corresponding instructions and speeds.
+---
+### **Brief working steps.**
+- brain.py starts the process when the packages are loaded and robots are triggered.
+- the corresponding trajectory planning starts for that particular robot.
+- when the trajectory is planned the trajectory planner updates its status.
+- the controller looks at the planner status and trajectory to compute the instructions, forward speeds and rotational speeds.
+- controller publishes the corresponding commands on the topics
+- the arduino collects the topics using rosserial_arduino serial_node.py command.
+- the transmitter arduino sends it the robots.
 
-- **Brief working steps.**
-    - brain.py starts the process when the packages are loaded and robots are triggered.
-    - the corresponding trajectory planning starts for that particular robot.
-    - when the trajectory is planned the trajectory planner updates its status.
-    - the controller looks at the planner status and trajectory to compute the instructions, forward speeds and rotational speeds.
-    - controller publishes the corresponding commands on the topics
-    - the arduino collects the topics using rosserial_arduino serial_node.py command.
-    - the transmitter arduino sends it the robots.
 
-
-### DifferentialDriveRobot
-
-- This is the workspace use to launch the gazebo environment for the robots.
-- The myrobot_description contains the xacro files of the robot.
-- The myrobot_gazebo contains the stage and textures and world files.

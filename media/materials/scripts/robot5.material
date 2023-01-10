@@ -1,0 +1,14 @@
+material robot5/Image
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ../textures/robot5.jpeg
+      }
+    }
+  }
+}

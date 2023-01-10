@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="stage1WithCamera">
+		<link name="map">
+			<self_collide>false</self_collide>
+			<pose frame="">0 0 0 0 0 0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>1</mass>
+				<inertia>
+					<ixx>0.83</ixx>
+					<ixy>-0.0</ixy>
+					<ixz>-0.0</ixz>
+					<iyy>0.83</iyy>
+					<iyz>-0.0</iyz>
+					<izz>0.83</izz>
+				</inertia>
+			</inertial>
+			<collision name="stage">
+				<geometry>
+					<box>
+						<size>3.048 1.524 0.1</size>
+					</box>
+				</geometry>
+			</collision>
+			<visual name="stage">
+				<geometry>
+					<box>
+						<size>3.048 1.524 0.1</size>
+					</box>
+				</geometry>
+				<material>
+					<script>
+						<uri>model://planeStage/materials/scripts/</uri>
+						<uri>model://planeStage/materials/textures/</uri>
+						<name>planeStage/Image</name>
+					</script>
+				</material>
+        		<material>
+        		  <script>
+        		    <uri>model://mailbox/materials/scripts</uri>
+        		    <uri>model://mailbox/materials/textures</uri>
+        		    <name>Mailbox/Diffuse</name>
+        		  </script>
+        		</material>
+			</visual>
+		</link>
+	</model>
+	<model name="camera">
+			<static>true</static>
+			<pose>0 0 3</pose>
+			<link name="camera_link">
+				<visual>
+					<geometry>
+						<box>
+							<size>0.1 0.1 0.1</size>
+						</box>
+					</geometry>
+				</visual>
+			</link>
+			<gazebo reference="camera_link">
+    			<sensor type="camera" name="camera1">
+    			  	<update_rate>30.0</update_rate>
+    			  	<camera name="head">
+    			    	<horizontal_fov>1.3962634</horizontal_fov>
+    			    	<image>
+    			    		<width>800</width>
+    			      		<height>800</height>
+    			      		<format>R8G8B8</format>
+    			    	</image>
+    			    	<clip>
+    			      		<near>0.02</near>
+    			      		<far>300</far>
+    			    	</clip>
+    			    	<noise>
+    			      		<type>gaussian</type>
+			      			<mean>0.0</mean>
+			      			<stddev>0.007</stddev>
+			    		</noise>
+			  		</camera>
+			  		<plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+			    		<alwaysOn>true</alwaysOn>
+			    		<updateRate>0.0</updateRate>
+			    		<cameraName>stage1/camera1</cameraName>
+			    		<imageTopicName>image_raw</imageTopicName>
+			    		<cameraInfoTopicName>camera_info</cameraInfoTopicName>
+			    		<frameName>camera_link</frameName>
+			    		<hackBaseline>0.07</hackBaseline>
+			    		<distortionK1>0.0</distortionK1>
+			    		<distortionK2>0.0</distortionK2>
+			    		<distortionK3>0.0</distortionK3>
+			    		<distortionT1>0.0</distortionT1>
+			    		<distortionT2>0.0</distortionT2>
+			  		</plugin>
+				</sensor>
+			</gazebo>
+	</model>
+</sdf>

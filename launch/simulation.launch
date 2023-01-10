@@ -4,8 +4,8 @@
     <node name="fake_pose_publisher" pkg="grid3" type="fake_pose_publisher.py" output="log"/>
     <!-- <node name="brain" pkg="grid3" type="brain2.py" output="screen"/> -->
     <node name="brain" pkg="grid3" type="brain2.py" output="screen" launch-prefix="gnome-terminal --"/>
-<node name="controller_ros" pkg="grid3" type="controller_ros" output="screen"/>
-<node name="gazebo_controller" pkg="grid3" type="gazebo_controller" output="screen"/>
+<node name="controller_ros" pkg="grid3" type="controller_ros.py" output="screen"/>
+<node name="gazebo_controller" pkg="grid3" type="gazebo_controller.py" output="screen"/>
 
     <!-- <node name="rqt_gui" pkg="rqt_gui" type="rqt_gui" output="screen"/> -->
 </launch>

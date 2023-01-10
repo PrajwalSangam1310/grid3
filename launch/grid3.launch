@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <!-- <arg name="world" default="empty"/>  -->
+  <arg name="paused" default="false"/>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="gui" default="true"/>
+  <arg name="headless" default="false"/>
+  <arg name="debug" default="false"/>
+  
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find grid3)/worlds/stage2_with_camera.world"/>
+    <arg name="paused" value="$(arg paused)"/>
+    <arg name="use_sim_time" value="$(arg use_sim_time)"/>
+    <arg name="gui" value="$(arg gui)"/>
+    <arg name="headless" value="$(arg headless)"/>
+    <arg name="debug" value="$(arg debug)"/>
+  </include>
+
+  
+<!--   <param name="robot_description" command="$(find xacro)/xacro.py '$(find myrobot_description)/urdf/myrobot2.xacro'"/> -->
+<param name="/robot1/robot_description" command="$(find xacro)/xacro '$(find grid3)/urdf/myrobot1.xacro'"/>
+<param name="/robot2/robot_description" command="$(find xacro)/xacro '$(find grid3)/urdf/myrobot2.xacro'"/>
+<param name="/robot3/robot_description" command="$(find xacro)/xacro '$(find grid3)/urdf/myrobot3.xacro'"/>
+<param name="/robot4/robot_description" command="$(find xacro)/xacro '$(find grid3)/urdf/myrobot4.xacro'"/>
+
+<!--   <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ></node> -->
+  <!-- start robot state publisher -->
+<!--   <node pkg="robot_state_publisher" type="state_publisher" name="robot_state_publisher" output="screen" >
+    <param name="publish_frequency" type="double" value="50.0" />
+  </node> -->
+  
+  <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
+  <node name="myrobot_spawn1" pkg="gazebo_ros" type="spawn_model" output="screen"
+   args="-urdf -param /robot1/robot_description -model myrobot1 -y 0.847617 -x 2.333766  -z 0.05 -Y 3.14" />
+  <node name="myrobot_spawn2" pkg="gazebo_ros" type="spawn_model" output="screen"
+   args="-urdf -param /robot2/robot_description -model myrobot2 -y 1.611075 -x 2.335403 -z 0.05 -Y 3.14" />
+     <node name="myrobot_spawn3" pkg="gazebo_ros" type="spawn_model" output="screen"
+   args="-urdf -param /robot3/robot_description -model myrobot3 -y 1.764180 -x 2.333766 -z 0.05 -Y 3.14" />
+     <node name="myrobot_spawn4" pkg="gazebo_ros" type="spawn_model" output="screen"
+   args="-urdf -param /robot4/robot_description -model myrobot4 -y 0.693792  -x 2.333766  -z 0.05 -Y 3.14" />
+</launch>
