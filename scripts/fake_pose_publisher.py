@@ -133,10 +133,10 @@ def publishRobotPosesRC():
 #region Main Call
 if __name__=="__main__":
     rospy.init_node("smarth_controller", anonymous=True)
-    robot1_pub = rospy.Publisher("/robot1/cmd_vel", Twist,queue_size=10)
-    robot2_pub = rospy.Publisher("/robot2/cmd_vel", Twist,queue_size=10)
-    robot3_pub = rospy.Publisher("/robot3/cmd_vel", Twist,queue_size=10)
-    robot4_pub = rospy.Publisher("/robot4/cmd_vel", Twist,queue_size=10)
+    # robot1_pub = rospy.Publisher("/robot1/cmd_vel", Twist,queue_size=10)
+    # robot2_pub = rospy.Publisher("/robot2/cmd_vel", Twist,queue_size=10)
+    # robot3_pub = rospy.Publisher("/robot3/cmd_vel", Twist,queue_size=10)
+    # robot4_pub = rospy.Publisher("/robot4/cmd_vel", Twist,queue_size=10)
     
     allRobotPosesPub = rospy.Publisher("grid3/allRobots/poses", botPoses, queue_size=10)
     allRobotPosesPubRC = rospy.Publisher("grid3/allRobots/posesRC", botPoses, queue_size=10)
