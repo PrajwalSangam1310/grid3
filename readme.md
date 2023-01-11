@@ -98,10 +98,16 @@
             - subscribes to the planned trajectory to show them in the rviz.
             - uses line strip marker type.
 
+![Alt text](./images/grid3_rviz_ss.png "rviz visualization")
+
+
 - **grid3.launch**
     - This will launch the gazebo simulation.
     - Loads all the four robots and the platform.
     - Place the "planestage2" folder in the ~/,gazebo/models folder .
+
+![Alt text](./images/grid3_gazebo_ss.png "gazebo simulation")
+
 
 - **simulation.launch**
     - Starts brain.py, trajectory_planner.py, controller_ros.py. 
@@ -161,5 +167,23 @@
 - the arduino collects the topics using rosserial_arduino serial_node.py command.
 - the transmitter arduino sends it the robots.
 ---
+### **RQT Graphs**
+**Topics interaction of brain node**
+![Alt text](./images/brain_node_topics.png "Brain node topics")
+- Subscrbes to robot status, whether are in delivery process or at induction point or waiting for path clear then sends the goal location of the package to be delivered to the trajectory planner.
 
+**Topics interaction of **
+![Alt text](./images/fake_pose_publsiher_topics.png "Brain node topics")
+- Subscrbes to robot status, whether are in delivery process or at induction point or waiting for path clear then sends the goal location of the package to be delivered to the trajectory planner.
+
+**Topics interaction of brain node**
+![Alt text](./images/gazebo_controller_node_topics.png "Brain node topics")
+- Subscrbes to robot status, whether are in delivery process or at induction point or waiting for path clear then sends the goal location of the package to be delivered to the trajectory planner.
+
+![Alt text](./images/trajectory_planner_node.png "Brain node topics")
+- Subscrbes to robot status, whether are in delivery process or at induction point or waiting for path clear then sends the goal location of the package to be delivered to the trajectory planner.
+
+
+
+---
 
